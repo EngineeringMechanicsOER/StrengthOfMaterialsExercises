@@ -117,6 +117,8 @@ book:
       chapters:
         - problem3_2staticsubmit.qmd
         - problem3_7staticsubmit.qmd
+    - part: "Chapter 4"
+      chapters:
         - problem4_5staticsubmit.qmd
         - problem4_6staticsubmit.qmd
         - problem4_10staticsubmit.qmd
@@ -128,6 +130,8 @@ book:
         - problem4_24staticsubmit.qmd
         - problem4_25staticsubmit.qmd
         - problem4_35staticsubmit.qmd
+    - part: "Chapter 5"
+      chapters:
         - problem5_6staticsubmit.qmd
         - problem5_8staticsubmit.qmd
         - problem5_10staticsubmit.qmd
@@ -149,6 +153,8 @@ book:
         - problem5_53staticsubmit.qmd
         - problem5_54staticsubmit.qmd
         - problem5_55staticsubmit.qmd
+    - part: "Chapter 6"
+      chapters:
         - problem6_1staticsubmit.qmd
         - problem6_2staticsubmit.qmd
         - problem6_3staticsubmit.qmd
@@ -166,6 +172,8 @@ book:
         - problem6_29staticsubmit.qmd
         - problem6_30staticsubmit.qmd
         - problem6_31staticsubmit.qmd
+    - part: "Chapter 7"
+      chapters:
         - problem7_1staticsubmit.qmd
         - problem7_2staticsubmit.qmd
         - problem7_3staticsubmit.qmd
@@ -177,9 +185,13 @@ book:
         - problem7_27staticsubmit.qmd
         - problem7_28staticsubmit.qmd
         - problem7_29staticsubmit.qmd
+    - part: "Chapter 8"
+      chapters:
         - problem8_1staticsubmit.qmd
         - problem8_2staticsubmit.qmd
         - problem8_7staticsubmit.qmd
+    - part: "Chapter 9"
+      chapters:
         - problem9_1staticsubmit.qmd
         - problem9_2staticsubmit.qmd
         - problem9_3staticsubmit.qmd
@@ -190,6 +202,8 @@ book:
         - problem9_23staticsubmit.qmd
         - problem9_24staticsubmit.qmd
         - problem9_25staticsubmit.qmd
+    - part: "Chapter 10"
+      chapters:
         - problem10_1staticsubmit.qmd
         - problem10_4staticsubmit.qmd
         - problem10_5staticsubmit.qmd
@@ -201,6 +215,8 @@ book:
         - problem10_19staticsubmit.qmd
         - problem10_20staticsubmit.qmd
         - problem10_21staticsubmit.qmd
+    - part: "Chapter 11"
+      chapters:
         - problem11_1staticsubmit.qmd
         - problem11_2staticsubmit.qmd
         - problem11_3staticsubmit.qmd
@@ -212,6 +228,8 @@ book:
         - problem11_50staticsubmit.qmd
         - problem11_51staticsubmit.qmd
         - problem11_53staticsubmit.qmd
+    - part: "Chapter 12"
+      chapters:
         - problem12_39staticsubmit.qmd
         - problem12_40staticsubmit.qmd
 
