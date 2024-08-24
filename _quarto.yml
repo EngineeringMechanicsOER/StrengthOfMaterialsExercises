@@ -21,7 +21,8 @@ book:
   
   chapters:
     - index.qmd
-    - part: "Chapter 2 Problems - Problem Submission App"
+    - part: "Problem Submission App"
+    - part: "Chapter 2 Problems"
       chapters:
         - problem2_1dynamicsubmit.qmd
         - problem2_2dynamicsubmit.qmd
@@ -36,12 +37,12 @@ book:
         - problem2_47dynamicsubmit.qmd
         - problem2_48dynamicsubmit.qmd
         
-    - part: "Chapter 3 - Problem Submission App"
+    - part: "Chapter 3 Problems"
       chapters:
         - problem3_2dynamicsubmit.qmd
         - problem3_7dynamicsubmit.qmd
 
-    - part: "Chapter 4 - Problem Submission App"
+    - part: "Chapter 4 Problems"
       chapters:
         - problem4_5dynamicsubmit.qmd
         - problem4_6dynamicsubmit.qmd
@@ -53,7 +54,7 @@ book:
         - problem4_25dynamicsubmit.qmd
         - problem4_35dynamicsubmit.qmd
         
-    - part: "Chapter 5 - Problem Submission App"
+    - part: "Chapter 5 Problems"
       chapters:
         - problem5_11dynamicsubmit.qmd
         - problem5_12dynamicsubmit.qmd
@@ -74,7 +75,7 @@ book:
         - problem5_54dynamicsubmit.qmd
         - problem5_55dynamicsubmit.qmd
         
-    - part: "Chapter 6 - Problem Submission App"
+    - part: "Chapter 6 Problems"
       chapters:
         - problem6_1dynamicsubmit.qmd
         - problem6_2dynamicsubmit.qmd
@@ -88,13 +89,14 @@ book:
         - problem6_15dynamicsubmit.qmd
         - problem6_27dynamicsubmit.qmd
         
-    - part: "Chapter 11 - Problem Submission App"
+    - part: "Chapter 11 Problems"
       chapters:
         - problem11_1dynamicsubmit.qmd
         - problem11_4dynamicsubmit.qmd
         - problem11_22dynamicsubmit.qmd
         - problem11_25dynamicsubmit.qmd
     
+    - part: "-----"
     - part: "Problem Exercises - Fixed Variable (No App)"    
     
     - part: "Chapter 2"
