@@ -1,8 +1,6 @@
 # Problem 4.11 {.unnumbered}
 
-
-![Figure 1: A circular rod is inserted into a space slightly wider than the rod.](images/213.png){fig-alt="A circular rod is inserted into a space slightly wider than the rod. The radius of the rod is r[1] and the radius of the space is r[2]."}
-\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
+![Figure 1: A circular rod is inserted into a space slightly wider than the rod.](images/213.png){fig-alt="A circular rod is inserted into a space slightly wider than the rod. The radius of the rod is r[1] and the radius of the space is r[2]." width="1100"} \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
 #| standalone: true

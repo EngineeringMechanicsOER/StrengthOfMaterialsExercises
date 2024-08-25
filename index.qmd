@@ -84,7 +84,7 @@ Anita Walz, Associate Professor, University Libraries, Virginia Tech
 
 **FUNDING**
 
-This project was made possible in part through funding from an Open Course Grant from VIVA (The Virtual Library of Virginia), the Open Education Initiative of the University Libraries at Virginia Tech, \[what else am I missing??\]
+This project was made possible in part through funding from an Open Course Grant from VIVA (The Virtual Library of Virginia) and the Open Education Initiative of the University Libraries at Virginia Tech.
 
 **Suggested citation**:  James Lord and Jacob Grohs, eds. (2024). Problem Set for Strength of Materials. Blacksburg: Virginia Tech Publishing. <https://engineeringmechanicsoer.github.io/StrengthOfMaterialsExercises>. Licensed with CC BY NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0>.
 

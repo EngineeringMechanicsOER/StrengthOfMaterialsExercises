@@ -1,7 +1,6 @@
 # Problem 2.3 {.unnumbered}
 
-![Figure 1: A plastic cylindrical peg is constrained by a metal cap](images/144.png){fig-alt="Picture with a cylindrical peg constrained by a metal cap with a force applied to the plastic peg."}
-\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
+![Figure 1: A plastic cylindrical peg is constrained by a metal cap](images/144.png){fig-alt="Picture with a cylindrical peg constrained by a metal cap with a force applied to the plastic peg." width="896"} \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
 #| standalone: true
