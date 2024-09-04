@@ -1,4 +1,4 @@
-# Problem 11.50 {.unnumbered}
+# Problem 11.50 - Intermediate Beam Design {.unnumbered}
 
 ## Problem Statement
 

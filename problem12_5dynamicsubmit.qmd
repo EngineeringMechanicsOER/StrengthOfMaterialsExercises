@@ -1,7 +1,6 @@
-# Problem 12.5 {.unnumbered}
+# Problem 12.5 - Equations {.unnumbered}
 
-
-![Figure 1: A beam is subjected to a distributed load and force applied. ](images/502.png){fig-alt="A material made from fibers is stressed by sigma_x, sigma_y, and tau_xy. The fibers run at an angle of theta."}
+![Figure 1: A material made of fibers is stressed. ](images/502.png){fig-alt="A material made from fibers is stressed by sigma_x, sigma_y, and tau_xy. The fibers run at an angle of theta."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

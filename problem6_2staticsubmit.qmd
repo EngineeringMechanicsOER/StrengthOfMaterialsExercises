@@ -1,4 +1,4 @@
-# Problem 6.2 {.unnumbered}
+# Problem 6.2 - Torsional Stress {.unnumbered}
 
 ## Problem Statement
 

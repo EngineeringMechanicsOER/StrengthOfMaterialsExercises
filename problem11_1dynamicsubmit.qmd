@@ -1,7 +1,6 @@
-# Problem 11.1 {.unnumbered}
+# Problem 11.1 - By Integration of Moment Equation {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/391.png){fig-alt="A cantilever beam of length L is subjected to a distributed load w and a point load P."}
+![Figure 1: A cantilever beam is subjected to the loading shown.](images/391.png){fig-alt="A cantilever beam of length L is subjected to a distributed load w and a point load P."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

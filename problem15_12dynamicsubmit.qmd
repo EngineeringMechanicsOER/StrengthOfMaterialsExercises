@@ -1,7 +1,6 @@
-# Problem 15.12 {.unnumbered}
+# Problem 15.12 - Effect of Supports {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/621.png){fig-alt="A W10x45 with a length of L is subjected to a force F. The W10x45 is fixed at both ends."}
+![Figure 1: A W10x45 is used as a column and subjected to a force.](images/621.png){fig-alt="A W10x45 with a length of L is subjected to a force F. The W10x45 is fixed at both ends."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

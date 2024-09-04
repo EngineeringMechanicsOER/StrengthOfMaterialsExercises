@@ -1,4 +1,4 @@
-# Problem 3.2 {.unnumbered}
+# Problem 3.2 - Normal Strain {.unnumbered}
 
 ## Problem Statement
 

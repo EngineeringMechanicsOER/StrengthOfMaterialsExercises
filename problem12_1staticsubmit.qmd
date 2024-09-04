@@ -1,0 +1,8 @@
+# Problem 12.1 - Equations {.unnumbered}
+
+## Problem Statement
+
+A point in a beam is subjected to the state of stress shown, where σ<sub>x</sub> = 20 ksi, σ<sub>y</sub> = 35 ksi, and τ<sub>xy</sub> = 15 ksi. Determine the normal stress acting on plane a-a if angle Θ = 25°.
+
+![Figure 1: A member is subjected to a state of stress.](images/489.png){fig-alt="A member is induced to a state of stress with components sigma_y, tau_xy_ and sigma_x. The ember has a plane a-a at an angle theta."}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

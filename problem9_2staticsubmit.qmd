@@ -1,4 +1,4 @@
-# Problem 9.2 {.unnumbered}
+# Problem 9.2 - Bending Stress {.unnumbered}
 
 ## Problem Statement
 

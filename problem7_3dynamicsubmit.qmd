@@ -1,6 +1,4 @@
-# Problem 7.3 {.unnumbered}
-
-
+# Problem 7.3 - Internal Shear Force & Bending Moment by Equilibrium {.unnumbered}
 
 ![Figure 1: Three loads are applied to the structure as shown.](images/309.png){fig-alt=" unsure how to describe."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -1,8 +1,6 @@
-# Problem 9.31 {.unnumbered}
+# Problem 9.31 - Unsymmetric Bending {.unnumbered}
 
-
-
-![Figure 1: A cantilever beam is subjected to two loads.](images/480.png){fig-alt="A cantilever beam of length L has two loads applied at the free end. F1 is applied along the -z axis and F2 is applied along the -y axis. The beam has a base of b and a height of h."}
+![Figure 1: Two loads are applied at the free end of a cantilever beam.](images/480.png){fig-alt="A cantilever beam of length L has two loads applied at the free end. F1 is applied along the -z axis and F2 is applied along the -y axis. The beam has a base of b and a height of h."}
 
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 

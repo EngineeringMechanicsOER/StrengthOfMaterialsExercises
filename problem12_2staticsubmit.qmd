@@ -1,0 +1,8 @@
+# Problem 12.2 - Equations {.unnumbered}
+
+## Problem Statement
+
+A point in a beam is subjected to the state of stress shown, where σ<sub>x</sub> = 12 MPa, σ<sub>y</sub> = 24 MPa, and τ<sub>xy</sub> = 6 MPa. Determine the normal stress acting on plane a-a if angle Θ = 25°.
+
+![Figure 1: A member is subjected to a state of stress.](images/499.png){fig-alt="A member under a state of stress is rotated at an angle of theta along the plane a-a. The member undergoes stresses sigma_y, sigma_x, and tau_xy."}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

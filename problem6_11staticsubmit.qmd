@@ -1,4 +1,4 @@
-# Problem 6.11 {.unnumbered}
+# Problem 6.11 - Torsional Deformation {.unnumbered}
 
 ## Problem Statment
 A hollow copper rod (E = 110 GPa, v = 0.33) is subjected to torque T as shown. If length L = 0.8 m, outer diameter d<sub>o</sub> = 80 mm, and inner diameter d<sub>i</sub> = 40 mm, determine torque T if the rod twists 2°.

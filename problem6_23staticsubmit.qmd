@@ -1,4 +1,4 @@
-# Problem 6.23 {.unnumbered}
+# Problem 6.23 - Power Transmission & Gear Assemblies {.unnumbered}
 
 ## Problem Statement
 

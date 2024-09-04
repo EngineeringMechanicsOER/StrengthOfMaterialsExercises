@@ -1,5 +1,4 @@
-# Problem 7.14 {.unnumbered}
-
+# Problem 7.14 - Shear Force & Bending Moment Equations {.unnumbered}
 
 ![Figure 1: A distributed load is applied to a beam.](images/318.png){fig-alt="A distributed load, w, is applied to a beam. The beam is length 2L and the load is applied over length L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

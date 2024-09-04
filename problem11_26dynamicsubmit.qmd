@@ -1,7 +1,6 @@
-# Problem 11.26 {.unnumbered}
+# Problem 11.26 - By Superposition {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/422.png){fig-alt="An overhanging beam of length L1+L2 is subjected to a distributed load w. The distributed load is applied over length L2."}
+![Figure 1: A simply supported beam is subjected to the loading as shown.](images/422.png){fig-alt="An overhanging beam of length L1+L2 is subjected to a distributed load w. The distributed load is applied over length L2."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

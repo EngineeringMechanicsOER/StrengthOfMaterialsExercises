@@ -1,8 +1,6 @@
-# Problem 11.39 {.unnumbered}
+# Problem 11.39 - Statically Indeterminate Problems {.unnumbered}
 
-
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/439.png){fig-alt="A beam of length 4L is subjected to a point load F. The distance from A to B is 2L, the distance from B to the point load is L, and the distance from the point load to C is L. A, B, and C are all pins."}
+![Figure 1: A beam with three supports is subjected to a point load.](images/439.png){fig-alt="A beam of length 4L is subjected to a point load F. The distance from A to B is 2L, the distance from B to the point load is L, and the distance from the point load to C is L. A, B, and C are all pins."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

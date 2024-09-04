@@ -1,4 +1,4 @@
-# Problem 9.23 {.unnumbered}
+# Problem 9.23 - Beam Design {.unnumbered}
 
 ## Problem Statement
 

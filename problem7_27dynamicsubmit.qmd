@@ -1,5 +1,4 @@
-# Problem 7.27 {.unnumbered}
-
+# Problem 7.27 - Graphical Methods for Shear Force & Bending Moment Diagrams {.unnumbered}
 
 ![Figure 1: A beam is loaded as shown.](images/332.png){fig-alt="Picture of a beam with a series of loads applied. F1 occurs at A, w occurs from A to B, and F2 occurs at C. The beam is attached to the wall at D. The distance from A to B is 3m, the distance from B to C is 2m, and the distance from C to D is 1m."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

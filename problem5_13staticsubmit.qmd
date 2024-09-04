@@ -1,4 +1,4 @@
-# Problem 5.13 {.unnumbered}
+# Problem 5.13 - Axial Deformation {.unnumbered}
 
 ## Problem Statement
 Two forces, F<sub>1</sub> = 1 kN and F<sub>2</sub> = 2 kN, are applied to the system of cylinders as shown. If L<sub>1</sub> = 10 mm and L<sub>2</sub> = 14 mm, what is the total change in length of the system. Assume E<sub>brass</sub> = 100 GPa and E<sub>aluminum</sub> = 70 GPa.

@@ -1,5 +1,4 @@
-# Problem 4.37 {.unnumbered}
-
+# Problem 4.35 - Allowable Stress/Safety Factor {.unnumbered}
 
 ## Problem Statement
 A small truss is constructed with solid square wood members and subjected to a load of F = 30 kN. Determine the minimum dimension, a, of the member so that the truss will have a factor of safety of 2. All members have the same cross-section. The wood has a failure stress of σ<sub>fail</sub> = 50 MPa.

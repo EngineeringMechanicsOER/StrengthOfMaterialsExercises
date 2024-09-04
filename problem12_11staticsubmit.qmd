@@ -1,0 +1,9 @@
+# Problem 12.11 - Principal Stresses {.unnumbered}
+
+## Problem Statement
+
+The state of stress at a point in a beam is shown, where σ<sub>x</sub> = 35.8 ksi, σ<sub>y</sub> = 11.5 ksi, and τ<sub>xy</sub> = 56.3 ksi. Determine the maximum shear stress for this state of stress, and the angle at which this stress occurs, measured counterclockwise from the x-axis.
+
+![Figure 1: A member is subjected to a state of stress. ](images/510.png){fig-alt="A member is subjected to a state of stress caused by sigma_x, sigma_y, and tau_xy."}
+
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

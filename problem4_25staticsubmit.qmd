@@ -1,4 +1,4 @@
-# Problem 4.25 {.unnumbered}
+# Problem 4.25 - Multiaxial Hooke's Law {.unnumbered}
 
 ## Problem Statement 
 A block is pulled in all three directions (P<sub>x</sub> = 3 kN, P<sub>y</sub> = 3 kN, P<sub>z</sub> = 6 kN). What is the percent change in volume after all three loads are applied? Assume E = 1,500 MPa and v = 0.35.

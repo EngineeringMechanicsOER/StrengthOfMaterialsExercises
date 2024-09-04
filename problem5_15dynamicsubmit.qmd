@@ -1,5 +1,4 @@
-# Problem 5.15 {.unnumbered}
-
+# Problem 5.15 - Axial Deformation {.unnumbered}
 
 ![Figure 1: A crate is attached to a cable made from steel and aluminum.](images/187.png){fig-alt="Picture with a create attached to cable. The steel part of the cable is L[1] in and the aluminum part of the cable is L[2]. "}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

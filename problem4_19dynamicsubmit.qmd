@@ -1,4 +1,4 @@
-# Problem 4.19 {.unnumbered}
+# Problem 4.19 - Thermal Strain {.unnumbered}
 
 \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]
 

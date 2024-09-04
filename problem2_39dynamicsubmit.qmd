@@ -1,5 +1,4 @@
-# Problem 2.39 {.unnumbered}
-
+# Problem 2.39 - Bearing Stress {.unnumbered}
 
 ![Figure 1: A link mechanism is connected with pins.](images/180.png){fig-alt="Picture with a link mechanism connected with diameter pins. One end of the bar, A, is attached to the ground by a pin. The mechanism is at point B. Member BC is attached with the ground with a pin at point C. The force is being applied at the other end, D."}
 

@@ -1,5 +1,4 @@
-# Problem 9.32 {.unnumbered}
-
+# Problem 9.32 - Unsymmetric Bending {.unnumbered}
 
 ![Figure 1: A beam is subjected to two moments.](images/483.png){fig-alt="A beam with a rectangular cross section is subjected to two moments, My and Mz. The beam has a base of b and a height of h."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

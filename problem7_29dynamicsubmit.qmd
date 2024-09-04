@@ -1,5 +1,4 @@
-# Problem 7.29 {.unnumbered}
-
+# Problem 7.29 - Graphical Methods for Shear Force & Bending Moment Diagrams {.unnumbered}
 
 ![Figure 1: A beam is subjected to a non-uniform distributed load. ](images/334.png){fig-alt="A beam is subjected to a non-unform distributed load, w1 at A and w2 at B with supports at B and C. The distance between A and B is 4 ft, the distance between B and C is 5 ft and the distance between C and D is 4 ft."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

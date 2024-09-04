@@ -1,4 +1,4 @@
-# Problem 4.6 {.unnumbered}
+# Problem 4.6 - Hooke's Law {.unnumbered}
 
 ## Problem Statement
 A polymer test specimen is subjected to an axial load of F = 18 kips. The central portion of the specimen has an initial length L = 8 in., w = 3 in., and t = 1/4 in. If the length increases by dL = 0.052 in., determine the elastic modulus of the material.

@@ -1,4 +1,4 @@
-# Problem 2.1 {.unnumbered}
+# Problem 2.1 - Average Normal Stress {.unnumbered}
 
 ## Problem Statement
 

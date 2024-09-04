@@ -1,0 +1,8 @@
+# Problem 12.13 - Principal Stresses {.unnumbered}
+
+## Problem Statement
+
+The state of stress at a point in a beam is shown, where σ<sub>x</sub> = 25 ksi, σ<sub>y</sub> = 15 ksi, and τ<sub>xy</sub> is unknown. The maximum shear stress for this state of stress is τ<sub>max</sub> = 30 ksi. Determine the angle that this maximum stress occurs at.
+
+![Figure 1: A member is subjected to a state of stress.](images/512.png){fig-alt=A member is subjected to a state of stress caused by sigma_x, and sigma_y."}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

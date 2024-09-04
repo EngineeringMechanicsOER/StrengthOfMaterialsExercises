@@ -1,4 +1,4 @@
-# Problem 2.22 {.unnumbered}
+# Problem 2.22 - Average Shear Stress {.unnumbered}
 
 ![Figure 1: A bracket is attached to a wall with two circular rivets.](images/165.png){fig-alt="Picture with a bracket attached to the wall. The bottom of the bracket touching the wall has two rivits. The top of the bracket has a load applied." width="969"} \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 

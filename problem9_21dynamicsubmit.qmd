@@ -1,4 +1,4 @@
-# Problem 9.21 {.unnumbered}
+# Problem 9.21 - Beam Design {.unnumbered}
 
 ![Figure 1: A beam is subjected to a distributed load.](images/360.png){fig-alt="A beam is subjected to a distributed load w between A and B. The distance between A and B is L. The beam has a cross section of height h and width b."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

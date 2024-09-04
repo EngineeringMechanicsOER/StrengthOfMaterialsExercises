@@ -1,4 +1,4 @@
-# Problem 2.48 {.unnumbered}
+# Problem 2.48 - Stress on an Inclined Plane {.unnumbered}
 
 
 ![Figure 1: A two inch thick board is cut and then glued back together.](images/156.png){fig-alt="Picture with a board that is cut along a line at angel Θ with the vertical. The board is glued back together."}

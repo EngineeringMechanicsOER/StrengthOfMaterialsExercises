@@ -1,4 +1,4 @@
-# Problem 2.48 {.unnumbered}
+# Problem 2.48 - Stress on an Inclined Plane {.unnumbered}
 
 ## Problem Statement
 

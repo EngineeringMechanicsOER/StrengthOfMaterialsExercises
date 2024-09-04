@@ -1,7 +1,6 @@
-# Problem 11.22 {.unnumbered}
+# Problem 11.22 - By Superposition {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/417.png){fig-alt="A cantilever beam of length 2L has a force P and a moment M applied to it. The moment is applied at length L and the force P is applied at length 2L."}
+![Figure 1: A cantilever beam is subjected to a force and a moment.](images/417.png){fig-alt="A cantilever beam of length 2L has a force P and a moment M applied to it. The moment is applied at length L and the force P is applied at length 2L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

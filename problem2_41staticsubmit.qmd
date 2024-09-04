@@ -1,4 +1,4 @@
-# Problem 2.41 {.unnumbered}
+# Problem 2.41 - Bearing Stress {.unnumbered}
 
 ## Problem Statement
 

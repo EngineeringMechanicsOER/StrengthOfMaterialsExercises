@@ -1,7 +1,6 @@
-# Problem 13.3 {.unnumbered}
+# Problem 13.3 - Cylindrical {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/559.png){fig-alt="A circular tank has an internal pressure of P, an inner radius of ri, a thickness of t, and a length of L."}
+![Figure 1: A cylindrical pressure vessel is subjected to an internal pressure.](images/559.png){fig-alt="A circular tank has an internal pressure of P, an inner radius of ri, a thickness of t, and a length of L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

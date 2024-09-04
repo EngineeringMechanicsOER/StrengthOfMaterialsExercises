@@ -1,8 +1,6 @@
-# Problem 10.21 {.unnumbered}
+# Problem 10.21 - Shear Flow {.unnumbered}
 
-
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/385.png){fig-alt="A beam has a rectangular cross section consisting of two rectangles nailed together. The top rectangle has height h2 and base b. The bottom rectangle has height h1 and base b."}
+![Figure 1: A beam is constructed from two pieces nailed together.](images/385.png){fig-alt="A beam has a rectangular cross section consisting of two rectangles nailed together. The top rectangle has height h2 and base b. The bottom rectangle has height h1 and base b."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

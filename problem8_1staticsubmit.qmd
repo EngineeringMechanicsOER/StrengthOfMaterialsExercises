@@ -1,4 +1,4 @@
-# Problem 8.1 {.unnumbered}
+# Problem 8.1 - Centroid {.unnumbered}
 
 ## Problem Statement
 

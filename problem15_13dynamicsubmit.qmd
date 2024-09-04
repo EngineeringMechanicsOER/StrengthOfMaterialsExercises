@@ -1,7 +1,6 @@
-# Problem 15.13 {.unnumbered}
+# Problem 15.13 - Effect of Supports {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/623.png){fig-alt="A wide flange W8x15 of length L is subjected to force F. The column is fixed at the lower end and pinned on the top end in the x and y directions."}
+![Figure 1: A W8x15 is used as a column and subjected to a force.](images/623.png){fig-alt="A wide flange W8x15 of length L is subjected to force F. The column is fixed at the lower end and pinned on the top end in the x and y directions."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
@@ -47,7 +46,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A W14 x 53 beam is used as a column with one end fixed and the other end pinned. If the length of the column L = {L()} ft, determine the largest load it can carry with a factor of safety of {FS()}. The elastic modulus E = {E()} ksi.")]
+        return[ui.markdown(f"A W8 x 15 beam is used as a column with one end fixed and the other end pinned. If the length of the column L = {L()} ft, determine the largest load it can carry with a factor of safety of {FS()}. The elastic modulus E = {E()} ksi.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

@@ -1,8 +1,6 @@
-# Problem 11.19 {.unnumbered}
+# Problem 11.19 - By Integration of Load Equation {.unnumbered}
 
-
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/406.png){fig-alt="A cantilever beam of length L is subjected to a distributed load w defined as w = w0-x^2/9."}
+![Figure 1: A cantilever beam is subjected to the loading shown.](images/406.png){fig-alt="A cantilever beam of length L is subjected to a distributed load w defined as w = w0-x^2/9."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

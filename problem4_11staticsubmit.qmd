@@ -1,4 +1,4 @@
-# Problem 4.11 {.unnumbered}
+# Problem 4.11 - Poisson's Ratio {.unnumbered}
 
 ## Problem Statement 
 An aluminum circular rod of radius r<sub>1</sub> = 2 in is inserted into space that is slightly wider than the rod, where r<sub>2</sub> = 2.003 in. What load P is needed so that the rod expands and fills the space in the radial direction? Assume E = 15,000 ksi and v = 0.33.

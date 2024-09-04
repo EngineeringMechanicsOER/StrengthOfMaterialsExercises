@@ -1,4 +1,4 @@
-# Problem 6.22 {.unnumbered}
+# Problem 6.22 - Power Transmission & Gear Assemblies {.unnumbered}
 
 ![Figure 1: A steel shaft with two gears is turned by a motor.](images/669.png){fig-alt="A steel shaft is turned by a motor with a power of P. The shaft has two gears, B and C, with torques of TB and TC respectively."}
 \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]

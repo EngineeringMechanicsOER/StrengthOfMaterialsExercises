@@ -1,4 +1,4 @@
-# Problem 3.2 {.unnumbered}
+# Problem 3.2 - Normal Strain {.unnumbered}
 
 ![Figure 1: A rectangular prism is subjected to a tension test.](images/650.png){fig-alt="A rectangular prism is subjected to a tension test." width="452"}
 

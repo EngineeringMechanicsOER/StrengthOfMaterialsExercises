@@ -1,4 +1,4 @@
-# Problem 7.15 {.unnumbered}
+# Problem 7.15 - Shear Force & Bending Moment Equations {.unnumbered}
 
 ## Problem Statement
 

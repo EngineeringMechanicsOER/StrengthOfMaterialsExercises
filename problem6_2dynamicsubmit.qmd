@@ -1,5 +1,4 @@
-# Problem 6.2 {.unnumbered}
-
+# Problem 6.2 - Torsional Stress {.unnumbered}
 
 ![Figure 1: A hand crank is attached to a wall.](images/267.png){fig-alt="A hand crank is attached to the wall. Member AB is attached the wall and member CD is where the force is applied. AB and CD are length L and BC has length y."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

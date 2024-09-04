@@ -1,7 +1,6 @@
-# Problem 12.2 {.unnumbered}
+# Problem 12.2 - Equations {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/499.png){fig-alt="A member under a state of stress is rotated at an angle of theta along the plane a-a. The member undergoes stresses sigma_y, sigma_x, and tau_xy."}
+![Figure 1: A member is subjected to a state of stress.](images/499.png){fig-alt="A member under a state of stress is rotated at an angle of theta along the plane a-a. The member undergoes stresses sigma_y, sigma_x, and tau_xy."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

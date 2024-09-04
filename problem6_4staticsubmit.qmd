@@ -1,4 +1,4 @@
-# Problem 6.4 {.unnumbered}
+# Problem 6.4 - Torsional Stress {.unnumbered}
 
 ## Problem Statement
 Three belt pulleys are connected to a solid circular shaft of diameter d = 3 in. that rotates freely at joints A and E. The pulleys are subjected to forces F<sub>1</sub> = 1 kips, F<sub>2</sub> = 1 kips, and F<sub>3</sub> = 1.5 kips. What is the maximum shear stress in the shaft between pulleys B and C?

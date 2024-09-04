@@ -1,5 +1,4 @@
-# Problem 6.15 {.unnumbered}
-
+# Problem 6.15 - Torsional Deformation {.unnumbered}
 
 ![Figure 1: A hollow circualr rod is attached to a wall and subjected to a torque at the free end.](images/274.png){fig-alt="A hollow circualr rod is attached to a wall and subjected to a torque at the free end. The rod has inner diameter 8 cm and outer diameter 10 cm. The rod is length, L."}
 

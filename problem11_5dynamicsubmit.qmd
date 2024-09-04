@@ -1,7 +1,6 @@
-# Problem 11.5 {.unnumbered}
+# Problem 11.5 - By Integration of Moment Equation {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/396.png){fig-alt="A beam of length L is subjected to a distributed load w and a point load P at L/2. Point A is on the left of the beam, and point B is on the right end, a distance of L from A."}
+![Figure 1: A simply supported beam is subjected to the loading shown.](images/396.png){fig-alt="A beam of length L is subjected to a distributed load w and a point load P at L/2. Point A is on the left of the beam, and point B is on the right end, a distance of L from A."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

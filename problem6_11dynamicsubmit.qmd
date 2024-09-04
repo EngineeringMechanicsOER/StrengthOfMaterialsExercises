@@ -1,5 +1,4 @@
-# Problem 6.11 {.unnumbered}
-
+# Problem 6.11 - Torsional Deformation {.unnumbered}
 
 ![Figure 1: A hollow copper rod is fixed to a wall at one end and a torque is applied ](images/266.png){fig-alt="A hollow copper rod is fixed to a wall at one end and a torque is applied. The rod has an outer diameter of d[o] and inner diameter of d[i] and length L."}
 

@@ -1,4 +1,4 @@
-# Problem 6.13 {.unnumbered}
+# Problem 6.13 - Torsional Deformation {.unnumbered}
 
 ## Problem Statement
 

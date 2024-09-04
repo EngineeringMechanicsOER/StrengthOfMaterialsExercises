@@ -1,4 +1,4 @@
-# Problem 7.3 {.unnumbered}
+# Problem 7.3 - Internal Shear Force & Bending Moment by Equilibrium {.unnumbered}
 
 ## Problem Statement
 

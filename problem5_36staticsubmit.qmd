@@ -1,4 +1,4 @@
-# Problem 5.36 {.unnumbered}
+# Problem 5.36 - Statistically Indeterminate Problems {.unnumbered}
 
 ## Problem Statement
 Two square members are attached to two fixed walls as shown. Force F is applied at point B and point B is displaced d =  0.002 in. to the right. If L = 5 in., E<sub>wood</sub> = 1,750 ksi, and E<sub>plastic</sub> = 400 ksi, determine the applied force F.

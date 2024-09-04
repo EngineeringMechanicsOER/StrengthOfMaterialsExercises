@@ -1,5 +1,4 @@
-# Problem 7.25 {.unnumbered}
-
+# Problem 7.25 - Graphical Methods for Shear Force & Bending Moment Diagrams {.unnumbered}
 
 ![Figure 1: A shelf is loaded with four boxes.](images/321.png){fig-alt="Picture of a shelf with four boxes. Box one was a weight of W1 over a distance L, box two has a weight of W2 over a distance L, box three has a weight of W3 over a distance L, and box four has a weight of W4 over a distance L. The shelf has two supports at L and 3L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

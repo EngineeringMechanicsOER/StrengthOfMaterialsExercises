@@ -1,7 +1,6 @@
-# Problem 12.26 {.unnumbered}
+# Problem 12.26 - Mohr's Circle {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/525.png){fig-alt="A member is subjected to a state of stress caused by sigma_x, sigma_y, and tau_xy."}
+![Figure 1: A state of stress at a point in the beam](images/525.png){fig-alt="A member is subjected to a state of stress caused by sigma_x, sigma_y, and tau_xy."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

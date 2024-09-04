@@ -1,4 +1,4 @@
-# Problem 2.47 {.unnumbered}
+# Problem 2.47 - Stress on an Inclined Plane {.unnumbered}
 
 
 ![Figure 1: Two slanted brackets are glued together.](images/153.png){fig-alt="Picture with two slanted brackets glued together, and the slant is at the stated angle. A force is applied to each edge of the brackets."}

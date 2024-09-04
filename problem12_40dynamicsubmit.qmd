@@ -1,6 +1,4 @@
-# Problem 12.40 {.unnumbered}
-
-![Figure 1: A beam is subjected to a distributed load and force applied. ](images/687.png){fig-alt="There is no figure for this problem."}
+# Problem 12.40 - 3D Mohr's Circle {.unnumbered}
 
 \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]
 

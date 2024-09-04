@@ -1,7 +1,6 @@
-# Problem 15.1 {.unnumbered}
+# Problem 15.1 - Buckling & Yield - Euler's Formula {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/607.png){fig-alt="A long steel tube of length L has an outer radius of ro and an inner radius of ri."}
+![Figure 1: A long steel tube is pinned at both ends.](images/607.png){fig-alt="A long steel tube of length L has an outer radius of ro and an inner radius of ri."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

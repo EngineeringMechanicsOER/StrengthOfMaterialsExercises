@@ -1,7 +1,6 @@
-# Problem 11.17 {.unnumbered}
+# Problem 11.17 - By Integration of Load Equation {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/404.png){fig-alt="A beam of length L is subjected to the distributed load w as defined by the equation w = w0sin(x*pi/L)."}
+![Figure 1: A simply supported beam is subjected to the loading shown.](images/404.png){fig-alt="A beam of length L is subjected to the distributed load w as defined by the equation w = w0sin(x*pi/L)."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

@@ -1,7 +1,6 @@
-# Problem 11.3 {.unnumbered}
+# Problem 11.3 - By Integration of Moment Equation {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/393.png){fig-alt="A cantilever beam of length L is subjected to a distributed load w and a coupled moment M at the free end."}
+![Figure 1: A cantilever beam is subjected to the loading shown.](images/393.png){fig-alt="A cantilever beam of length L is subjected to a distributed load w and a coupled moment M at the free end."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

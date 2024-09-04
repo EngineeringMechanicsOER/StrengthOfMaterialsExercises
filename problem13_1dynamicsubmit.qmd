@@ -1,7 +1,6 @@
-# Problem 13.1 {.unnumbered}
+# Problem 13.1 - Cylindrical {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/556.png){fig-alt="A cylindrical pressure vessel has a thickness of t and an outer diameter of d. There is an internal pressure P and an external torque of T at the top."}
+![Figure 1: A thin walled cylindrical pressure vessel is subjected to an internal pressure and external torque.](images/556.png){fig-alt="A cylindrical pressure vessel has a thickness of t and an outer diameter of d. There is an internal pressure P and an external torque of T at the top."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

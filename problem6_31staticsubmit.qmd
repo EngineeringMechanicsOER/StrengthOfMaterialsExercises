@@ -1,4 +1,4 @@
-# Problem 6.31 {.unnumbered}
+# Problem 6.31 - Statically Indeterminate Problems {.unnumbered}
 
 ## Problem Statement
 

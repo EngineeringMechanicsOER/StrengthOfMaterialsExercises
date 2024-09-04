@@ -1,4 +1,4 @@
-# Problem 12.39 {.unnumbered}
+# Problem 12.39 - 3D Mohr's Circle {.unnumbered}
 
 ## Problem Statement
 

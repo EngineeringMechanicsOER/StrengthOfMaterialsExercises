@@ -1,4 +1,4 @@
-# Problem 6.5 {.unnumbered}
+# Problem 6.5 - Torsional Stress {.unnumbered}
 
 This is a dynamic rendering of the problem with dynamic variables based on the username entered. 
 

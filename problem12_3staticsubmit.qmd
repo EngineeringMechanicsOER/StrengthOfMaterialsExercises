@@ -1,0 +1,8 @@
+# Problem 12.3 - Equations {.unnumbered}
+
+## Problem Statement
+
+A point in a beam is subjected to the state of stress shown, where σ<sub>x</sub> = 5.0 MPa, σ<sub>y</sub> = 12.5 MPa, and τ<sub>xy</sub> = 3.5 MPa. Determine the magnitude of the normal stress and the magnitude of the shear stress acting on plane a-a if angle Θ = 67°.
+
+![Figure 1: A member is subjected to a state of stress.](images/500.png){fig-alt="A state of stress on a member is defined by sigma_x, sigma_y and tau_xy. The plane a-a is at an angle of theta."}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -1,5 +1,4 @@
-# Problem 9.5 {.unnumbered}
-
+# Problem 9.5 - Bending Stress {.unnumbered}
 
 ![Figure 1: The cross section of a beam.](images/346.png){fig-alt="A cross section of a beam of height 2h and width 2b is shown. The top of the beam is a rectangle of width b and height h. The bottom of the beam is two triangles each of base b and height h. The height of each triangle faces outwards."}
 

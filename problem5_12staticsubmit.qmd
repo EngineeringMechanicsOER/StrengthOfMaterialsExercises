@@ -1,4 +1,4 @@
-# Problem 5.12 {.unnumbered}
+# Problem 5.12 - Axial Deformation {.unnumbered}
 
 ## Problem Statement
 Two forces, F<sub>1</sub> = 15 kN and F<sub>2</sub> = 10 kN, are applied to the system of cylinders as shown. If L<sub>1</sub> = 5 m, L<sub>2</sub> = 3 m, and L<sub>3</sub> = 4 m, what is the total change in length of the system? Assume E<sub>steel</sub> = 210 GPa and E<sub>aluminum</sub> = 70 GPa.

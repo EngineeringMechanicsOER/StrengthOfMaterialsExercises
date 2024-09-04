@@ -1,4 +1,4 @@
-# Problem 5.10 {.unnumbered}
+# Problem 5.10 - Stress Concentrations {.unnumbered}
 
 ## Problem Statement
 

@@ -1,5 +1,4 @@
-# Problem 5.50 {.unnumbered}
-
+# Problem 5.50 - Thermal Deformation {.unnumbered}
 
 ## Problem Statement
 The axial stress in a solid circular bar between two fixed walls is 30 ksi. Find the temperature change necessary to relieve the stress. Assume L = 30 in., E = 29,000 ksi, and α = 6.5 x 10<sup>-6</sup> / °F.

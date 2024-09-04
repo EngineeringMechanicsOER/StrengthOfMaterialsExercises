@@ -1,8 +1,6 @@
-# Problem 15.3 {.unnumbered}
+# Problem 15.3 - Buckling & Yield - Euler's Formula {.unnumbered}
 
-
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/611.png){fig-alt="A column of length L with pins at both ends is subjected to a force F. The column is a hollow rectangle with an exterior width of 17 cm and an exterior height of 15 cm and an interior width of 15cm and an interior height of 10 cm."}
+![Figure 1: A column pinned at both ends is subjected to a load.](images/611.png){fig-alt="A column of length L with pins at both ends is subjected to a force F. The column is a hollow rectangle with an exterior width of 17 cm and an exterior height of 15 cm and an interior width of 15cm and an interior height of 10 cm."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

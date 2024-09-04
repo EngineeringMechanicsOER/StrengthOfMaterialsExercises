@@ -1,7 +1,6 @@
-# Problem 13.2 {.unnumbered}
+# Problem 13.2 - Cylindrical {.unnumbered}
 
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/558.png){fig-alt="A pressure vessel with a diameter of d has an internal pressure P and a thickness of t."}
+![Figure 1: A cylindrical pressure vessel is subjected to an internal pressure.](images/558.png){fig-alt="A pressure vessel with a diameter of d has an internal pressure P and a thickness of t."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

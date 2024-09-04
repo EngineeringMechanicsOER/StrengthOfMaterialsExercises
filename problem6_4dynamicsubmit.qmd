@@ -1,5 +1,4 @@
-# Problem 6.4 {.unnumbered}
-
+# Problem 6.4 - Torsional Stress {.unnumbered}
 
 ![Figure 1: Three belt pullets are connected to a solid shaft.](images/276.png){fig-alt="Three belt pullets are connected to a solid shaft. The shaft is dixed at points A and E. F[1] is applied at the first pulley, or point B. F[2] is applied at the second pulley or point C. F[3] is applied at the third pulley or point D.  The shaft has diameter d."}
 

@@ -1,8 +1,6 @@
-# Problem 13.16 {.unnumbered}
+# Problem 13.16 - Spherical {.unnumbered}
 
-
-
-![Figure 1: Two sylinders are stacked on top of each other.](images/563.png){fig-alt="A spherical pressure vessel has a internal diameter of di and a thickness of t."}
+![Figure 1: A thin walled spherical pressure vessel.](images/563.png){fig-alt="A spherical pressure vessel has a internal diameter of di and a thickness of t."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

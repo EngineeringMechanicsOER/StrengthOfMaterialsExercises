@@ -1,4 +1,4 @@
-# Problem 7.28 {.unnumbered}
+# Problem 7.28 - Graphical Methods for Shear Force & Bending Moment Diagrams {.unnumbered}
 
 ## Problem Statement
 

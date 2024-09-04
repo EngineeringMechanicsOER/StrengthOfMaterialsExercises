@@ -1,0 +1,8 @@
+# Problem 12.4 - Equations {.unnumbered}
+
+## Problem Statement
+
+A material made from fibers is stressed as shown in the diagram. Stresses σ<sub>x</sub> = 20 ksi, σ<sub>y</sub> = 10 ksi, and τ<sub>xy</sub> = 10 ksi. Determine the magnitude of the normal stress acting perpendicular to the fibers and the magnitude of the shear stress acting parallel to the fibers if angle Θ = 20°.
+
+![Figure 1: A material made of fibers is stressed. ](images/501.png){fig-alt="A material made from fibers is subjected to the stresses sigma_y, sigma_x, and tau_xy. The fibers are at an angle theta. "}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

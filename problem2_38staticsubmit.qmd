@@ -1,5 +1,4 @@
-# Problem 2.38 {.unnumbered}
-
+# Problem 2.38 - Bearing Stress {.unnumbered}
 
 ## Problem Statement
 A crate of weight W = 8000 lb hangs from a solid circular metal rod of diameter d<sub>1</sub> = 1 in.. The cable is wrapped around a support collar of diameter d<sub>2</sub> = 3 in. and thickness t = 2 in. to evenly distribute the cable load. What is the bearing stress on the support collar due to the rod? 

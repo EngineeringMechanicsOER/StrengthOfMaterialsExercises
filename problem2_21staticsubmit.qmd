@@ -1,4 +1,4 @@
-# Problem 2.21 {.unnumbered}
+# Problem 2.21 - Average Shear Stress {.unnumbered}
 
 ## Problem Statement
 

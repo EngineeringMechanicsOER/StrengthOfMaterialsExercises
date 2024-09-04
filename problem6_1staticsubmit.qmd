@@ -1,4 +1,4 @@
-# Problem 6.1 {.unnumbered}
+# Problem 6.1 - Torsional Stress {.unnumbered}
 
 ## Problem Statement
 What torque is required to create a maximum shear stress of τ = 50 MPa in a solid circular bar of diameter d  = 60 mm?

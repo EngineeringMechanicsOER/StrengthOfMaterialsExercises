@@ -1,8 +1,6 @@
-# Problem 10.1 {.unnumbered}
+# Problem 10.1 - 1st Moment of Area {.unnumbered}
 
-
-
-![Figure 1: A beam is subjected to a distributed load and force applied. ](images/680.png){fig-alt="A T beam has an upper base of b2 and a lower base of b1. The T beam also has a stem height of h1 and a top height of h2."}
+![Figure 1: A T beam is constructed as shown. ](images/680.png){fig-alt="A T beam has an upper base of b2 and a lower base of b1. The T beam also has a stem height of h1 and a top height of h2."}
 \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
