@@ -1,0 +1,18 @@
+## Solution - Problem 2.3
+
+![](images/144.png)
+First normal stress needs to be defined:
+
+$$\sigma = F/A$$
+
+Since $A$ is in the denominator, the maximum normal stress will occur at the smallest area ($d_1$).
+
+$A_1$ can now be found:
+
+$$A = \pi*r^2$$
+$$A_1 = \pi*(d_1/2)^2$$
+
+The maximum normal stress can now be found:
+
+$$solution = F/A_1$$
+$$solution = F/(\pi*(d_1/2)^2)$$

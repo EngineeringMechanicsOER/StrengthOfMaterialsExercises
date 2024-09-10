@@ -1,0 +1,26 @@
+## Solution - Problem 2.47
+
+![](images/153.png)
+Recall the definition of shear stress:
+
+$$\tau = V/A$$
+
+As the force is applied at an angle:
+
+$$V = F*sin(90^\circ-\theta)$$
+Recalling conventions of geometry:
+
+$$sin(90^\circ-\theta) = cos(\theta)$$
+
+Thus:
+
+$$V = F*cos(\theta)$$
+
+To solve for the area of the plane:
+
+$$A = L*w$$
+$$A_p = L*2in$$
+
+Solving for shear stress:
+
+$$solution = F*cos(\theta)/(2*L)$$

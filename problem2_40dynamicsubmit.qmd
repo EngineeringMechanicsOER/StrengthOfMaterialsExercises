@@ -64,7 +64,7 @@ def server(input, output, session):
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
         theta = 29.05*math.pi/180
         FDC = W()/math.sin(theta)
-        instr= FDC/(d()*t()/2)
+        instr= FDC/(d()*t())
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

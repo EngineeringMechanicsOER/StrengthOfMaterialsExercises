@@ -1,0 +1,8 @@
+# Problem 2.10 {.unnumbered}
+
+## Problem Statement
+
+A truss is constructed of members with rectangular cross-sections of base b = 3 in. and height h = 6 in. If loads F<sub>1</sub> = 2 kips and F<sub>2</sub> = 3 kips, determine the normal stress in member EF. Recall that, by convention, compressive stresses are negative.
+
+![Figure 1: Truss ABCDEF is subjected to two forces.](images/152.png){fig-alt="Picture of a truss subjected to forces F1 and F2. The distance from A to B is 3 ft, the distance from B to C is 3 ft, and the distance from C to D is 3 ft. The vertical distance from C to F is 3 ft. Force F1 is applied at B and force F2 is applied at C."}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

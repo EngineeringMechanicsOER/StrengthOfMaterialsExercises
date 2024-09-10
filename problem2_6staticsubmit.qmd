@@ -1,0 +1,8 @@
+# Problem 2.6 {.unnumbered}
+
+## Problem Statement
+
+A truss is subjected to loads F<sub>1</sub> = 2 kips, F<sub>2</sub> = 1 kips, and F<sub>3</sub> = 3 kips as shown. All members of the truss have the same circular cross-section shown. Determine the magnitude of the normal stress in member DF.
+
+![Figure 1: Truss ABCDEFGH supports three loads.](images/142.png){fig-alt="A truss supports three loads, F1, F2, and F3. The distance from A to C is 2ft, the distance from C to E is 3ft, the distance from E to G is 3ft, the distance from G to H is 2ft, and the vertical distance from H to F is 2 ft. F1 is applied at C, F2 is applied at D, and F3 is applied at G. The members have a hollow cylindrical cross section with an outer radius of 1.0in and an inner radius of 0.75in."}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -1,0 +1,8 @@
+# Problem 2.5 {.unnumbered}
+
+## Problem Statement
+
+Two circular rods are attached and loaded with forces F<sub>1</sub> = 12 kN and F<sub>2</sub> = 20 kN as shown. If diameters d<sub>1</sub> = 25 mm and d<sub>2</sub> = 30 mm, determine the largest normal stress in either rod.
+
+![Figure 1: Two cylinders are attached together with two forces applied.](images/141.png){fig-alt="Two circular rods are attached together. Cylinder a has a diameter of d1 and a force applied to it of F1 to the left. Cylinder b has a diameter of d2 and a force applied to it of F2 to the right."}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

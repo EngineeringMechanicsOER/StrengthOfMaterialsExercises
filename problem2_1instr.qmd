@@ -14,9 +14,7 @@ The force in each bar must be found:
 
 $$F_{AB} = R\\$$ $$F_{BC} = F_1\\$$ $$F_{CD} = F_1-F_2\\$$ Bar radii need to be calculated:
 
-$$r = d/2\\$$ $$r_{AB} = (8 mm/2) = 4 mm = 0.004 m\\$$ 
-$$r_{BC} = (6mm/2) = 3mm = 0.003m\\$$
-$$r_{CD} = (10mm/2) = 5mm = 0.005 m\\$$
+$$r = d/2\\$$ $$r_{AB} = (8 mm/2) = 4 mm = 0.004 m\\$$ $$r_{BC} = (6mm/2) = 3mm = 0.003m\\$$ $$r_{CD} = (10mm/2) = 5mm = 0.005 m\\$$
 
 Then stress can be calculated for each bar:
 

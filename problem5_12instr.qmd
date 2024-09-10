@@ -1,0 +1,43 @@
+## Solution - Problem 5.12
+
+![](images/184.png)
+Recall the definition of deflection:
+
+$$\delta = P*L/(A*E)$$
+
+The resultant force in each section must be found first. Working from the leftmost bar to the rightmost:
+
+$$R_1 = -F_1+F_2$$
+$$R_2 = F_2$$
+$$R_3 = 0 kN$$ 
+*Due to no force on right end
+
+Defining other known traits:
+
+$$E_1 = 70 GPa$$
+$$E_2 = 210 GPa$$
+$$E_3 = 70 GPa$$
+
+Solving for areas:
+
+$$A = \pi*r^2$$
+$$A_1 = \pi*(0.25 m)^2$$
+$$A_1 = 0.196 m^2$$
+$$A_2 = \pi*(0.15 m)^2$$
+$$A_2 = 0.071 m^2$$
+$$A_3 = \pi*(0.2 m)^2$$
+$$A_3 = 0.126 m^2$$
+Now finding the deflection for each cylinder:
+
+$$\delta_1 = R_1*L_1/(A_1*E_1)$$
+$$\delta_1 = (-F_1+F_2)*L_1/(0.196 m^2*70*10^9 Pa)$$
+$$\delta_1 = (-F_1+F_2)*L_1/(1.372*10^{10} N)$$
+$$\delta_2 = F_2*L_2/(0.071 m^2*210*10^9 Pa)$$
+$$\delta_2 = F_2*L_2/(1.491*10^{10} N)$$
+$$\delta_3 = 0*L_3/(0.126 m^2*70*10^9 Pa)$$
+$$\delta_3 = 0 m$$
+
+To find total deflection of the system:
+
+$$\delta_T = \delta_1+\delta_2+\delta_3$$
+$$solution = (-F_1+F_2)*L_1/(1.372*10^{10} N)+F_2*L_2/(1.491*10^{10} N)$$

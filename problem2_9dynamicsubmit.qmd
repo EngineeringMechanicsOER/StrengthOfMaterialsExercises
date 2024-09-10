@@ -62,7 +62,7 @@ def server(input, output, session):
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
         FEG = (F1()*12+F2()*24)/4.615
-        instr = FEG/2.5
+        instr = FEG/A()
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

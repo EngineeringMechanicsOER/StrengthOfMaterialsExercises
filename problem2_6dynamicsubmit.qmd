@@ -63,7 +63,8 @@ def server(input, output, session):
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
         Hy = (8*F3()+5*F2()+2*F1())/10
         FDF = (-Hy*5+F3()*3)/2
-        instr = abs(FDF/0.3436)
+        A = math.pi*(1**2-0.75**2)
+        instr = abs(FDF/A)
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

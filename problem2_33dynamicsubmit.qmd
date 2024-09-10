@@ -77,7 +77,7 @@ def server(input, output, session):
         attempt_counter.set(
             attempt_counter() + 1
         )  # Increment the attempt counter on each submission.
-        Pg = tau_glue()*w()*w()
+        Pg = tau_glue()*w()*.25*L()
         Pb = tau_bolt()*1000*((d()/2)**2*math.pi)
         if Pg >= Pb:
             instr = Pb

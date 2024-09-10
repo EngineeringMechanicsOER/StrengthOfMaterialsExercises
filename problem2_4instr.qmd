@@ -1,0 +1,50 @@
+## Solution - Problem 2.4
+
+![](images/146.png)
+Three possible cables could carry the maximum load. Let us define them as $R_1$ for the cable at $45^\circ$ above the horizon at A, $R_3$ for the cable $30^\circ$ below the horizon at B, and $R_2$ for the cable $75^\circ$ above the horizon at B.
+
+Note that we are told to ignore the cable at A holding the crate, and the horizontal cable at B can be ignored since ...
+
+Now we need to begin solving for the cables. From method of joints, beginning with joint A in the X direction:
+
+$$\Sigma F_x = 0$$
+$$0 = -R_3*cos(30^\circ)+R_1*cos(45^\circ)$$
+$$R_3*cos(30^\circ) = R_1*cos(45^\circ)$$
+$$R_3 = 0.707*R_1/0.866$$
+$$R_3 = 0.817*R_1$$
+
+For forces in the Y direction at joint A:
+
+$$\Sigma F_Y = 0$$
+$$0 = -W+R_3*sin(30^\circ)+R_1*sin(45^\circ)$$
+Plugging in the value for $R_3$ and moving W:
+
+$$W = 0.817*R_1sin(30^\circ)+R_1*sin(45^\circ)$$
+$$W = 0.4085*R_1+0.707*R_1$$
+$$W = 1.116*R_1$$
+Solving for $R_1$:
+
+$$R_1 = 0.8961*W$$
+Plugging in to solve for $R_3$:
+
+$$R_3 = 0.817*0.8961*W$$
+$$R_3 = 0.7321*W$$
+Now applying the method of joints at B in the Y direction:
+
+$$\Sigma F_y = 0$$
+$$R_2*sin(75^\circ)-R_3*sin(30^\circ)=0$$
+Solving for R2:
+
+$$0.966*R_2 = 0.7321*W*0.5$$
+$$R_2 = 0.3789*W$$
+Now comparing forces to find the max:
+
+$$Max F = max(|R_1|,|R_2|,|R_3|)$$
+Determine the area of the cables:
+
+$$A = \pi*r^2$$
+$$A = \pi*(d/2)^2$$
+And finally solve for maximum stress in a cable:
+
+$$\sigma = F/A$$
+$$solution = MaxF/(\pi*(d/2)^2)$$

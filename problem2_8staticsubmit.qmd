@@ -1,0 +1,8 @@
+# Problem 2.8 {.unnumbered}
+
+## Problem Statement
+
+A truss is constructed using solid square members of area A = 1000 mm<sup>2</sup>. If load F = 47.5 kN and length L = 7.5 m, determine the stress in member EF. Recall that, by convention, compressive stresses are negative.
+
+![Figure 1: Truss ABCDEF supports two loads.](images/149.png){fig-alt="A truss is made of members with an area of A. The distance from A to B is L and from B to C is 2L. The vertical distance from A to D is L and the vertical distance from D to F is 2L. A force of 2F is applied at B and a force of F is applied at C."}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

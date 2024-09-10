@@ -1,0 +1,20 @@
+## Solution - Problem 2.21
+
+![](images/164.png)
+Recall the formula for shear stress:
+
+$$\tau_{fail} = P/A$$
+
+Solving first for area:
+
+$$A = L*t$$
+
+Remember there are two joints, thus area will be multiplied by $2$.
+
+Plugging A back in:
+
+$$\tau_{fail} = P/(2*L*t)$$
+
+And solving for P:
+
+$$solution = \tau_{fail}*2*L*t$$

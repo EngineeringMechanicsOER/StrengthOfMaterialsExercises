@@ -80,8 +80,10 @@ window.Quarto = {
 <p><img src="images/139.png" class="img-fluid"></p>
 <p>Total deflection for the system needs to be found:</p>
 <p><span class="math display">\[\delta = FL/AE\]</span> <span class="math display">\[\delta_T = \delta_A+\delta_B\]</span> Areas for A and B need to be calculated:</p>
-<p><span class="math display">\[A = \pi*r^2\]</span> <span class="math display">\[A_A = \pi*(5in/2)^2 = 19.63 in^2\]</span> <span class="math display">\[A_B = \pi*(3in/2)^2 = 7.07 in^2\]</span></p>
-<p><span class="math display">\[\delta_A = F_A*L_1\]</span></p>
+<p><span class="math display">\[A = \pi*r^2\]</span> <span class="math display">\[A_A = \pi*(5in/2)^2 = 19.63 in^2\]</span> <span class="math display">\[A_B = \pi*(3in/2)^2 = 7.07 in^2\]</span> We are told the value for E:</p>
+<p><span class="math display">\[E = 30*10^6 psi\]</span> Deflection for A and B can now be found. First solving for the deflection from A:</p>
+<p><span class="math display">\[\delta_A = F_A*L_1/A_A*E\]</span> <span class="math display">\[\delta_A = F_A*L_1/(19.63in^2*30*10^6psi)\]</span> <span class="math display">\[\delta_A = F_A*L_1/(588.9*10^6 lb)\]</span> Now the deflection from B: <span class="math display">\[\delta_B = F_B*L_2/A_B*E\]</span> <span class="math display">\[\delta_B = F_B*L_2/(7.07in^2*30*10^6psi)\]</span> <span class="math display">\[\delta_B = F_B*L_2/(212.1*10^6 lb)\]</span> Solving for total deflection:</p>
+<p><span class="math display">\[solution = \delta_A+\delta_B\]</span> <span class="math display">\[solution = F_A*L_1/(588.9*10^6 lb)+F_B*L_2/(212.1*10^6 lb)\]</span></p>
 </section>
 
 </main>

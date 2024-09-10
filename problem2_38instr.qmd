@@ -1,0 +1,18 @@
+## Solution - Problem 2.38
+
+![](images/166.png)
+Recall the formula for bending stress:
+
+$$\sigma_B = F/A$$
+
+Solving for area:
+
+$$A = d*t$$
+
+For the rod of interest:
+
+$$A = d_1*t$$
+
+Plugging back in:
+
+$$solution = F/(d_1*t)$$

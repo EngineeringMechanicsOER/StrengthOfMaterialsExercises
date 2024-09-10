@@ -1,0 +1,8 @@
+# Problem 2.9 {.unnumbered}
+
+## Problem Statement
+
+A truss is constructed using members of area A = 2.5 in<sup>2</sup>. If loads F<sub>1</sub> = 900 lb and F<sub>2</sub> = 400 lb, determine the stress in member EG.
+
+![Figure 1: Truss ABCDEFGHIJ is subjected to two forces.](images/150.png){fig-alt="Picture of a truss subjected to forces F1 and F2. The distance from A to B is 12 ft, the distance from B to I is 12 ft, and the distance from I to J is 12 ft. The vertical distance from F to G is 5 ft. Force F1 is applied at I and force F2 is applied at J."}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

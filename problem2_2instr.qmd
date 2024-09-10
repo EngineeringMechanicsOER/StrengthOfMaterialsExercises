@@ -8,10 +8,10 @@ $$\delta = FL/AE$$ $$\delta_T = \delta_A+\delta_B$$ Areas for A and B need to be
 
 $$A = \pi*r^2$$ $$A_A = \pi*(5in/2)^2 = 19.63 in^2$$ $$A_B = \pi*(3in/2)^2 = 7.07 in^2$$ We are told the value for E:
 
-$$E = 30*10^6 psi$$ Deflection for A and B can now be found:
+$$E = 30*10^6 psi$$ Deflection for A and B can now be found. First solving for the deflection from A:
 
 $$\delta_A = F_A*L_1/A_A*E$$ $$\delta_A = F_A*L_1/(19.63in^2*30*10^6psi)$$ $$\delta_A = F_A*L_1/(588.9*10^6 lb)$$
-
+Now the deflection from B:
 $$\delta_B = F_B*L_2/A_B*E$$ $$\delta_B = F_B*L_2/(7.07in^2*30*10^6psi)$$ $$\delta_B = F_B*L_2/(212.1*10^6 lb)$$ Solving for total deflection:
 
 $$solution = \delta_A+\delta_B$$ $$solution = F_A*L_1/(588.9*10^6 lb)+F_B*L_2/(212.1*10^6 lb)$$

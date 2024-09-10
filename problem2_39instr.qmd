@@ -1,0 +1,23 @@
+## Solution - Problem 2.39
+
+![](images/180.png) Recall the formula for bearing stress:
+
+$$\sigma_b = F/A_b$$
+
+Solving first for the reaction at B with the sum of moments:
+
+$$\Sigma M_A = 0$$
+
+$$18in*R-(18in+8in)*F = 0$$
+
+$$18in*R = 26in*F$$
+
+$$R = 1.444*F$$
+
+Solving next for area:
+
+$$A_b = d*t$$
+
+Plugging everything back in:
+
+$$Solution = 1.444*F/(d*t)$$

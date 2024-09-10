@@ -1,6 +1,5 @@
 # Problem 2.5 {.unnumbered}
 
-
 ![Figure 1: Two cylinders are attached together with two forces applied.](images/141.png){fig-alt="Two circular rods are attached together. Cylinder a has a diameter of d1 and a force applied to it of F1 to the left. Cylinder b has a diameter of d2 and a force applied to it of F2 to the right."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
@@ -48,7 +47,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"Two circular rods are attached and loaded with forces F<sub>1</sub> = {F1()} kN and F<sub>2</sub> = {F2()} kN as shown. If diameters d<sub>1</sub> = {d1()} mm and d<sub>2</sub> = {d2()} mm, determine the largest normal stress in either rod.")]
+        return[ui.markdown(f"Two circular rods are attached and loaded with forces F<sub>1</sub> = {F1()} kN and F<sub>2</sub> = {F2()} kN as shown. If diameters d<sub>1</sub> = {d1()} mm and d<sub>2</sub> = {d2()} mm, determine the magnitude of the largest normal stress in either rod.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
@@ -63,8 +62,8 @@ def server(input, output, session):
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        sa = (F2()-F1())/((d1()/2000)**2*math.pi)/1000
-        sb = F2()/((d2()/2000)**2*math.pi)/1000
+        sa = abs((F2()-F1())/((d1()/2000)**2*math.pi)/1000)
+        sb = abs(F2()/((d2()/2000)**2*math.pi)/1000)
         if sa>sb:
             instr = sa
         else:

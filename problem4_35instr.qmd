@@ -1,0 +1,67 @@
+## Solution - Problem 4.35
+
+![](images/157.png)
+First, all the member loads need to be determined. From inspection:
+
+$$F_{BD} = F$$
+
+Next, by applying method of joints at D in the X direciton:
+
+$$\Sigma F_x = 0$$
+$$0 = -F_{AD}*cos(tan^{-1}(1m/2m))+F_{DC}*cos(tan^{-1}(1m/1m))$$
+
+Solving for $F_{DC}$:
+
+$$F_{DC}*cos(45^\circ) = F_{AD}*cos(26.75^\circ)$$
+$$F_{DC} = 1.263*F_{AD}$$
+
+Now applying method of joints at D in the Y direction:
+
+$$\Sigma F_y = 0$$
+$$ 0 = -F+F_{AD}*sin(26.75^\circ)+F_{DC}*sin(45^\circ)$$
+
+Substituting $F_{DC}$ and moving F:
+
+$$F = 0.45*F_{AD}+1.263*F_{AD}*0.707$$
+
+Solving for $F_{AD}$:
+
+$$F = 1.343*F_{AD}$$
+$$F_{AD} = 0.745*F$$
+
+Now solving for $F_{DC}$:
+
+$$F_{DC} = 1.263*0.745*F$$
+$$F_{DC} = 0.941*F$$
+
+Now applying the method of joints at C in the X direction:
+
+$$\Sigma F_x = 0$$
+$$0 = -F_{BC}-F_{DC}*cos(45^\circ)$$
+
+Solving for $F_{BC}$:
+
+$$F_{BC} = -0.941*F*0.707$$
+$$F_{BC} = -0.665*F$$
+The largest load occurs in $F_{BC}$, thus we will design for it. Assuming a Factor of Safety of F.S.:
+
+$$Design Load = F.S.*F_{BD}$$
+Recall the formula for normal stress:
+
+$$\sigma = F/A$$
+
+Solving for A:
+
+$$A = F/\sigma$$
+
+Plugging in our variables:
+
+$$A = Design Load/\sigma_{fail}$$
+$$A = F.S.*F_{BD}/\sigma_{fail}$$
+Recall the area formula:
+
+$$A = a*a$$
+Thus solving for a:
+
+$$a^2 = F.S.*F_{BD}/\sigma_{fail}$$
+$$solution = \sqrt(F.S.*F_{BD}/\sigma_{fail})$$

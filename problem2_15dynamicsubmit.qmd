@@ -48,15 +48,15 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A box weighing W = {W()} lb is suspended by two cables as shown. Cable AC has diameter d<sub>AC</sub> = {dAC()} in.<sup>2</sup> and cable BC has diameter d<sub>BC</sub> = {dBC()} in.<sup>2</sup>. If angle α = {alpha()}°, what angle Θ is required so that both cables experience the same average normal stress?")]
+        return[ui.markdown(f"A box weighing W = {W()} lb is suspended by two cables as shown. Cable AC has diameter d<sub>AC</sub> = {dAC()} in. and cable BC has diameter d<sub>BC</sub> = {dBC()} in. If angle α = {alpha()}°, what angle Θ is required so that both cables experience the same average normal stress?")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
     def randomize_vars():
         random.seed(input.ID())
         W.set(random.randrange(300,1500,10))
-        dAC.set(random.randrange(10,50,1)/10)
         dBC.set(random.randrange(10,50,1)/10)
+        dAC.set(dBC()+random.randrange(10,20,1)/10)
         alpha.set(random.randrange(50,60,1))
         
     @reactive.Effect

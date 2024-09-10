@@ -1,0 +1,28 @@
+## Solution - Problem 2.23
+
+![](images/168.png)
+Recall the formula for shear stress:
+
+$$\tau = F/A$$
+
+First, the reaction force at the bar needs to be determined. By applying the sum of moments at the wall:
+
+$$\Sigma M_w = 0$$
+$$0 = R*L_1-F*(L_1+L_2)$$
+
+Solving for R:
+
+$$F*(L_1+L_2) = R*L_1$$
+$$R = F*(L_1+L_2)/L_1$$
+
+Area can be calculated next:
+
+$$A = \pi*r^2$$
+$$A = \pi*(d/2)^2$$
+Since the bar rests on top of the rod, two surfaces will carry the shear load. As such, the area will be multiplied by $2$.
+
+Plugging everything back in:
+
+$$\tau = R/(2*A)$$
+$$solution = (F*(L_1+L_2)/L_1)/(2*\pi*(d/2)^2)$$
+
