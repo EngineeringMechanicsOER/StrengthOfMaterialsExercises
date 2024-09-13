@@ -1,25 +1,29 @@
 ## Solution - Problem 2.1
 
 ![](images/138.png)
+Problem Statement:
+
+A series of solid circular bars are loaded with three loads as shown, F<sub>1</sub> = 60 N, F<sub>2</sub> = 20 N, and F<sub>3</sub> = 40 N. What is the largest absolute normal stress in any bar?
 
 Reactions at the wall need to be found:
 
 $$\Sigma F = 0 = R-F_1+F_2+F_3$$
-
 Solving for R:
 
-$$R = F_1-F_2-F_3$$
-
+$$R = F_1-F_2-F_3= 60\,N-20\,N-40\,N=0\,N$$
 The force in each bar must be found:
 
-$$F_{AB} = R\\$$ $$F_{BC} = F_1\\$$ $$F_{CD} = F_1-F_2\\$$ Bar radii need to be calculated:
+$$F_{AB} = R=0\,N$$ $$F_{BC} = F_1=60\,N$$ $$F_{CD} = F_1-F_2=60\,N-20\,N=40\,N$$ 
+Bar radii need to be calculated:
 
-$$r = d/2\\$$ $$r_{AB} = (8 mm/2) = 4 mm = 0.004 m\\$$ $$r_{BC} = (6mm/2) = 3mm = 0.003m\\$$ $$r_{CD} = (10mm/2) = 5mm = 0.005 m\\$$
+$$r = \frac{d}{2}$$ $$r_{AB} = \frac{8\,mm}{2} = 4\,mm = 0.004\,m$$ $$r_{BC} = \frac{6\,mm}{2} = 3\,mm = 0.003\,m$$ $$r_{CD} = \frac{10\,mm}{2} = 5\,mm = 0.005\,m$$
 
 Then stress can be calculated for each bar:
 
-$$\sigma = F/[\pi*r^2]\\$$ $$\sigma_{AB} = F_{AB}/[\pi*0.004^2]\\$$ $$\sigma_{BC} = F_{BC}/[\pi*0.003^2]\\$$ $$\sigma_{CD} = F_{CD}/[\pi*0.005^2]\\$$
+$$\sigma = \frac{F}{\pi*r^2}$$ $$\sigma_{AB} = \frac{0\,N}{\pi*(0.004\,m)^2}=0\,Pa$$ $$\sigma_{BC} = \frac{60\,N}{\pi*(0.003\,m)^2}=2.12*10^6\,Pa=2.12\,MPa$$ $$\sigma_{CD} = \frac{40\,N}{\pi*(0.005\,m)^2}=5.09*10^6\,Pa=5.09\,MPa$$
 
 The maximum absolute stress is the variable of interest:
 
 $$solution = max(|\sigma_{AB}|,|\sigma_{BC}|,|\sigma_{CD}|)$$
+$$solution = max(0\,MPa,2.12\,MPa,5.09\,MPa)$$
+$$solution = 5.09\,MPa$$

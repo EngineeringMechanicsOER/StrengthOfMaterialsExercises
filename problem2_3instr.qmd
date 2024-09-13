@@ -1,18 +1,21 @@
 ## Solution - Problem 2.3
 
 ![](images/144.png)
+Problem Statement:
+
+A plastic cylindrical peg is constrained by a metal cap as shown. An axial load of F = 40 lb is applied to the peg. If d<sub>1</sub> = 0.5 in and d<sub>2</sub> = 0.9 in, determine the normal stress in the peg. Assume the axial load is evenly distributed across the peg and that the metal cap is fixed and does not move.
+
 First normal stress needs to be defined:
 
-$$\sigma = F/A$$
+$$\sigma = \frac{F}{A}$$
 
 Since $A$ is in the denominator, the maximum normal stress will occur at the smallest area ($d_1$).
 
 $A_1$ can now be found:
 
 $$A = \pi*r^2$$
-$$A_1 = \pi*(d_1/2)^2$$
+$$A_1 = \pi*(\frac{0.5\,in}{2})^2=0.196\,in^2$$
 
 The maximum normal stress can now be found:
 
-$$solution = F/A_1$$
-$$solution = F/(\pi*(d_1/2)^2)$$
+$$solution = \frac{40\,lb}{0.196\,in^2}=204.08\,psi$$

@@ -1,17 +1,20 @@
 ## Solution - Problem 2.2
 
 ![](images/139.png)
+Problem Statement:
+
+Two cylinders are stacked on top of one another and two forces are applied at the top surface and at the joint between the cylinders as shown. If L<sub>1</sub> = 3 in., L<sub>2</sub> = 4 in., F<sub>A</sub> = 500 lb, and F<sub>B</sub> = 200 lb, find the total deflection in the stack of cylinders. Assume E = 30 x 10<sup>6</sup> psi for both cylinders.
 
 Total deflection for the system needs to be found:
 
-$$\delta = FL/AE$$ $$\delta_T = \delta_A+\delta_B$$ Areas for A and B need to be calculated:
+$$\delta = \frac{FL}{AE}$$ $$\delta_T = \delta_A+\delta_B$$ Areas for A and B need to be calculated:
 
-$$A = \pi*r^2$$ $$A_A = \pi*(5in/2)^2 = 19.63 in^2$$ $$A_B = \pi*(3in/2)^2 = 7.07 in^2$$ We are told the value for E:
+$$A = \pi*r^2$$ $$A_A = \pi*(\frac{5\,in}{2})^2 = 19.63\,in^2$$ $$A_B = \pi*(\frac{3\,in}{2})^2 = 7.07\,in^2$$ We are told the value for E:
 
-$$E = 30*10^6 psi$$ Deflection for A and B can now be found. First solving for the deflection from A:
+$$E = 30*10^6\,psi$$ Deflection for A and B can now be found. First solving for the deflection from A:
 
-$$\delta_A = F_A*L_1/A_A*E$$ $$\delta_A = F_A*L_1/(19.63in^2*30*10^6psi)$$ $$\delta_A = F_A*L_1/(588.9*10^6 lb)$$
+$$\delta_A = \frac{F_A*L_1}{A_A*E}$$ $$\delta_A = \frac{500\,lb*3\,in}{19.63\,in^2*30*10^6\,psi}$$ $$\delta_A = 2.55*10^{-6}\,in$$
 Now the deflection from B:
-$$\delta_B = F_B*L_2/A_B*E$$ $$\delta_B = F_B*L_2/(7.07in^2*30*10^6psi)$$ $$\delta_B = F_B*L_2/(212.1*10^6 lb)$$ Solving for total deflection:
+$$\delta_B = \frac{F_B*L_2}{A_B*E}$$ $$\delta_B = \frac{200\,lb*4\,in}{7.07\,in^2*30*10^6\,psi}$$ $$\delta_B = 3.77*10^{-6}\,in$$ Solving for total deflection:
 
-$$solution = \delta_A+\delta_B$$ $$solution = F_A*L_1/(588.9*10^6 lb)+F_B*L_2/(212.1*10^6 lb)$$
+$$solution = \delta_A+\delta_B$$ $$solution = 2.55*10^{-6}\,in+3.77*10^{-6}\,in=6.32*10^{-6}\,in$$

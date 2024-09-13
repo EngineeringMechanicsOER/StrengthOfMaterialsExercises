@@ -78,16 +78,15 @@ window.Quarto = {
 <section id="solution---problem-5.12" class="level2">
 <h2 class="anchored" data-anchor-id="solution---problem-5.12">Solution - Problem 5.12</h2>
 <p><img src="images/184.png" class="img-fluid"> Recall the definition of deflection:</p>
-<p><span class="math display">\[\delta = P*L/(A*E)\]</span></p>
-<p>The resultant force in each section must be found first. Working from the leftmost bar to the rightmost:</p>
-<p><span class="math display">\[R_1 = -F_1+F_2\]</span> <span class="math display">\[R_2 = F_2\]</span> <span class="math display">\[R_3 = 0 kN\]</span> *Due to no force on right end</p>
+<p><span class="math display">\[\delta = \frac{P*L}{A*E}\]</span> The resultant force in each section must be found first. Working from the leftmost bar to the rightmost:</p>
+<p><span class="math display">\[R_1 = -F_1+F_2\]</span> <span class="math display">\[R_2 = F_2\]</span> <span class="math display">\[R_3 = 0\,kN\]</span> *Due to no force on right end</p>
 <p>Defining other known traits:</p>
-<p><span class="math display">\[E_1 = 70 GPa\]</span> <span class="math display">\[E_2 = 210 GPa\]</span> <span class="math display">\[E_3 = 70 GPa\]</span></p>
+<p><span class="math display">\[E_1 = 70\,GPa\]</span> <span class="math display">\[E_2 = 210\,GPa\]</span> <span class="math display">\[E_3 = 70\,GPa\]</span></p>
 <p>Solving for areas:</p>
-<p><span class="math display">\[A = \pi*r^2\]</span> <span class="math display">\[A_1 = \pi*(0.25 m)^2\]</span> <span class="math display">\[A_1 = 0.196 m^2\]</span> <span class="math display">\[A_2 = \pi*(0.15 m)^2\]</span> <span class="math display">\[A_2 = 0.071 m^2\]</span> <span class="math display">\[A_3 = \pi*(0.2 m)^2\]</span> <span class="math display">\[A_3 = 0.126 m^2\]</span> Now finding the deflection for each cylinder:</p>
-<p><span class="math display">\[\delta_1 = R_1*L_1/(A_1*E_1)\]</span> <span class="math display">\[\delta_1 = (-F_1+F_2)*L_1/(0.196 m^2*70*10^9 Pa)\]</span> <span class="math display">\[\delta_1 = (-F_1+F_2)*L_1/(1.372*10^{10} N)\]</span> <span class="math display">\[\delta_2 = F_2*L_2/(0.071 m^2*210*10^9 Pa)\]</span> <span class="math display">\[\delta_2 = F_2*L_2/(1.491*10^10 N)\]</span> <span class="math display">\[\delta_3 = 0*L_3/(0.126 m^2*70*10^9 Pa)\]</span> <span class="math display">\[\delta_3 = 0 m\]</span></p>
+<p><span class="math display">\[A = \pi*r^2\]</span> <span class="math display">\[A_1 = \pi*(0.25\,m)^2\]</span> <span class="math display">\[A_1 = 0.196\,m^2\]</span> <span class="math display">\[A_2 = \pi*(0.15\,m)^2\]</span> <span class="math display">\[A_2 = 0.071\,m^2\]</span> <span class="math display">\[A_3 = \pi*(0.2\,m)^2\]</span> <span class="math display">\[A_3 = 0.126\,m^2\]</span> Now finding the deflection for each cylinder:</p>
+<p><span class="math display">\[\delta_1 = \frac{R_1*L_1}{A_1*E_1}\]</span> <span class="math display">\[\delta_1 = \frac{(-F_1+F_2)*L_1}{0.196\,m^2*70*10^9\,Pa}\]</span> <span class="math display">\[\delta_1 = \frac{(-F_1+F_2)*L_1}{1.372*10^{10}\,N}\]</span> <span class="math display">\[\delta_2 = \frac{F_2*L_2}{0.071\,m^2*210*10^9\,Pa}\]</span> <span class="math display">\[\delta_2 = \frac{F_2*L_2}{1.491*10^{10}\,N}\]</span> <span class="math display">\[\delta_3 = \frac{0*L_3}{0.126\,m^2*70*10^9\,Pa}\]</span> <span class="math display">\[\delta_3 = 0\,m\]</span></p>
 <p>To find total deflection of the system:</p>
-<p><span class="math display">\[\delta_T = \delta_1+\delta_2+\delta_3\]</span> <span class="math display">\[solution = (-F_1+F_2)*L_1/(1.372*10^{10} N)+F_2*L_2/(1.491*10^10 N)\]</span></p>
+<p><span class="math display">\[\delta_T = \delta_1+\delta_2+\delta_3\]</span> <span class="math display">\[solution = \frac{(-F_1+F_2)*L_1}{1.372*10^{10} \,N}+\frac{F_2*L_2}{1.491*10^{10}\,N}\]</span></p>
 </section>
 
 </main>

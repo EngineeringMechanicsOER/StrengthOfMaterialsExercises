@@ -4,7 +4,7 @@
 
 Recall the formula for bearing stress:
 
-$$\sigma_b = P_b/A_b$$
+$$\sigma_b = \frac{P_b}{A_b}$$
 
 Two objects will have bearing stress, the steel connector and the brass rod. Starting with the steel connector, the area is:
 
@@ -16,7 +16,7 @@ $$P_{c-b} = \sigma_{r-b}*A_{c-b}$$
 
 Plugging what we know in:
 
-$$P_{c-b} = 75ksi*t*d$$
+$$P_{c-b} = 75\,ksi*t*d$$
 
 Now for the brass rod. First to find the area:
 
@@ -28,8 +28,8 @@ $$P_{r-b} = \sigma_{r-b}*A_{r-b}$$
 
 Plugging what we know in:
 
-$$P_{r-b} = 70ksi*d*t$$
+$$P_{r-b} = 70\,ksi*d*t$$
 
 The brass rod will fail before the steel connector, thus:
 
-$$solution = 70ksi*d*t$$
+$$solution = 70\,ksi*d*t$$

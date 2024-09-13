@@ -8,7 +8,7 @@ $$F_{BD} = F$$
 Next, by applying method of joints at D in the X direciton:
 
 $$\Sigma F_x = 0$$
-$$0 = -F_{AD}*cos(tan^{-1}(1m/2m))+F_{DC}*cos(tan^{-1}(1m/1m))$$
+$$0 = -F_{AD}*cos(tan^{-1}(\frac{1\,m}{2\,m}))+F_{DC}*cos(tan^{-1}(\frac{1\,m}{1\,m}))$$
 
 Solving for $F_{DC}$:
 
@@ -48,20 +48,20 @@ The largest load occurs in $F_{BC}$, thus we will design for it. Assuming a Fact
 $$Design Load = F.S.*F_{BD}$$
 Recall the formula for normal stress:
 
-$$\sigma = F/A$$
+$$\sigma = \frac{F}{A}$$
 
 Solving for A:
 
-$$A = F/\sigma$$
+$$A = \frac{F}{\sigma}$$
 
 Plugging in our variables:
 
-$$A = Design Load/\sigma_{fail}$$
-$$A = F.S.*F_{BD}/\sigma_{fail}$$
+$$A = \frac{Design Load}{\sigma_{fail}}$$
+$$A = \frac{F.S.*F_{BD}}{\sigma_{fail}}$$
 Recall the area formula:
 
 $$A = a*a$$
 Thus solving for a:
 
-$$a^2 = F.S.*F_{BD}/\sigma_{fail}$$
-$$solution = \sqrt(F.S.*F_{BD}/\sigma_{fail})$$
+$$a^2 = \frac{F.S.*F_{BD}}{\sigma_{fail}}$$
+$$solution = \sqrt\frac{F.S.*F_{BD}}{\sigma_{fail}}$$

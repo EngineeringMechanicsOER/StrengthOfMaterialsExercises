@@ -3,7 +3,7 @@
 ![](images/166.png)
 Recall the formula for bending stress:
 
-$$\sigma_B = F/A$$
+$$\sigma_B = \frac{F}{A}$$
 
 Solving for area:
 
@@ -15,4 +15,4 @@ $$A = d_1*t$$
 
 Plugging back in:
 
-$$solution = F/(d_1*t)$$
+$$solution = \frac{F}{d_1*t}$$

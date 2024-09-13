@@ -3,17 +3,17 @@
 ![](images/156.png)
 Recall the definition of normal stress:
 
-$$\sigma_n = F/A$$
+$$\sigma_n = \frac{F}{A}$$
 
 Solving for area:
 
 $$A = t*h$$
-$$A = 2in*h$$
+$$A = 2\,in*h$$
 
 The cut occurs at $\theta^\circ$ off the vertical, as such:
 
-$$\sigma_n = (F/A)*cos^2(\theta)$$
+$$\sigma_n = \frac{F}{A}*cos^2(\theta)$$
 
 Solving for the normal stress:
 
-$$solution = (F/(2*h))*cos^2(\theta)$$
+$$solution = \frac{F*cos^2(\theta)}{2*h}$$

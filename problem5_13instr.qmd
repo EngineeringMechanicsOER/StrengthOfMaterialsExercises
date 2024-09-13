@@ -3,7 +3,7 @@
 ![](images/185.png)
 Recall the formula for deflection:
 
-$$\delta = F*L/(A*E)$$
+$$\delta = \frac{F*L}{A*E}$$
 
 First finding the internal forces for the brass and aluminum cylinders:
 
@@ -13,25 +13,24 @@ $$F_A = F_2$$
 Solving next for the corresponding areas of each cylinder:
 
 $$A = \pi*r^2$$
-$$A_B = \pi*(0.002 m)^2$$
-$$A_B = 1.257*10^{-5} m^2$$
-$$A_A = \pi*(0.003 m)^2$$
-$$A_A = 2.827*10^{-5} m^2$$
+$$A_B = \pi*(0.002\,m)^2$$
+$$A_B = 1.257*10^{-5}\,m^2$$
+$$A_A = \pi*(0.003\,m)^2$$
+$$A_A = 2.827*10^{-5}\,m^2$$
 
 Defining the known E parameters:
 
-$$E_B = 100 GPa$$
-$$E_A = 70 GPa$$
+$$E_B = 100\,GPa$$
+$$E_A = 70\,GPa$$
 
 Solving for each cylinder's deflection:
 
-$$\delta_B = F_B*L_B/(A_B*E_B)$$
-$$\delta_B = (F_2-F_1)*L_1/(1.257*10^{-5} m^2*100*10^9 Pa)$$
-$$\delta_B = (F_2-F_1)*L_1/(1.257*10^6 N)$$
-$$\delta_A = F_2*L_2/(2.827*10^{-5} m^2*70*10^9 Pa)$$
-$$\delta_A = F_2*L_2/(1.979*10^6 N)$$
-
+$$\delta_B = \frac{F_B*L_B}{A_B*E_B}$$
+$$\delta_B = \frac{(F_2-F_1)*L_1}{1.257*10^{-5}\,m^2*100*10^9\, Pa}$$
+$$\delta_B = \frac{(F_2-F_1)*L_1}{1.257*10^6\,N}$$
+$$\delta_A = \frac{F_2*L_2}{2.827*10^{-5}\,m^2*70*10^9\,Pa}$$
+$$\delta_A = \frac{F_2*L_2}{1.979*10^6\,N}$$
 Solving for total deflection of the system:
 
 $$\delta_T = \delta_B+\delta_A$$
-$$solution = (F_2-F_1)*L_1/(1.257*10^6 N)+F_2*L_2/(1.979*10^6 N)$$
+$$solution = \frac{(F_2-F_1)*L_1}{1.257*10^6\, N}+\frac{F_2*L_2}{1.979*10^6\,N}$$

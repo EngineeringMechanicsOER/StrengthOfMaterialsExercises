@@ -3,7 +3,7 @@
 ![](images/153.png)
 Recall the definition of shear stress:
 
-$$\tau = V/A$$
+$$\tau = \frac{V}{A}$$
 
 As the force is applied at an angle:
 
@@ -19,8 +19,8 @@ $$V = F*cos(\theta)$$
 To solve for the area of the plane:
 
 $$A = L*w$$
-$$A_p = L*2in$$
+$$A_p = L*2\,in$$
 
 Solving for shear stress:
 
-$$solution = F*cos(\theta)/(2*L)$$
+$$solution = \frac{F*cos(\theta)}{2*L}$$

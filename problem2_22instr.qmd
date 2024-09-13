@@ -3,17 +3,19 @@
 ![](images/165.png)
 Recall the definition for shear stress:
 
-$$\tau = V/A$$
+$$\tau = \frac{V}{A}$$
 
 Solving first for area:
 
 $$A = \pi*r^2$$
-$$A = \pi*(d/2)^2$$
+$$A = \pi*(\frac{d}{2})^2$$
 
 As there are two rivets, the load wil be halved. Thus:
 
-$$V = F/2$$
+$$V = \frac{F}{2}$$
 
 Plugging everything back in:
 
-$$solution = F/2/(\pi*(d/2)^2)$$
+$$solution = \frac{\frac{F}{2}}{\pi*(\frac{d}{2})^2}$$
+
+$$solution = \frac{F}{2*\pi*(\frac{d}{2})^2}$$

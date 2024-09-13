@@ -80,7 +80,7 @@ window.Quarto = {
 <p><img src="images/157.png" class="img-fluid"> First, all the member loads need to be determined. From inspection:</p>
 <p><span class="math display">\[F_{BD} = F\]</span></p>
 <p>Next, by applying method of joints at D in the X direciton:</p>
-<p><span class="math display">\[\Sigma F_x = 0\]</span> <span class="math display">\[0 = -F_{AD}*cos(tan^{-1}(1m/2m))+F_{DC}*cos(tan^{-1}(1m/1m))\]</span></p>
+<p><span class="math display">\[\Sigma F_x = 0\]</span> <span class="math display">\[0 = -F_{AD}*cos(tan^{-1}(\frac{1\,m}{2\,m}))+F_{DC}*cos(tan^{-1}(\frac{1\,m}{1\,m}))\]</span></p>
 <p>Solving for <span class="math inline">\(F_{DC}\)</span>:</p>
 <p><span class="math display">\[F_{DC}*cos(45^\circ) = F_{AD}*cos(26.75^\circ)\]</span> <span class="math display">\[F_{DC} = 1.263*F_{AD}\]</span></p>
 <p>Now applying method of joints at D in the Y direction:</p>
@@ -96,13 +96,13 @@ window.Quarto = {
 <p>Solving for <span class="math inline">\(F_{BC}\)</span>:</p>
 <p><span class="math display">\[F_{BC} = -0.941*F*0.707\]</span> <span class="math display">\[F_{BC} = -0.665*F\]</span> The largest load occurs in <span class="math inline">\(F_{BC}\)</span>, thus we will design for it. Assuming a Factor of Safety of F.S.:</p>
 <p><span class="math display">\[Design Load = F.S.*F_{BD}\]</span> Recall the formula for normal stress:</p>
-<p><span class="math display">\[\sigma = F/A\]</span></p>
+<p><span class="math display">\[\sigma = \frac{F}{A}\]</span></p>
 <p>Solving for A:</p>
-<p><span class="math display">\[A = F/\sigma\]</span></p>
+<p><span class="math display">\[A = \frac{F}{\sigma}\]</span></p>
 <p>Plugging in our variables:</p>
-<p><span class="math display">\[A = Design Load/\sigma_{fail}\]</span> <span class="math display">\[A = F.S.*F_{BD}/\sigma_{fail}\]</span> Recall the area formula:</p>
+<p><span class="math display">\[A = \frac{Design Load}{\sigma_{fail}}\]</span> <span class="math display">\[A = \frac{F.S.*F_{BD}}{\sigma_{fail}}\]</span> Recall the area formula:</p>
 <p><span class="math display">\[A = a*a\]</span> Thus solving for a:</p>
-<p><span class="math display">\[a^2 = F.S.*F_{BD}/\sigma_{fail}\]</span> <span class="math display">\[solution = \sqrt(F.S.*F_{BD}/\sigma_{fail})\]</span></p>
+<p><span class="math display">\[a^2 = \frac{F.S.*F_{BD}}{\sigma_{fail}}\]</span> <span class="math display">\[solution = \sqrt\frac{F.S.*F_{BD}}{\sigma_{fail}}\]</span></p>
 </section>
 
 </main>
