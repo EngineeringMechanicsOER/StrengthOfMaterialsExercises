@@ -1822,7 +1822,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A flat bar of thickness t = {t()} in. narrows with fillets as shown. If a lod P = {P()} lb is applied, determine the maximum stress in the bar.")]
+        return[ui.markdown(f"A flat bar of thickness t = {t()} in. narrows with fillets as shown. If a load P = {P()} lb is applied, determine the maximum stress in the bar.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
