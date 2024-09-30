@@ -51,7 +51,7 @@ def server(input, output, session):
     def ui_problem_statement():
         return [
             ui.markdown(
-                f"A metal end cap is secured to a wood structural member with grooves as shown. The failure shear and bearing stresses for the wood are σ<sub>s</sub> = {sigma_s()} ksi and σ<sub>b</sub> = {sigma_b()} ksi respectively. If load F = {F()} kips and dimension a = {a()} in., determine the dimensions, d and b, required for the wood not to fail."
+                f"A metal end cap is secured to a wood structural member with grooves as shown. The failure shear and bearing stresses for the wood are τ<sub>s</sub> = {sigma_s()} ksi and σ<sub>b</sub> = {sigma_b()} ksi respectively. If load F = {F()} kips and dimension a = {a()} in., determine the dimensions, d and b, required for the wood not to fail."
             )
         ]
 
@@ -72,7 +72,7 @@ def server(input, output, session):
         )  # Increment the attempt counter on each submission.
 
         # Calculate the instructor's answer and determine if the user's answer is correct.
-        P = 2*F()
+        P = F()/2
         Ab = P/sigma_b()
         instr1 = Ab/a()
         As = P/sigma_s()

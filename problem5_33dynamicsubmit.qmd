@@ -66,11 +66,12 @@ def server(input, output, session):
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        FB = (F1()*8*F2()*24)/16
+        FB = (F1()*8+F2()*24)/16
         FA = F1()+F2()-FB
         delB = FB*12/(EB()*10**6*AB())
         delA = FA*6/(EA()*10**6*AA())
-        instr = math.atan(delB/16)*180/math.pi
+        delta = delB-delA
+        instr = math.atan(delta/16)*180/math.pi
         
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"

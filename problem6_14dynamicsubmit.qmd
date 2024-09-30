@@ -55,7 +55,7 @@ def server(input, output, session):
     def randomize_vars():
         random.seed(input.ID())
         L.set(random.randrange(250, 500, 10))
-        ro.set(random.randrange(30, 75, 1))
+        ro.set(random.randrange(55, 75, 1))
         G.set(random.randrange(60, 100, 1))
         T.set(random.randrange(10, 100, 1)/10)
         stress.set(random.randrange(75, 150, 1))

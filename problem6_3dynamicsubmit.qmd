@@ -72,7 +72,6 @@ def server(input, output, session):
             instr = tau1
         else:
             instr = tau2
-        instr= (-1*F1*(d1()/2)/J1)*1000
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

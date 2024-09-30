@@ -18,14 +18,12 @@ from pathlib import Path
 
 def generate_random_letters(length):
     # Generate a random string of letters of specified length
-    return ''.join(random.choice(string.ascii_lowercase) for _ in range(length))  
+    return ''.join(random.choice(string.ascii_lowercase) for _ in range(length))
 
-problem_ID="139"
-L1=reactive.Value("__")
-L2=reactive.Value("__")
-FA=reactive.Value("__")
-FB=reactive.Value("__")
-E = 30*10**6
+problem_ID="210"
+x=reactive.Value("__")
+E=reactive.Value("__")
+v=reactive.Value("__")
   
 attempts=["Timestamp,Attempt,Answer,Feedback\n"]
 
@@ -35,11 +33,10 @@ app_ui = ui.page_fluid(
     ui.input_action_button("generate_problem", "Generate Problem", class_="btn-primary"),
     ui.markdown("**Problem Statement**"),
     ui.output_ui("ui_problem_statement"),
-    ui.input_text("answer","Your Answer in units of inches", placeholder="Please enter your answer"),
+    ui.input_text("answer","Your Answer in units of MPa", placeholder="Please enter your answer"),
     ui.input_action_button("submit", "Submit Answer", class_="btn-primary"),
     ui.download_button("download", "Download File to Submit", class_="btn-success"),
 )
-
 
 def server(input, output, session):
     # Initialize a counter for attempts
@@ -48,24 +45,22 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"Two cylinders are stacked on top of one another and two forces are applied at the top surface and at the joint between the cylinders as shown. If L<sub>1</sub> = {L1()} in., L<sub>2</sub> = {L2()} in., F<sub>A</sub> = {FA()} lb, and F<sub>B</sub> = {FB()} lb, find the total deflection in the stack of cylinders. Assume E = 30 x 10<sup>6</sup> psi for both cylinders. ")]
+        return[ui.markdown(f"A rigid block is subjected to uniform hydrostatic pressure, σ, on all surfaces. It is noted that the block contracts in the x-direction by {x()} x 10<sup>-3</sup> cm when the pressure is applied. If E = {E()} GPa and ν = {v()}, determine the magnitude of the applied pressure.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
     def randomize_vars():
         random.seed(input.ID())
-        FA.set(random.randrange(300, 700, 10))
-        FB.set(random.randrange(100, 300, 10))
-        L1.set(random.randrange(2, 7, 1))
-        L2.set(L1() * 1.3)
+        x.set(random.randrange(15,100,1)/10)
+        E.set(random.randrange(75,150,1))
+        v.set(random.randrange(20,40,1)/100)
         
-
     @reactive.Effect
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
     
-        instr= (FA()*L1())/((math.pi*(5/2)**2)*E) + (FB()*L2())/((math.pi*(3/2)**2)*E)
+        instr= x()/30*E()/(1-2*v())
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

@@ -1,4 +1,4 @@
-# Problem 5.39 - Statistically Indeterminate Problems {.unnumbered}
+# Problem 5.39 - Statically Indeterminate Problems {.unnumbered}
 
 ![Figure 1: A concrete post with 6 steel rebar rods embedded in the concrete supports a load. ](images/250.png){fig-alt=" A concrete post with 6 steel rebar rods embedded in the concrete supports a load, F. The post has diamete d[c] and the rebar rods have diamete d[s]. "}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

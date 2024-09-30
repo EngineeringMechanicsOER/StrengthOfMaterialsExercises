@@ -48,14 +48,13 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A solid square rod and round bar are pulled in series as shown. If load F<sub>1</sub> =  {F1()} kip, load F<sub>2</sub> = {F2()} kip, length L<sub>1</sub> = {L1()} in., and length L<sub>2</sub> = {L2()} in., determine the total displacement of the right tip of the structure. Assume E<sub>copper</sub> = 16x10<sup>6</sup> psi and E<sub>aluminum</sub> = 10x10<sup>6</sup> psi.")]
+        return[ui.markdown(f"A solid square rod and round bar are pulled in series as shown. If load F =  {F1()} kip, length L<sub>1</sub> = {L1()} in., and length L<sub>2</sub> = {L2()} in., determine the total displacement of the right tip of the structure. Assume E<sub>steel</sub> = 29x10<sup>6</sup> psi and E<sub>aluminum</sub> = 10x10<sup>6</sup> psi.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
     def randomize_vars():
         random.seed(input.ID())
-        F1.set(random.randrange(100,300,10))
-        F2.set(random.randrange(100,300,10))
+        F1.set(random.randrange(150,400,10))
         L1.set(random.randrange(6,25,1))
         L2.set(round(L1()*1.4,1))
         
@@ -63,13 +62,13 @@ def server(input, output, session):
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        Pc = F1()+F2()
-        Ec = 16*10**6
-        Ac = 1
-        Pa = F2()
+        Ps = F1()*1000
+        Es = 29*10**6
+        As = 4
+        Pa = F1()*1000
         Ea = 10*10**6
-        Aa = 0.375**2*math.pi
-        instr = Pc*L1()/(Ec*Ac)+Pa*L2()/(Ea*Aa)
+        Aa = 0.75**2*math.pi
+        instr = Ps*L1()/(Es*As)+Pa*L2()/(Ea*Aa)
         
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"

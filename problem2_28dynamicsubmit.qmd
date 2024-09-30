@@ -1,7 +1,5 @@
 # Problem 2.28 {.unnumbered}
 
-
-
 ![Figure 1: Two structual members are connected with a pin as shown.](images/177.png){fig-alt="Picture with two structural members connected by a pin of diameter d. Member AB has a height of 2a and member BC has a length of b. A force F is applied at height a from A."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
@@ -56,7 +54,7 @@ def server(input, output, session):
         random.seed(input.ID())
         d.set(random.randrange(20,100,5)/100)
         a.set(random.randrange(10,50,1)/10)
-        b.set(a()*random.randrange(12,17,1)/10)
+        b.set(round(a(),1)*round(random.randrange(12,17,1)/10))
         F.set(random.randrange(10,100,1)/10)
         
     @reactive.Effect

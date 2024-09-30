@@ -55,16 +55,16 @@ def server(input, output, session):
         random.seed(input.ID())
         sigma_x.set(random.randrange(5, 20, 1))
         sigma_y.set(random.randrange(5, 20, 1))
-        e_x.set(random.randrange(2000, 2500, 10))
+        e_x.set(random.randrange(2100, 2500, 10))
         placeholder.set(random.randrange(15,40,1)/100)
-        e_y.set(e_x()*(sigma_y()-placeholder()*sigma_x())/(sigma_x()+placeholder()*-sigma_y()))
+        e_y.set(round(e_x()*(sigma_y()-placeholder()*sigma_x())/(sigma_x()+placeholder()*-sigma_y())))
         
     @reactive.Effect
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
         
-        instr= (sigma_x()/e_x()+sigma_y()/-e_y())/(-sigma_y()/e_x()-sigma_x()/-e_y())
+        instr= -(sigma_x()/e_x()+sigma_y()/-e_y())/(-sigma_y()/e_x()-sigma_x()/-e_y())
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

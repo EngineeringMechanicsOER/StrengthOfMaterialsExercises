@@ -132,10 +132,10 @@ book:
         - problem9_23dynamicsubmit.qmd
         - problem9_24dynamicsubmit.qmd
         - problem9_25dynamicsubmit.qmd
-    #   - problem9_31dynamicsubmit.qmd
-    #   - problem9_32dynamicsubmit.qmd
-    #   - problem9_33dynamicsubmit.qmd
-    #   - problem9_34dynamicsubmit.qmd
+        - problem9_31dynamicsubmit.qmd
+        - problem9_32dynamicsubmit.qmd
+        - problem9_33dynamicsubmit.qmd
+        - problem9_34dynamicsubmit.qmd
     
     - part: "Chapter 10 Problems"
       chapter:
@@ -177,40 +177,40 @@ book:
     
     - part: "Chapter 12 Problems"
       chapters:
-    #   - problem12_1dynamicsubmit.qmd
-    #   - problem12_2dynamicsubmit.qmd
-    #   - problem12_3dynamicsubmit.qmd
-    #   - problem12_4dynamicsubmit.qmd
-    #   - problem12_5dynamicsubmit.qmd
-    #   - problem12_9dynamicsubmit.qmd
-    #   - problem12_10dynamicsubmit.qmd
-    #   - problem12_11dynamicsubmit.qmd
-    #   - problem12_12dynamicsubmit.qmd
-    #   - problem12_13dynamicsubmit.qmd
-    #   - problem12_25dynamicsubmit.qmd
-    #   - problem12_26dynamicsubmit.qmd
-    #   - problem12_27dynamicsubmit.qmd
-    #   - problem12_28dynamicsubmit.qmd
-    #   - problem12_29dynamicsubmit.qmd
-        - problem12_39dynamicsubmit.qmd
-        - problem12_40dynamicsubmit.qmd
+       - problem12_1dynamicsubmit.qmd
+       - problem12_2dynamicsubmit.qmd
+       - problem12_3dynamicsubmit.qmd
+       - problem12_4dynamicsubmit.qmd
+       - problem12_5dynamicsubmit.qmd
+       - problem12_9dynamicsubmit.qmd
+       - problem12_10dynamicsubmit.qmd
+       - problem12_11dynamicsubmit.qmd
+       - problem12_12dynamicsubmit.qmd
+       - problem12_13dynamicsubmit.qmd
+       - problem12_25dynamicsubmit.qmd
+       - problem12_26dynamicsubmit.qmd
+       - problem12_27dynamicsubmit.qmd
+       - problem12_28dynamicsubmit.qmd
+       - problem12_29dynamicsubmit.qmd
+       - problem12_39dynamicsubmit.qmd
+       - problem12_40dynamicsubmit.qmd
     
-    #- part: "Chapter 13 Problems"
-      #chapters:
+    - part: "Chapter 13 Problems"
+      chapters:
     #   - problem13_1dynamicsubmit.qmd
     #   - problem13_2dynamicsubmit.qmd
     #   - problem13_3dynamicsubmit.qmd
     #   - problem13_4dynamicsubmit.qmd
-    #   - problem13_15dynamicsubmit.qmd
+       - problem13_15dynamicsubmit.qmd
     #   - problem13_16dynamicsubmit.qmd
     
-    #- part: "Chapter 14 Problems"
-      #chapters:
-    #   - problem14_1dynamicsubmit.qmd
-    #   - problem14_2dynamicsubmit.qmd
-    #   - problem14_9dynamicsubmit.qmd
-    #   - problem14_10dynamicsubmit.qmd
-    #   - problem14_11dynamicsubmit.qmd
+    - part: "Chapter 14 Problems"
+      chapters:
+        - problem14_1dynamicsubmit.qmd
+        - problem14_2dynamicsubmit.qmd
+        - problem14_9dynamicsubmit.qmd
+        - problem14_10dynamicsubmit.qmd
+        - problem14_11dynamicsubmit.qmd
     
     #- part: "Chapter 15 Problems"
       #chapters:
@@ -336,10 +336,10 @@ book:
         - problem9_23staticsubmit.qmd
         - problem9_24staticsubmit.qmd
         - problem9_25staticsubmit.qmd
-        #- problem9_31staticsubmit.qmd
-        #- problem9_32staticsubmit.qmd
-        #- problem9_33staticsubmit.qmd
-        #- problem9_34staticsubmit.qmd
+        - problem9_31staticsubmit.qmd
+        - problem9_32staticsubmit.qmd
+        - problem9_33staticsubmit.qmd
+        - problem9_34staticsubmit.qmd
         
     - part: "Chapter 10"
       chapters:
@@ -381,40 +381,40 @@ book:
         
     - part: "Chapter 12"
       chapters:
-        #- problem12_1staticsubmit.qmd
-        #- problem12_2staticsubmit.qmd
-        #- problem12_3staticsubmit.qmd
-        #- problem12_4staticsubmit.qmd
-        #- problem12_5staticsubmit.qmd
-        #- problem12_9staticsubmit.qmd
-        #- problem12_10staticsubmit.qmd
-        #- problem12_11staticsubmit.qmd
-        #- problem12_12staticsubmit.qmd
-        #- problem12_13staticsubmit.qmd
-        #- problem12_25staticsubmit.qmd
-        #- problem12_26staticsubmit.qmd
-        #- problem12_27staticsubmit.qmd
-        #- problem12_28staticsubmit.qmd
-        #- problem12_29staticsubmit.qmd
+        - problem12_1staticsubmit.qmd
+        - problem12_2staticsubmit.qmd
+        - problem12_3staticsubmit.qmd
+        - problem12_4staticsubmit.qmd
+        - problem12_5staticsubmit.qmd
+        - problem12_9staticsubmit.qmd
+        - problem12_10staticsubmit.qmd
+        - problem12_11staticsubmit.qmd
+        - problem12_12staticsubmit.qmd
+        - problem12_13staticsubmit.qmd
+        - problem12_25staticsubmit.qmd
+        - problem12_26staticsubmit.qmd
+        - problem12_27staticsubmit.qmd
+        - problem12_28staticsubmit.qmd
+        - problem12_29staticsubmit.qmd
         - problem12_39staticsubmit.qmd
         - problem12_40staticsubmit.qmd
     
-    #- part: "Chapter 13"
-    #  chapters:
+    - part: "Chapter 13"
+      chapters:
     #    - problem13_1staticsubmit.qmd
     #    - problem13_2staticsubmit.qmd
         #- problem13_3staticsubmmit.qmd
         #- problem13_4staticsubmit.qmd
-        #- problem13_15staticsubmit.qmd
+        - problem13_15staticsubmit.qmd
         #- problem13_16staticsubmit.qmd
     
-    #- part: "Chapter 14"
-    #  chapters:
-    #    - problem14_1staticsubmit.qmd
-    #    - problem14_2staticsubmit.qmd
-        #- problem14_9staticsubmit.qmd
-        #- problem14_10staticsubmit.qmd
-        #- problem14_11staticsubmit.qmd
+    - part: "Chapter 14"
+      chapters:
+        - problem14_1staticsubmit.qmd
+        - problem14_2staticsubmit.qmd
+        - problem14_9staticsubmit.qmd
+        - problem14_10staticsubmit.qmd
+        - problem14_11staticsubmit.qmd
         
     #- part: "Chapter 15"
     #  chapters:
