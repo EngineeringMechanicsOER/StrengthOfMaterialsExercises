@@ -24,8 +24,7 @@ problem_ID="241"
 L=reactive.Value("__")
 d=reactive.Value("__")
 delT = reactive.Value("__")
-delta=reactive.Value("__")
-  
+
 attempts=["Timestamp,Attempt,Answer,Feedback\n"]
 
 app_ui = ui.page_fluid(
@@ -46,7 +45,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A circular bar of length L = {L()} in. and diameter d = {d()} in. is placed between two walls. The left end is fixed to the wall and the right end is ẟ =  {delta()} in. from the wall. The temperature of the bar is raised ΔT = {delT()}°F. Determine the average normal stress in the bar. Assume E = 29,000 ksi and α = 7 x 10<sup>-6</sup> /°F.")]
+        return[ui.markdown(f"A circular bar of length L = {L()} in. and diameter d = {d()} in. is placed between two walls. The left end is fixed to the wall and the right end is ẟ =  0.01 in. from the wall. The temperature of the bar is raised ΔT = {delT()}°F. Determine the average normal stress in the bar. Assume E = 29,000 ksi and α = 7 x 10<sup>-6</sup> /°F.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
@@ -55,14 +54,13 @@ def server(input, output, session):
         L.set(random.randrange(10,30,1))
         d.set(random.randrange(3,20,1)/10)
         delT.set(random.randrange(150,350,1))
-        delta.set(random.randrange(1,2,1))
 
     @reactive.Effect
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
         dTherm = 7*10**-6*delT()*L()
-        instr = (dTherm-delta()/1000)/(L()/29000)
+        instr = (dTherm-0.01/1000)/(L()/29000)
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

@@ -68,7 +68,7 @@ def server(input, output, session):
         dzT = apin()*10**-6*delT()*2*t()
         dxT = apin()*10**-6*delT()*d()
         exM = dxT/d()
-        ezM = -vpin()*2*exM/(1-vpin())
+        ezM = vpin()*2*exM/(1-vpin())
         dzM = ezM*2*t()
         instr = dzT+dzM
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):

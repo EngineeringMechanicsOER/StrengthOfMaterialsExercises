@@ -1,6 +1,5 @@
 # Problem 2.8 {.unnumbered}
 
-
 ![Figure 1: Truss ABCDEF supports two loads.](images/149.png){fig-alt="A truss is made of members with an area of A. The distance from A to B is L and from B to C is 2L. The vertical distance from A to D is L and the vertical distance from D to F is 2L. A force of 2F is applied at B and a force of F is applied at C."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
@@ -84,7 +83,7 @@ def server(input, output, session):
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer()}, {check}\n")
 
         # Show feedback to the user.
-        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}. For reference in debugging this, the calculated instructor answer is {instr}")
+        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}.")
         m = ui.modal(
             feedback,
             title="Feedback",

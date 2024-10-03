@@ -1,7 +1,5 @@
 # Problem 2.43 {.unnumbered}
 
-
-
 ![Figure 1: A metal end cap is secure to a wooden member as shown.](images/176.png){fig-alt="Picture with a metal end cap secured to a wood member. The wood has a height of a and a width of a. A force of F is applied to the assembly."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
@@ -100,7 +98,7 @@ def server(input, output, session):
         session.encoded_attempt = reactive.Value(encoded_attempt)
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer1()}, {input.answer2()}, {check}\n")
 
-        feedback = ui.markdown(f"Your answers of {input.answer1()} and {input.answer2()} are {check}. For reference in debugging this, the calculated instructor answers are {instr1} and {instr2}")
+        feedback = ui.markdown(f"Your answers of {input.answer1()} and {input.answer2()} are {check}.")
         m = ui.modal(feedback, title="Feedback", easy_close=True)
         ui.modal_show(m)
 

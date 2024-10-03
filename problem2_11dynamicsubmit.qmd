@@ -1,7 +1,5 @@
 # Problem 2.11 {.unnumbered}
 
-
-
 ![Figure 1: Truss ABCDEFGH supports three loads.](images/154.png){fig-alt="A truss supports three loads, F1, F2, and F3. The distance from A to B is 4ft, the distance from B to C is 4ft, the distance from C to D is 4ft, the distance from D to H is 4ft, and the vertical distance from B to E is 4ft. F1 is applied at E, F2 is applied at B, and F3 is applied at C. The members have a hollow cylindrical cross section with an outer radius of 1.0in and an inner radius of 0.75in."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
@@ -85,7 +83,7 @@ def server(input, output, session):
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer()}, {check}\n")
 
         # Show feedback to the user.
-        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}. For reference in debugging this, the calculated instructor answer is {instr}")
+        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}.")
         m = ui.modal(
             feedback,
             title="Feedback",

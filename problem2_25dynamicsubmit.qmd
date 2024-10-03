@@ -1,6 +1,5 @@
 # Problem 2.25 {.unnumbered}
 
-
 ![Figure 1: A lap joint is constructed with layers.](images/173.png){fig-alt="Picture with a four layer lap joint subjected to force F. The lap joint is L mm long and w mm wide."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
@@ -98,7 +97,7 @@ def server(input, output, session):
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer()}, {check}\n")
 
         # Show feedback to the user.
-        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}. For reference in debugging this, the calculated instructor answer is {instr}")
+        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}.")
         m = ui.modal(
             feedback,
             title="Feedback",

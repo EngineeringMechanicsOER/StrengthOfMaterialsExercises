@@ -1,6 +1,5 @@
 # Problem 3.1 {.unnumbered}
 
-
 ![Figure 1: A rubber cylinder experiences a deflection after a force is applied.](images/196.png){fig-alt="Picture with a rubber cylinder experiencing a deflection. Under load F, the cylinder is height L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
@@ -85,7 +84,7 @@ def server(input, output, session):
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer()}, {check}\n")
 
         # Show feedback to the user.
-        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}. For reference in debugging this, the calculated instructor answer is {instr}")
+        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}.")
         m = ui.modal(
             feedback,
             title="Feedback",
