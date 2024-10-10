@@ -138,7 +138,7 @@ book:
         - problem9_34dynamicsubmit.qmd
     
     - part: "Chapter 10 Problems"
-      chapter:
+      chapters:
         - problem10_1dynamicsubmit.qmd
         - problem10_4dynamicsubmit.qmd
         - problem10_5dynamicsubmit.qmd

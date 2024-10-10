@@ -1,6 +1,6 @@
 # Problem 7.15 - Shear Force & Bending Moment Equations {.unnumbered}
 
-![Figure 1: A beam is subjected to a distributed load and a force is applied. ](images/320.png){fig-alt=" A beam is subjected to a clockwise moment at the left end A with supports at B and C. The distance between A and B is L1 and the distance between B and C is L2."}
+![Figure 1: A beam is subjected to a distributed load and a force is applied. ](images/320.png){fig-alt="A beam is subjected to a clockwise moment at the left end A with supports at B and C. The distance between A and B is L1 and the distance between B and C is L2."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

@@ -1,6 +1,6 @@
 # Problem 6.12 - Torsional Deformation {.unnumbered}
 
-![Figure 1: A bar is attached to a wall.](images/268.png){fig-alt=" A bar is attached to a wall. The bar has an inner diameter of 1 in and outer diameter of 2 in. Torque, T[1] is applied halfway down the bar. The bar length is 10 in total."}
+![Figure 1: A bar is attached to a wall.](images/268.png){fig-alt="A bar is attached to a wall. The bar has an inner diameter of 1 in and outer diameter of 2 in. Torque, T[1] is applied halfway down the bar. The bar length is 10 in total."}
 
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 

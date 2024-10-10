@@ -49,7 +49,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A T-beam is constructed from two wooden boards nailed together as shown. The nails can withstand a shear load of {VN()} kN and the beam is subjected to a maximum shear force V = {V()} kN. If dimensions b<sub>1</sub> = {b1()} mm, b<sub>2</sub> = {b2()} mm, h<sub>1</sub> = {h1()} mm, and h<sub>2</sub> = {h2()} mm, determine the minimum permissable spacing between the nails.")]
+        return[ui.markdown(f"A T-beam is constructed from two wooden boards nailed together as shown. The nails can withstand a shear load of {VN()} kN and the beam is subjected to a maximum shear force V = {V()} kN. If dimensions b<sub>1</sub> = {b1()} mm, b<sub>2</sub> = {b2()} mm, h<sub>1</sub> = {h1()} mm, and h<sub>2</sub> = {h2()} mm, determine the minimum permissible spacing between the nails.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

@@ -46,7 +46,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A beam of length L = {L()} ft is constructed by nailing together three wooden boards. The beam is subjected to a concentrated load F = {F()} lb. If each nail can resist a shear load of {Vnail()} lb, determine the minimum permissable spacing between the nails.")]
+        return[ui.markdown(f"A beam of length L = {L()} ft is constructed by nailing together three wooden boards. The beam is subjected to a concentrated load F = {F()} lb. If each nail can resist a shear load of {Vnail()} lb, determine the minimum permissible spacing between the nails.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
