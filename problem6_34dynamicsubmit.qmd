@@ -1,6 +1,6 @@
-# Problem 5.42 {.unnumbered}
+# Problem 6.34 {.unnumbered}
 
-![Figure 1: Three steel circular rods are placed between two fixed walls.](images/254.png){fig-alt="Picture with three steel circular rods placed between two fixed walls. The first cylinder is of length 1 in, diameter 1 in, and has a force F1 applied at the right end. The second cylinder is of length 2 in, diameter 1.5 in, and has force F2 applied at the right end. The third cylinder is of length 3 in, and diameter 1 in."}
+![Figure 1: A steel rod and an aluminum rod are attached firmly between two walls.](images/301.png){fig-alt="Picture with a steel rod and an aluminum rod attached firmly between two walls. The aluminum rod has a length of L1 and a diameter of d1. The steel rod has a length of L2 and a diameter of d2."}
 
 ```{shinylive-python}
 #| standalone: true
@@ -18,12 +18,15 @@ from pathlib import Path
 
 def generate_random_letters(length):
     # Generate a random string of letters of specified length
-    return ''.join(random.choice(string.ascii_lowercase) for _ in range(length))
+    return ''.join(random.choice(string.ascii_lowercase) for _ in range(length))  
 
-problem_ID="255"
-F1=reactive.Value("__")
-F2=reactive.Value("__")
-
+problem_ID="301"
+L1=reactive.Value("__")
+L2=reactive.Value("__")
+d2=reactive.Value("__")
+d1=reactive.Value("__")
+angle=reactive.Value("__")
+  
 attempts=["Timestamp,Attempt,Answer,Feedback\n"]
 
 app_ui = ui.page_fluid(
@@ -32,7 +35,7 @@ app_ui = ui.page_fluid(
     ui.input_action_button("generate_problem", "Generate Problem", class_="btn-primary"),
     ui.markdown("**Problem Statement**"),
     ui.output_ui("ui_problem_statement"),
-    ui.input_text("answer","Your Answer in units of psi", placeholder="Please enter your answer"),
+    ui.input_text("answer","Your Answer in units of lb-in", placeholder="Please enter your answer"),
     ui.input_action_button("submit", "Submit Answer", class_="btn-primary"),
     ui.download_button("download", "Download File to Submit", class_="btn-success"),
 )
@@ -44,28 +47,27 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"Three circular steel rods (E = 29,000 ksi) are placed between two fixed walls as shown. Loads F<sub>1</sub> = {F1()} kips and F<sub>2</sub> = {F2()} kips are applied to the assembly. Determine the average normal stress in member 3. Please submit a positive answer for tension or a negative answer for compression.")]
+        return[ui.markdown(f"A steel (G = 12,700 ksi) rod and an aluminum (G = 4,300 ksi) rod are attached firmly between two walls as shown. The lengths are L<sub>1</sub> = {L1()} in. and L<sub>2</sub> = {L2()} in., while the diameters are d<sub>1</sub> = {d1()} in. and d<sub>2</sub> = {d2()} in. A torque T is applied at the joint between ther rods and it is measureed that the joint rotates {angle()}°. Determine the magnitude of torque T.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
     def randomize_vars():
         random.seed(input.ID())
-        F1.set(random.randrange(10,50,1))
-        F2.set(random.randrange(10,50,1))
-                
+        L1.set(random.randrange(5,25,1))
+        L2.set(L1()+random.randrange(2,5,1))
+        d2.set(random.randrange(50,300,5)/100)
+        d1.set(d2()+random.randrange(25,100,5)/100)
+        angle.set(random.randrange(10,50,1)/10)
+        
     @reactive.Effect
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        A1 = math.pi*0.5**2
-        A2 = math.pi*0.75**2
-        A3 = A1
-        L1 = 1
-        L2 = 2
-        L3 = 3
-        FA = (F1()*L2/A2+F1()*L3/A3+F2()*L3/A3)/(L1/A1+L2/A2+L3/A3)
-        FR3 = FA-F1()-F2()
-        instr = FR3*1000/A3
+        Js = math.pi*(d2()/2)**4/2
+        Jal = math.pi*(d1()/2)**4/2
+        Ts = angle()*math.pi/180*Js*12700000/L2()
+        Tal = angle()*math.pi/180*Jal*4300000/L1()
+        instr= Ts+Tal
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"
@@ -107,7 +109,7 @@ def server(input, output, session):
         for attempt in attempts[1:]:  # Skip the first element which is the header
             await asyncio.sleep(0.25)  # This delay may not be necessary; adjust as needed
             yield attempt
-
+            
 # App installation
 app = App(app_ui, server)
 ```

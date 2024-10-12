@@ -54,8 +54,8 @@ def server(input, output, session):
         random.seed(input.ID())
         d.set(random.randrange(20,60,1)/10)
         F1.set(random.randrange(25,100,1))
-        F2.set(random.randrange(25,100,1))
-        F3.set(random.randrange(25,100,1))
+        F2.set(random.randrange(20,100,1))
+        F3.set(random.randrange(30,100,1))
         
     @reactive.Effect
     @reactive.event(input.submit)
