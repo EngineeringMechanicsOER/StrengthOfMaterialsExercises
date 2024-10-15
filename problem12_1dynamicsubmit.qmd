@@ -1,6 +1,6 @@
 # Problem 12.1 - Equations {.unnumbered}
 
-![Figure 1: A member is subjected to a state of stress.](images/489.png){fig-alt="A member is induced to a state of stress with components sigma_y, tau_xy_ and sigma_x. The ember has a plane a-a at an angle theta."}
+![Figure 1: A member is subjected to a state of stress.](images/498.png){fig-alt="A member is induced to a state of stress with components sigma_y, tau_xy_ and sigma_x. The ember has a plane a-a at an angle theta."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
