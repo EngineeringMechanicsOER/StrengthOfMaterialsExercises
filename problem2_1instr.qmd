@@ -7,6 +7,8 @@ A series of solid circular bars are loaded with three loads as shown, F<sub>1</s
 
 ------------------------------------------------------------------------------------------------
 
+![](images/138 solution.png)
+
 Reactions at the wall need to be found:
 
 $$\Sigma F = 0 = R-F_1+F_2+F_3$$

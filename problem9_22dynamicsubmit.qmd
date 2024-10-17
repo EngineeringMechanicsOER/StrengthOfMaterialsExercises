@@ -1,6 +1,5 @@
 # Problem 9.22 - Beam Design {.unnumbered}
 
-
 ![Figure 1: A wide flange beam is subjected to two loads.](images/364.png){fig-alt="A wide flange beam of length 3L supports two loads of F. The first load occurs at L and the second load occurs at 2L. The beam is pinned at A and B."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
@@ -101,8 +100,8 @@ def server(input, output, session):
         mask = instr['Second Num'] == wmin
         instr = pd.DataFrame(instr[mask])
 
-        correct1 = int(input.answer1()) == instr.iloc[0,0]
-        correct2 = int(input.answer2()) == instr.iloc[0,1]
+        correct1 = float(input.answer1()) == instr.iloc[0,0]
+        correct2 = float(input.answer2()) == instr.iloc[0,1]
         
         if correct1 and correct2:
             check = "both correct."
