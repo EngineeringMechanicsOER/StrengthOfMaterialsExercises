@@ -1,7 +1,7 @@
 # Problem 4.26 {.unnumbered}
 
 ![Figure 1: A plate has pressuring loading applied in the x and y directions.](images/209.png){fig-alt="Picture with a plate undergoing pressure loading in the x and y directions. Strain values for x and y are listed from recordings by strain gages."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

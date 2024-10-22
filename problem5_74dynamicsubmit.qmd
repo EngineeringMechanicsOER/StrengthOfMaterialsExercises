@@ -1,7 +1,7 @@
 # Problem 5.74 {.unnumbered}
 
 ![Figure 1: Two circular rods are placed between two fixed walls.](images/260.png){fig-alt="Picture with two circular rods placed between two fixed walls. The top rod is made of steel and of length L1 and diameter 1 in. The bottom rod is made of aluminum and of length L2 and diameter 1.5 in."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

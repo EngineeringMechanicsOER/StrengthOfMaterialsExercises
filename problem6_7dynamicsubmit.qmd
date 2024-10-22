@@ -1,7 +1,7 @@
 # Problem 6.7 {.unnumbered}
 
 ![Figure 1: A bolt is tightened using a wrench.](images/282.png){fig-alt="Picture with a bolt being tightend using a wrench. The wrench is of length L and has a force F applied to it. The bolt has a diameter of d."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

@@ -1,7 +1,7 @@
 # Problem 6.6 {.unnumbered}
 
 ![Figure 1: A cantilever steel pole is subjected to a torque.](images/281.png){fig-alt="Picture with a cantilever steel pole being subjected to a torque T. The pole has a length of L and an outer diameter of do."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

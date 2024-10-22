@@ -1,7 +1,7 @@
 # Problem 6.17 {.unnumbered}
 
 ![Figure 1: A tire iron is used to tighten a nut on a tire.](images/277.png){fig-alt="Picture with a tire iron used to tighten a nut on a tire. The tire iron has a length of L and a diameter of d. There is a force F applied to the tire iron."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

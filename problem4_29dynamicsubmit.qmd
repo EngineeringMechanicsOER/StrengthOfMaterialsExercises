@@ -1,7 +1,7 @@
 # Problem 4.29 {.unnumbered}
 
 ![Figure 1: A solid block is subjected to forces on all surfaces.](images/212.png){fig-alt="Picture of a solid block being pulled in all directions. The block is 1 cm in the Z, 3 cm in the Y and 10 cm in the X."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

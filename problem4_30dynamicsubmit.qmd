@@ -1,7 +1,7 @@
 # Problem 4.30 {.unnumbered}
 
 ![Figure 1: A bar undergoes a pressure on the two long dimensions.](images/215.png){fig-alt="Picture of a bar undergoing a pressure on the two long dimensions. The bar is L long."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

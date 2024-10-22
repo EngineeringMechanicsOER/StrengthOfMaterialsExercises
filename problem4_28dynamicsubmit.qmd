@@ -1,7 +1,7 @@
 # Problem 4.28 {.unnumbered}
 
 ![Figure 1: A rectangular block is pulled in two directions.](images/211.png){fig-alt="Picture of a block being pulled in the X and Y directions. The block is 0.5 in in the Z, 8 in in the Y and 10 in in the X."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

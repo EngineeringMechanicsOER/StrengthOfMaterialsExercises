@@ -1,7 +1,7 @@
 # Problem 6.20 {.unnumbered}
 
 ![Figure 1: A load is applied to a bracket firmly attached to the wall.](images/283.png){fig-alt="Picture with a bracket firmly attached to the wall being subjected to a load. The bracket has a distance from the wall of a, a length of b, and is on a shaft of diameter d."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

@@ -1,7 +1,7 @@
 # Problem 4.17 {.unnumbered}
 
 ![Figure 1: A rubber block is subjected to two forces.](images/218.png){fig-alt="Picture of a rubber block undergoing two forces. The block is L long."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

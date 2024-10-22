@@ -1,7 +1,7 @@
 # Problem 5.69 {.unnumbered}
 
 ![Figure 1: A circular bar is placed between two walls.](images/241.png){fig-alt="Picture with a circular bar placed between two walls. The bar is of length L, the wall gap is delta, and the diameter of the bar is d."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

@@ -1,7 +1,7 @@
 # Problem 7.5 {.unnumbered}
 
 ![Figure 1: A beam is subjected to a force loading.](images/311.png){fig-alt="Picture with a beam subjected to a force loading. The bottom part of the beam has a length of 2*L1. The inclined part of the beam has a length of L2 at an angle of 45 degrees above the horizon. A force F1 is applied downward a distance of 2*L1 from the wall. A force F2 is applied to the right at the end of the inclined part of the beam."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

@@ -1,7 +1,7 @@
 # Problem 5.73 {.unnumbered}
 
 ![Figure 1: A cable is connected between two fixed surfaces.](images/253.png){fig-alt="Picture with a cable connected between two fixed surfaces. The cable is of length L."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

@@ -1,7 +1,7 @@
 # Problem 5.70 {.unnumbered}
 
 ![Figure 1: A crate is hung from a steel cable.](images/242.png){fig-alt="Picture with a crate hung from a steel cable. The crate is of weight W and distance delta from the floor. The wire is of length L."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

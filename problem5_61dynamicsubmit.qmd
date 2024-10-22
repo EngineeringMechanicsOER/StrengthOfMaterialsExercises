@@ -1,7 +1,7 @@
 # Problem 5.61 {.unnumbered}
 
 ![Figure 1: Two solid bars are heated.](images/232.png){fig-alt="Picture of two solid bars being heated. The first bar is made of steel and is of length L1 and the second bar is made of aluminum and is of length L2. The bars have a width of W and a thickness of t."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

@@ -1,7 +1,7 @@
 # Problem 6.26 {.unnumbered}
 
 ![Figure 1: Two steel circular rods are firmly welded together between two walls.](images/303.png){fig-alt="Picture with two steel cirular rods welded together between two walls. The left rod has a diameter of d1 and a length of 2L. The right rod has a diameter of d2 and a length of L. A torque T is applied at a distance of L from the left wall."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

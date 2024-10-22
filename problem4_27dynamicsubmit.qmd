@@ -1,7 +1,7 @@
 # Problem 4.27 {.unnumbered}
 
 ![Figure 1: A ridgid block is subjected to uniform hydrostatic pressure on all surfaces.](images/210.png){fig-alt="Picture of a block undergoing hydrostatic pressure. The block is 15 cm in the Z direction, 30 cm in the X direction, and 5 cm in the Y direction."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

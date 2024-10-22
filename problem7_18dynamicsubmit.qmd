@@ -1,7 +1,7 @@
 # Problem 7.18 {.unnumbered}
 
 ![Figure 1: A beam is subjected to a distributed load.](images/324.png){fig-alt="Picture with a beam being subjected to a distributed load. The beam is of length L1+L2. The distributed load, w, is applied over length L2."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

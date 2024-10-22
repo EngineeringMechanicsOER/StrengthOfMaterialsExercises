@@ -72,7 +72,10 @@ def server(input, output, session):
             attempt_counter() + 1
         )  # Increment the attempt counter on each submission.
         FA = (w()*L1()*L1()/2-F()*L2())/L1()
-        M = abs(FA*L1()-w()*L1()*L1()/2)
+        x = FA/w()
+        M1 = abs(FA*x*0.5)
+        M2 = abs(FA*L1()-w()*L1()*L1()/2)
+        M = max(M1,M2)
         S = M/sigma()*10**3
 
         # Create a dataframe

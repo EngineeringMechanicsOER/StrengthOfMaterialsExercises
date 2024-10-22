@@ -1,7 +1,7 @@
 # Problem 5.67 {.unnumbered}
 
 ![Figure 1: Two plates are held together with a platic pin.](images/239.png){fig-alt="Picture with two plates, each with a thickness of t, being held together with a pin of diameter d."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

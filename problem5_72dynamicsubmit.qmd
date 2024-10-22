@@ -1,7 +1,7 @@
 # Problem 5.72 {.unnumbered}
 
 ![Figure 1: A brass bar mounted to a wall is subjected to a temperature change.](images/244.png){fig-alt="Picture with a brass bar being subjected to a temperature change. The bar is of length L, diameter d, and has a force F applied to it."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

@@ -1,7 +1,7 @@
 # Problem 6.21 {.unnumbered}
 
 ![Figure 1: A solid cylinder is rigidly attached to a hollow cylinder.](images/285.png){fig-alt="Picture with a solid cylinder rigidly attached to a hollow cylinder. The hollow cylinder has a length of 5 cm, an outer radius of ro and an inner radius of ri. The solid cylinder has a length of 10 cm and a radius of r. A torque T is applied to the solid cylinder."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600

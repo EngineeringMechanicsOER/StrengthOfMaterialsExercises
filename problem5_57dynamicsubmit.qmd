@@ -1,7 +1,7 @@
 # Problem 5.57 {.unnumbered}
 
 ![Figure 1: Two solid circular rods are heated.](images/228.png){fig-alt="Picture with two solid circular rods heated. The first rod is made of titatium and is length L1 and the second rod is made or steel and is legnth L2."}
-
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600
