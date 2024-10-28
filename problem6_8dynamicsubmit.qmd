@@ -1,4 +1,4 @@
-# Problem 6.8 {.unnumbered}
+# Problem 6.8 - Torsional Stress {.unnumbered}
 
 ![Figure 1: A free rolling shaft supports three belt pulleys with a force loading.](images/291.png){fig-alt="Picture with a free rolling shaft supporting three belt pulleys with a force loading. Force F1 is applied to the first pulley on top, force F2 is applied to the second pulley on the bottom, and force F3 is applied to the third pulley on the top. The first pully has a radius of 12 in, the second pulley has a radius of 6 in, and the third pully has a radius of 10 in."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -1,4 +1,4 @@
-# Problem 7.20 {.unnumbered}
+# Problem 7.20 - Shear Force & Bending Moment Equations {.unnumbered}
 
 ![Figure 1: A cantilever beam is subjected to a distributed load and a force.](images/327.png){fig-alt="Picture with a cantilever beam being subjected to a distributed load and a force. The beam is of length 2L. A distributed load, w, is applied from 0 to L. The force, F, is applied at a distance of 2L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

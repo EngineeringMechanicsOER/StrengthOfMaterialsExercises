@@ -1,4 +1,4 @@
-# Problem 7.19 {.unnumbered}
+# Problem 7.19 - Shear Force & Bending Moment Equations {.unnumbered}
 
 ![Figure 1: A beam is subjected to a distributed load and a moment.](images/325.png){fig-alt="Picture with a beam being subjected to a distributed load and a moment. The beam is of length 2L. The distributed load, w, is triangular and applied over length 0 to L from the left. The moment, M, is applied counter clockwise at length 2L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

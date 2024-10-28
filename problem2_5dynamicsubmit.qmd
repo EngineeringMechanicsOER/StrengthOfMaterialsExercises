@@ -1,4 +1,4 @@
-# Problem 2.5 {.unnumbered}
+# Problem 2.5 - Average Normal Stress {.unnumbered}
 
 ![Figure 1: Two cylinders are attached together with two forces applied.](images/141.png){fig-alt="Two circular rods are attached together. Cylinder a has a diameter of d1 and a force applied to it of F1 to the left. Cylinder b has a diameter of d2 and a force applied to it of F2 to the right."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

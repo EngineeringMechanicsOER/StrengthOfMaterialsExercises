@@ -59,8 +59,12 @@ def server(input, output, session):
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        V = 30*w()+F1()-F2()
-        instr= V/20
+        Ay = (30*w()+F1()-F2())
+        V1 = Ay
+        V2 = V1 - 30*w()
+        V3 = V2 - F1()
+        V = max(abs(V1),abs(V2),abs(V3))
+        instr= 1.5*V/30
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"
@@ -105,4 +109,5 @@ def server(input, output, session):
 
 # App installation
 app = App(app_ui, server)
+
 ```

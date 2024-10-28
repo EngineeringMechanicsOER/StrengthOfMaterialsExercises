@@ -1,4 +1,4 @@
-# Problem 6.32 {.unnumbered}
+# Problem 6.32 - Statically Indeterminate Problems {.unnumbered}
 
 ![Figure 1: A load is applied to a bracket firmly attached to a wall.](images/294.png){fig-alt="Picture with a bracket firmly attached to a wall subjected to a load. The bracket has a length of b, is a distance of a from the wall, and is on a shaft of diameter do The shaft is made of copper and steel with a steel diameter of di and a copper diameter of do."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

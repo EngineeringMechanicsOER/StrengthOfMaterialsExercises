@@ -1,4 +1,4 @@
-# Problem 7.8 {.unnumbered}
+# Problem 7.8 - Internal Shear Force & Bending Moments by Equilibrium {.unnumbered}
 
 ![Figure 1: A beam is subjected to the loading shown.](images/317.png){fig-alt="Picture with a beam subjected to a loading. The beam is made of parts AB and BC. AB is of length L1 and BC is of length L2. A force F is applied at point B. A moment M is applied counterclockwise a distance of L3 left of C. Section aa is located a distance of L1/2 from A."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

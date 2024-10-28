@@ -1,4 +1,4 @@
-# Problem 7.6 {.unnumbered}
+# Problem 7.6 - Internal Shear Force & Bending Moments by Equilibrium {.unnumbered}
 
 ![Figure 1: A horizontal T beam is subjected to a force loading.](images/311.png){fig-alt="Picture with a horizontal T beam being subjected to a force loading. The base of the beam is of length 2a and the top of the beam is of length 2b. A distributed load w0 is applied over a length of 2b."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

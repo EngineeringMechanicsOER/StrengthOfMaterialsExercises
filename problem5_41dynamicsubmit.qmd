@@ -1,4 +1,4 @@
-# Problem 5.41 {.unnumbered}
+# Problem 5.41 - Statically Indeterminate Problems {.unnumbered}
 
 ![Figure 1: Three cylinders support a load.](images/254.png){fig-alt="Picture with three cylinders supporting a load. The first and third cylinder are made of steel and of length 2L and the middle cylinder is made of aluminum and of length L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -1,4 +1,4 @@
-# Problem 2.43 {.unnumbered}
+# Problem 2.43 - Bearing Stress {.unnumbered}
 
 ![Figure 1: A metal end cap is secure to a wooden member as shown.](images/176.png){fig-alt="Picture with a metal end cap secured to a wood member. The wood has a height of a and a width of a. A force of F is applied to the assembly."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

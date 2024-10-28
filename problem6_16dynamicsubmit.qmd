@@ -1,4 +1,4 @@
-# Problem 6.16 {.unnumbered}
+# Problem 6.16 - Torsional Deformation {.unnumbered}
 
 ![Figure 1: A cantilever rod is subjected to torsional loading.](images/275.png){fig-alt="Picture with a cantilever rod subjected to torsional loading. The rod is of length 3L and has a circular ring cross section. The rod has an outer radius of ro and an inner radius of ri. The first torsional load is applied clockwise a distance L from the wall and the second torsional load is applied counter clockwise a distance of 2L from the wall."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

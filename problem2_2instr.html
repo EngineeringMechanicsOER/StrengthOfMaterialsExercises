@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,13 +77,17 @@ window.Quarto = {
 
 <section id="solution---problem-2.2" class="level2">
 <h2 class="anchored" data-anchor-id="solution---problem-2.2">Solution - Problem 2.2</h2>
-<p><img src="images/139.png" class="img-fluid"> Problem Statement</p>
+<p><img src="images/139.png" class="img-fluid" width="700"></p>
+<p>Problem Statement:</p>
 <p>Two cylinders are stacked on top of one another and two forces are applied at the top surface and at the joint between the cylinders as shown. If L<sub>1</sub> = 3 in., L<sub>2</sub> = 4 in., F<sub>A</sub> = 500 lb, and F<sub>B</sub> = 200 lb, find the total deflection in the stack of cylinders. Assume E = 30 x 10<sup>6</sup> psi for both cylinders.</p>
+<hr>
 <p>Total deflection for the system needs to be found:</p>
-<p><span class="math display">\[\delta = \frac{FL}{AE}\]</span> <span class="math display">\[\delta_T = \delta_A+\delta_B\]</span> Areas for A and B need to be calculated:</p>
+<p><span class="math display">\[\delta = \frac{FL}{AE}\]</span> <span class="math display">\[\delta_T = \delta_A+\delta_B\]</span></p>
+<p>Areas for A and B need to be calculated:</p>
 <p><span class="math display">\[A = \pi*r^2\]</span> <span class="math display">\[A_A = \pi*(\frac{5\,in}{2})^2 = 19.63\,in^2\]</span> <span class="math display">\[A_B = \pi*(\frac{3\,in}{2})^2 = 7.07\,in^2\]</span> We are told the value for E:</p>
-<p><span class="math display">\[E = 30*10^6\,psi\]</span> Deflection for A and B can now be found. First solving for the deflection from A:</p>
-<p><span class="math display">\[\delta_A = \frac{F_A*L_1}{A_A*E}\]</span> <span class="math display">\[\delta_A = \frac{500\,lb*3\,in}{19.63\,in^2*30*10^6\,psi}\]</span> <span class="math display">\[\delta_A = 2.55*10^{-6}\,in\]</span> Now the deflection from B: <span class="math display">\[\delta_B = \frac{F_B*L_2}{A_B*E}\]</span> <span class="math display">\[\delta_B = \frac{200\,lb*4\,in}{7.07\,in^2*30*10^6\,psi}\]</span> <span class="math display">\[\delta_B = 3.77*10^{-6}\,in\]</span> Solving for total deflection:</p>
+<p><span class="math display">\[E = 30*10^6\,psi\]</span></p>
+<p>Deflection for A and B can now be found. First solving for the deflection from A:</p>
+<p><img src="images/139_solution_1.png" class="img-fluid" width="700"> <span class="math display">\[\delta_A = \frac{F_A*L_1}{A_A*E}\]</span> <span class="math display">\[\delta_A = \frac{500\,lb*3\,in}{19.63\,in^2*30*10^6\,psi}\]</span> <span class="math display">\[\delta_A = 2.55*10^{-6}\,in\]</span> Now the deflection from B: <img src="images/139_solution_2.png" class="img-fluid" width="700"> <span class="math display">\[\delta_B = \frac{F_B*L_2}{A_B*E}\]</span> <span class="math display">\[\delta_B = \frac{200\,lb*4\,in}{7.07\,in^2*30*10^6\,psi}\]</span> <span class="math display">\[\delta_B = 3.77*10^{-6}\,in\]</span> Solving for total deflection:</p>
 <p><span class="math display">\[solution = \delta_A+\delta_B\]</span> <span class="math display">\[solution = 2.55*10^{-6}\,in+3.77*10^{-6}\,in=6.32*10^{-6}\,in\]</span></p>
 </section>
 

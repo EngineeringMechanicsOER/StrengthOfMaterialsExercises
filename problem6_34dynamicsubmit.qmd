@@ -1,4 +1,4 @@
-# Problem 6.34 {.unnumbered}
+# Problem 6.34 - Statically Indeterminate Problems {.unnumbered}
 
 ![Figure 1: A steel rod and an aluminum rod are attached firmly between two walls.](images/301.png){fig-alt="Picture with a steel rod and an aluminum rod attached firmly between two walls. The aluminum rod has a length of L1 and a diameter of d1. The steel rod has a length of L2 and a diameter of d2."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -1,4 +1,4 @@
-# Problem 7.17 {.unnumbered}
+# Problem 7.17 - Shear Force & Bending Moment Equations {.unnumbered}
 
 ![Figure 1: A beam is subjected to two distributed loads.](images/323.png){fig-alt="Picture with a beam subjected to two distributed loads. The beam is of length 2L with AB being from 0 to L and BC being from L to 2L. The first distributed load, W1, is applied from A to B and the second distributed load, W2, is applied from B to C."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

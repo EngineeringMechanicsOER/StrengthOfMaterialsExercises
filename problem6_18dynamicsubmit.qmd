@@ -1,4 +1,4 @@
-# Problem 6.18 {.unnumbered}
+# Problem 6.18 - Torsional Deformation {.unnumbered}
 
 ![Figure 1: A two part rod is subjected to a torque at its free end.](images/279.png){fig-alt="Picture with a two part rod being subjected to a torque at its free end. The first part of the rod is made of aluminum with a length of L1 and diameter of d1. The second part of the rod is made of brass with a length of L2 and a diameter of d2."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

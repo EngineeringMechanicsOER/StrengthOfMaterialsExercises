@@ -1,4 +1,4 @@
-# Problem 4.31 {.unnumbered}
+# Problem 4.31 - Multiaxial Hooke's Law {.unnumbered}
 
 ![Figure 1: A brass sample is subjected to a uniform load on each side.](images/217.png){fig-alt="Picture of a brass sample subjected to a unform load on each side. The sample is 1 in in the Z, 2 in in the X and 3 in in the Y."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

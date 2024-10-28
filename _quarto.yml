@@ -196,11 +196,17 @@ book:
         #- problem7_18dynamicsubmit.qmd
         #- problem7_19dynamicsubmit.qmd
         #- problem7_20dynamicsubmit.qmd
+        #- problem7_21dynamicsubmit.qmd
         - problem7_25dynamicsubmit.qmd
         - problem7_26dynamicsubmit.qmd
         - problem7_27dynamicsubmit.qmd
         - problem7_28dynamicsubmit.qmd
         - problem7_29dynamicsubmit.qmd
+        #- problem7_30dynamicsubmit.qmd
+        #- problem7_31dynamicsubmit.qmd
+        #- problem7_32dynamicsubmit.qmd
+        #- problem7_33dynamicsubmit.qmd
+        #- problem7_34dynamicsubmit.qmd
         
     - part: "Chapter 8 Problems"
       chapters:
