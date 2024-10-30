@@ -1,8 +1,7 @@
-# Problem 10.19 - Shear Flow {.unnumbered}
+# Problem 9.13 - Bending Stress {.unnumbered}
 
-![Figure 1: A simply supported beam consisting of three pieces nailed together is subjected to a point load.](images/382.png){fig-alt="A beam of length 2L is subjected to a force F. The distance from A to F is length L and from F to B is length L. The beam has an I cross section of width 5 inches and height 5 inches. There are nails on the top and bottom of the I."}
+![Figure 1: Cross section of a circular beam.](images/355.png){fig-alt="Picture with a cross section of a circular beam. The cross section is made of two circles with different radii. The circular cut out has a radius of ri and the larger circle has a radius of ro. The centers of the circles are offset by delta."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
-
 ```{shinylive-python}
 #| standalone: true
 #| viewerHeight: 600
@@ -21,10 +20,11 @@ def generate_random_letters(length):
     # Generate a random string of letters of specified length
     return ''.join(random.choice(string.ascii_lowercase) for _ in range(length))  
 
-problem_ID="382"
-L=reactive.Value("__")
-F=reactive.Value("__")
-Vnail=reactive.Value("__")
+problem_ID="355"
+ri=reactive.Value("__")
+ro=reactive.Value("__")
+offset=reactive.Value("__")
+M=reactive.Value("__")
   
 attempts=["Timestamp,Attempt,Answer,Feedback\n"]
 
@@ -34,7 +34,7 @@ app_ui = ui.page_fluid(
     ui.input_action_button("generate_problem", "Generate Problem", class_="btn-primary"),
     ui.markdown("**Problem Statement**"),
     ui.output_ui("ui_problem_statement"),
-    ui.input_text("answer","Your Answer in units of inches", placeholder="Please enter your answer"),
+    ui.input_text("answer","Your Answer in units of ksi", placeholder="Please enter your answer"),
     ui.input_action_button("submit", "Submit Answer", class_="btn-primary"),
     ui.download_button("download", "Download File to Submit", class_="btn-success"),
 )
@@ -46,25 +46,30 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A beam of length L = {L()} ft is constructed by nailing together three wooden boards. The beam is subjected to a concentrated load F = {F()} lb. If each nail can resist a shear load of {Vnail()} lb, determine the minimum permissible spacing between the nails.")]
+        return[ui.markdown(f"A beam has the cross-section shown, where r<sub>o</sub> = {ro()} in. and r<sub>i</sub> = {ri()} in. The inner radius hollow center is offsest by ẟ = {offset()} in. Determine the bending stress at the bottom of the beam when it is subjected to an internal bending moment M = {M()} kip-ft.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
     def randomize_vars():
         random.seed(input.ID())
-        L.set(random.randrange(20, 100, 1)/10)
-        F.set(random.randrange(300, 900, 1))
-        Vnail.set(random.randrange(100, 200, 1))
+        ri.set(random.randrange(20,60,1)/10)
+        ro.set(ri()+random.randrange(20,30,1)/10)
+        offset.set(round((ro()-ri())/2,1))
+        M.set(random.randrange(25,100,1))
         
     @reactive.Effect
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        V = F()/2
-        I = 43.08
-        Q = 10
-        Tau = V*Q/I
-        instr= Vnail()/Tau
+        A1 = math.pi*ri()**2
+        A2 = math.pi*ro()**2
+        y1 = -ro()-offset()
+        y2 = ro()
+        ybar = (A1*y1+A2*y2)/(A1+A2)
+        I1 = ri()**4*math.pi/4
+        I2 = ro()**4*math.pi/4
+        I = -I1-(-y1-ybar)**2*A1+I2+(y2-ybar)**2*A2
+        instr= M()*12*ybar/I
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"
@@ -85,7 +90,7 @@ def server(input, output, session):
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer()}, {check}\n")
 
         # Show feedback to the user.
-        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}.")
+        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}. For reference in debugging this, the calculated instructor answer is {instr}")
         m = ui.modal(
             feedback,
             title="Feedback",
@@ -109,5 +114,4 @@ def server(input, output, session):
 
 # App installation
 app = App(app_ui, server)
-
 ```

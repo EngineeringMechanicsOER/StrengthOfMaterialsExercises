@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-A W14 x 34 channel beam is used as a column that is pinned at both ends. If length L = 30 ft and the elastic modulus E = 280 x 10<sup>6</sup> psi, determine the critical stress for the column.
+A W14 x 34 beam is used as a column that is pinned at both ends. If length L = 30 ft and the elastic modulus E = 280 x 10<sup>6</sup> psi, determine the critical stress for the column.
 
 ![Figure 1: A channel beam is subjected to a criritcal point load.](images/610.png){fig-alt="A C 12x30 channel beam has a length of L and is subjected to a force Pcr."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -1,6 +1,6 @@
 # Problem 15.2 - Buckling & Yield - Euler's Formula {.unnumbered}
 
-![Figure 1: A channel beam is subjected to a criritcal point load.](images/610.png){fig-alt="A C 12x30 channel beam has a length of L and is subjected to a force Pcr."}
+![Figure 1: A beam is subjected to a criritcal point load.](images/610.png){fig-alt="A C 12x30 channel beam has a length of L and is subjected to a force Pcr."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
@@ -45,7 +45,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A W14 x 34 channel beam is used as a column that is pinned at both ends. If length L = {L()} ft and the elastic modulus E = {E()} x 10<sup>6</sup> psi, determine the critical stress for the column.")]
+        return[ui.markdown(f"A W14 x 34 beam is used as a column that is pinned at both ends. If length L = {L()} ft and the elastic modulus E = {E()} x 10<sup>6</sup> psi, determine the critical stress for the column.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

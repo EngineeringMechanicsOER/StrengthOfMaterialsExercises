@@ -2422,7 +2422,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A W14 x 34 channel beam is used as a column that is pinned at both ends. If length L = {L()} ft and the elastic modulus E = {E()} x 10&lt;sup&gt;6&lt;/sup&gt; psi, determine the critical stress for the column.")]
+        return[ui.markdown(f"A W14 x 34 beam is used as a column that is pinned at both ends. If length L = {L()} ft and the elastic modulus E = {E()} x 10&lt;sup&gt;6&lt;/sup&gt; psi, determine the critical stress for the column.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

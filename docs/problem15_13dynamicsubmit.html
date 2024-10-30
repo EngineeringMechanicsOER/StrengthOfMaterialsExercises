@@ -2423,7 +2423,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A W8 x 15 beam is used as a column with one end fixed and the other end pinned. If the length of the column L = {L()} ft, determine the largest load it can carry with a factor of safety of {FS()}. The elastic modulus E = {E()} ksi.")]
+        return[ui.markdown(f"A W8 x 15 beam (I&lt;sub&gt;x&lt;/sub&gt; = 48.0 in.&lt;sup&gt;4&lt;/sup&gt;, I&lt;sub&gt;y&lt;/sub&gt; = 3.41 in.&lt;sup&gt;4&lt;/sup&gt;) is used as a column with one end fixed and the other end pinned. If the length of the column L = {L()} ft, determine the largest load it can carry with a factor of safety of {FS()}. The elastic modulus E = {E()} ksi.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

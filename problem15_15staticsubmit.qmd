@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-To draw attention, a junkyard owner mounts a car on top of a column of length L = 30 ft made from a W8 x 15 beam I<sub>x</sub> = 48.0 in.<sup>4</sup>, I<sub>y</sub> = 3.41 in.<sup>4</sup>). If the elastic modulus E = 29,000 ksi, what is the heaviest car body that can be used to avoid buckling? Use a factor of safety of 2.25.
+To draw attention, a junkyard owner mounts a car on top of a column of length L = 30 ft made from a W8 x 15 beam (I<sub>x</sub> = 48.0 in.<sup>4</sup>, I<sub>y</sub> = 3.41 in.<sup>4</sup>). If the elastic modulus E = 29,000 ksi, what is the heaviest car body that can be used to avoid buckling? Use a factor of safety of 2.25.
 
 ![Figure 1: A car is mounted on a spare I beam.](images/625.png){fig-alt="A car is placed on top of a W8x15 beam of length L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
