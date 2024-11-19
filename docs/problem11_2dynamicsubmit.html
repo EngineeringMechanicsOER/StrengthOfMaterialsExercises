@@ -2423,7 +2423,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A cantilever beam of length L = {L()} m is subjected to a linear distributed load where w&lt;sub&gt;0&lt;/sub&gt; = {w0()} kN/m. Determine the rotation of the beam at the free end. Assume EI = {EI()} kN-m&lt;sup&gt;2&lt;/sup&gt;.")]
+        return[ui.markdown(f"A cantilever beam of length L = {L()} m is subjected to a linear distributed load where w&lt;sub&gt;0&lt;/sub&gt; = {w0()} kN/m. Determine the magnitude of the slope of the beam at the free end. Assume EI = {EI()} kN-m&lt;sup&gt;2&lt;/sup&gt;.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
@@ -2439,7 +2439,7 @@ def server(input, output, session):
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
         M = w0()*L()**2/3
         F = L()*w0()/2
-        instr= (w0()*L()**3/(8*EI()))*180/math.pi
+        instr= abs((w0()*L()**3/(8*EI()))*180/math.pi)
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

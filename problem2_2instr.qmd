@@ -1,6 +1,8 @@
 ## Solution - Problem 2.2
 
-![](images/139.png){width="700"} 
+<p align="center">
+![](images/139.png){width="500"}
+</p>
 
 Problem Statement:
 
@@ -8,6 +10,8 @@ Two cylinders are stacked on top of one another and two forces are applied at th
 
 ------------------------------------------------------------------------
 
+::: callout-note
+## Step 1
 Total deflection for the system needs to be found:
 
 $$\delta = \frac{FL}{AE}$$ $$\delta_T = \delta_A+\delta_B$$
@@ -17,11 +21,30 @@ Areas for A and B need to be calculated:
 $$A = \pi*r^2$$ $$A_A = \pi*(\frac{5\,in}{2})^2 = 19.63\,in^2$$ $$A_B = \pi*(\frac{3\,in}{2})^2 = 7.07\,in^2$$ We are told the value for E:
 
 $$E = 30*10^6\,psi$$
-
+:::
+::: callout-note
+## Step 2
 Deflection for A and B can now be found. First solving for the deflection from A:
 
-![](images/139_solution_1.png){width="700"}
-$$\delta_A = \frac{F_A*L_1}{A_A*E}$$ $$\delta_A = \frac{500\,lb*3\,in}{19.63\,in^2*30*10^6\,psi}$$ $$\delta_A = 2.55*10^{-6}\,in$$ Now the deflection from B:
-![](images/139_solution_2.png){width="700"} $$\delta_B = \frac{F_B*L_2}{A_B*E}$$ $$\delta_B = \frac{200\,lb*4\,in}{7.07\,in^2*30*10^6\,psi}$$ $$\delta_B = 3.77*10^{-6}\,in$$ Solving for total deflection:
+<p align="center">
+![](images/139_solution_1.png){width="500"}
+</p>
+$$\delta_A = \frac{F_A*L_1}{A_A*E}$$ $$\delta_A = \frac{500\,lb*3\,in}{19.63\,in^2*30*10^6\,psi}$$ $$\delta_A = 2.55*10^{-6}\,in$$ 
+:::
+::: callout-note
+## Step 3
+Now the deflection from B:
+<p align="center">
+![](images/139_solution_2.png){width="500"} 
+</p>
+$$\delta_B = \frac{F_B*L_2}{A_B*E}$$ $$\delta_B = \frac{200\,lb*4\,in}{7.07\,in^2*30*10^6\,psi}$$ $$\delta_B = 3.77*10^{-6}\,in$$ 
+:::
+::: callout-note
+## Step 4
+
+Solving for total deflection:
 
 $$solution = \delta_A+\delta_B$$ $$solution = 2.55*10^{-6}\,in+3.77*10^{-6}\,in=6.32*10^{-6}\,in$$
+:::
+\[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
+

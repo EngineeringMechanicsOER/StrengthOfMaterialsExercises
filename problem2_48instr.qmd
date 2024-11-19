@@ -1,19 +1,43 @@
 ## Solution - Problem 2.48
 
-![](images/156.png)
+<p align="center">
+![](images/156.png){width="500"}
+</p>
+
+Problem Statement:
+
+A 2 inch thick board is cut and then glued back together along a line that is Θ = 15° off the vertical as shown. If height h = 10 in. and F = 3500 lb, determine the normal stress along the cut line.
+
+------------------------------------------------------------------------
+
+::: callout-note
+## Step 1
+
 Recall the definition of normal stress:
 
 $$\sigma_n = \frac{F}{A}$$
 
 Solving for area:
 
-$$A = t*h$$
-$$A = 2\,in*h$$
+$$A = t*h$$ $$A = 2\,in*10\,in$$
+$$A = 20\,in^2$$
+:::
+
+::: callout-note
+## Step 2
 
 The cut occurs at $\theta^\circ$ off the vertical, as such:
+
+<p align="center">
+![](images/156%20solution.png){width="500"}
+</p>
 
 $$\sigma_n = \frac{F}{A}*cos^2(\theta)$$
 
 Solving for the normal stress:
 
-$$solution = \frac{F*cos^2(\theta)}{2*h}$$
+$$solution = \frac{3500\,lb*cos^2(15^\circ)}{20\,in^2}$$
+$$solution = 163.28\,psi$$
+:::
+
+\[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

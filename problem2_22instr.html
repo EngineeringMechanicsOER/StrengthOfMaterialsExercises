@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,14 +77,38 @@ window.Quarto = {
 
 <section id="solution---problem-2.22" class="level2">
 <h2 class="anchored" data-anchor-id="solution---problem-2.22">Solution - Problem 2.22</h2>
-<p><img src="images/165.png" class="img-fluid"> Recall the definition for shear stress:</p>
+<p align="center">
+<img src="images/165.png" class="img-fluid" width="500">
+</p>
+<p>Problem Statement:</p>
+<p>A bracket is attached to a wall with two circular rivets of diameter d = 20 mm. A load F = 50 kN is applied in the center of the bracket. Assuming the load is split evenly between the two rivits, determine the shear stress in each rivet.</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Recall the definition for shear stress:</p>
 <p><span class="math display">\[\tau = \frac{V}{A}\]</span></p>
 <p>Solving first for area:</p>
+<p align="center">
+<img src="images/165%20solution.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[A = \pi*r^2\]</span> <span class="math display">\[A = \pi*(\frac{d}{2})^2\]</span></p>
+<p><span class="math display">\[A = \pi*(\frac{20\,mm}{2})^2\]</span> <span class="math display">\[A = 314.16\,mm^2\]</span></p>
 <p>As there are two rivets, the load wil be halved. Thus:</p>
-<p><span class="math display">\[V = \frac{F}{2}\]</span></p>
+<p><span class="math display">\[V = \frac{F}{2}\]</span> <span class="math display">\[V = \frac{50\,kN}{2}\]</span> <span class="math display">\[V = 25\,kN\]</span></p>
 <p>Plugging everything back in:</p>
-<p><span class="math display">\[solution = \frac{\frac{F}{2}}{\pi*(\frac{d}{2})^2}\]</span></p>
+<p><span class="math display">\[solution = \frac{25\,kN}{314.16\,mm^2}\]</span></p>
+<p><span class="math display">\[solution = \frac{25000\,N}{3.1416*10^{-4}\,m^2}\]</span> <span class="math display">\[solution = 79,557,285 Pa = 79.58 MPa\]</span></p>
+</div>
+</div>
+<p>[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0]</p>
 </section>
 
 </main>

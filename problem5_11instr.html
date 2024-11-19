@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,31 +77,112 @@ window.Quarto = {
 
 <section id="solution---problem-5.11" class="level2">
 <h2 class="anchored" data-anchor-id="solution---problem-5.11">Solution - Problem 5.11</h2>
-<p><img src="images/183.png" class="img-fluid"> Recall the definition of deflection:</p>
+<p align="center">
+<img src="images/183.png" class="img-fluid" width="500">
+</p>
+<p>Problem Statement:</p>
+<p>A series of solid, steel, circular bars are loaded with forces as shown, where F1 = 3 kN, F2 = 2 kN, F3 = 3 kN, and F4 = 4 kN. What is the total change in length of the system? Assume E = 210 GPa for steel.</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Recall the definition of deflection:</p>
 <p><span class="math display">\[\delta = \frac{P*L}{E*A}\]</span></p>
-<p>Total deflection is made of the deflection for each of the bars shown. Starting with bar 1 (the first three centimeters):</p>
+<p>Total deflection is made of the deflection for each of the bars shown. Starting with bar 1:</p>
+<p align="center">
+<img src="images/183_solution_1.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[A_1 = \pi*r_1^2\]</span> <span class="math display">\[A_1 = \pi*(0.005\,m)^2\]</span> <span class="math display">\[A_1 = 7.854*10^{-5}\,m^2\]</span></p>
 <p>Now defining the remaining variables for bar 1:</p>
 <p><span class="math display">\[L_1 = 3\,cm = 0.03\,m\]</span> <span class="math display">\[E_1 = 200\,GPa\]</span> And solving for deflection 1:</p>
-<p><span class="math display">\[\delta_1 = \frac{F_1*0.03\,m}{ 200*10^9\,Pa*7.854*10^{-5}\,m^2}\]</span> <span class="math display">\[\delta_1 = F_1*1.912*10^{-9}\,\frac{m}{N}\]</span></p>
+<p><span class="math display">\[\delta_1 = \frac{3000\,N*0.03\,m}{ 200*10^9\,Pa*7.854*10^{-5}\,m^2}\]</span> <span class="math display">\[\delta_1 = 0.005736\,mm\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 2
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Now solving for deflection 2 in bar 2. First finding the area:</p>
+<p align="center">
+<img src="images/183_solution_2.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[A_2 = \pi*(0.01\,m)^2\]</span> <span class="math display">\[A_2 = 3.142*10^{-4}\,m^2\]</span></p>
 <p>Defining remaining variables for bar 2:</p>
 <p><span class="math display">\[L_2 = 0.03\,m\]</span> <span class="math display">\[E = 200\,GPa\]</span></p>
 <p>And solving for deflection 2:</p>
-<p><span class="math display">\[\delta_2 = \frac{(F_1+F_2)*0.03\,m}{200*10^9\,Pa*3.142*10^{-4} \,m^2}\]</span> <span class="math display">\[\delta_2 = (F_1+F_2)*4.774*10^{-10}\,\frac{m}{N}\]</span> Solving next for deflection in the third bar, first by finding the area:</p>
+<p><span class="math display">\[\delta_2 = \frac{(3000\,N+2000\,N)*0.03\,m}{200*10^9\,Pa*3.142*10^{-4} \,m^2}\]</span> <span class="math display">\[\delta_2 = 0.002387\,mm\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Solving next for deflection in the third bar, first by finding the area:</p>
+<p align="center">
+<img src="images/183_solution_3.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[A_3 = \pi*(.0025\,m)^2\]</span> <span class="math display">\[A_3 = 1.963*10^{-5}\,m^2\]</span> Defining remaning variables for bar 3:</p>
 <p><span class="math display">\[L_3 = 0.04\,m\]</span> <span class="math display">\[E_3 = 200\,GPa\]</span> Solving for deflection 3:</p>
-<p><span class="math display">\[\delta_3 = \frac{(F_1+F_2+F_3)*0.04\,m}{200*10^9\,Pa*1.963*10^{-5} \,m^2}\]</span> <span class="math display">\[\delta_3 = (F_1+F_2+F_3)*1.019*10^{-8}\,\frac{m}{N}\]</span> Solving next for deflection 4 beginning with finding the area:</p>
+<p><span class="math display">\[\delta_3 = \frac{(3000\,N+2000\,N+3000\,N)*0.04\,m}{200*10^9\,Pa*1.963*10^{-5} \,m^2}\]</span> <span class="math display">\[\delta_3 = 0.08152\,mm\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 4
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Solving next for deflection 4 beginning with finding the area:</p>
+<p align="center">
+<img src="images/183_solution_4.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[A_4 = \pi*(0.005\,m)^2\]</span> <span class="math display">\[A_4 = 7.854*10^{-5}\,m^2\]</span></p>
 <p>Defining remaining parameters:</p>
 <p><span class="math display">\[L_4 = 0.02\,m\]</span> <span class="math display">\[E_4 = 200\,GPa\]</span></p>
 <p>Solving for deflection 4:</p>
-<p><span class="math display">\[\delta_4 = \frac{(F_1+F_2+F_3+F_4)*0.02\,m}{200*10^9\, Pa*7.854*10^{-5}\,m^2}\]</span> <span class="math display">\[\delta_4 = (F_1+F_2+F_3+F_4)*1.273*10^{-9}\,\frac{m}{N}\]</span></p>
+<p><span class="math display">\[\delta_4 = \frac{(3000\,N+2000\,N+3000\,N+4000\,N)*0.02\,m}{200*10^9\, Pa*7.854*10^{-5}\,m^2}\]</span> <span class="math display">\[\delta_4 = 0.015276\,mm\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 5
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>To find total deflection, we combine the deflection for each section, that is:</p>
 <p><span class="math display">\[\delta_t = \delta_1+\delta_2+\delta_3+\delta_4\]</span></p>
 <p>Therefore:</p>
-<p><span class="math display">\[Solution = F_1*1.912*10^{-9}\,\frac{m}{N}+(F_1+F_2)*4.774*10^{-10}\,\frac{m}{N}+(F_1+F_2+F_3)*1.019*10^{-8}\,\frac{m}{N}+(F_1+F_2+F_3+F_4)*1.273*10^{-9}\,\frac{m}{N}\]</span></p>
+<p><span class="math display">\[Solution = 0.005736\,mm+0.002387\,mm+0.08152\,mm+0.015276\,mm\]</span> <span class="math display">\[Solution = 0.1049\,mm\]</span></p>
+</div>
+</div>
+<p>[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0]</p>
 </section>
 
 </main>

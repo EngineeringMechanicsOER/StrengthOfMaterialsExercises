@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,18 +77,68 @@ window.Quarto = {
 
 <section id="solution---problem-5.13" class="level2">
 <h2 class="anchored" data-anchor-id="solution---problem-5.13">Solution - Problem 5.13</h2>
-<p><img src="images/185.png" class="img-fluid"> Recall the formula for deflection:</p>
-<p><span class="math display">\[\delta = F*L/(A*E)\]</span></p>
+<p align="center">
+<img src="images/185.png" class="img-fluid" width="500">
+</p>
+<p>Problem Statement:</p>
+<p>Two forces, F1 = 1 kN and F2 = 2 kN, are applied to the system of cylinders as shown. If L1 = 10 mm and L2 = 14 mm, what is the total change in length of the system. Assume Ebrass = 100 GPa and Ealuminum = 70 GPa.</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Recall the formula for deflection:</p>
+<p><span class="math display">\[\delta = \frac{F*L}{A*E}\]</span></p>
 <p>First finding the internal forces for the brass and aluminum cylinders:</p>
-<p><span class="math display">\[F_B = F_2-F_1\]</span> <span class="math display">\[F_A = F_2\]</span></p>
+<p align="center">
+<img src="images/185_solution_1.png" class="img-fluid" width="500">
+</p>
+<span class="math display">\[F_B = F_2-F_1\]</span> <span class="math display">\[F_B = 2\,kN-1\,kN\]</span> <span class="math display">\[F_B = 1\,kN\]</span>
+<p align="center">
+<img src="images/185_solution_2.png" class="img-fluid" width="500">
+</p>
+<p><span class="math display">\[F_A = F_2\]</span> <span class="math display">\[F_A = 2\,kN\]</span></p>
 <p>Solving next for the corresponding areas of each cylinder:</p>
-<p><span class="math display">\[A = \pi*r^2\]</span> <span class="math display">\[A_B = \pi*(0.002 m)^2\]</span> <span class="math display">\[A_B = 1.257*10^{-5} m^2\]</span> <span class="math display">\[A_A = \pi*(0.003 m)^2\]</span> <span class="math display">\[A_A = 2.827*10^{-5} m^2\]</span></p>
+<p><span class="math display">\[A = \pi*r^2\]</span> <span class="math display">\[A_B = \pi*(0.002\,m)^2\]</span> <span class="math display">\[A_B = 1.257*10^{-5}\,m^2\]</span> <span class="math display">\[A_A = \pi*(0.003\,m)^2\]</span> <span class="math display">\[A_A = 2.827*10^{-5}\,m^2\]</span></p>
 <p>Defining the known E parameters:</p>
-<p><span class="math display">\[E_B = 100 GPa\]</span> <span class="math display">\[E_A = 70 GPa\]</span></p>
+<p><span class="math display">\[E_B = 100\,GPa\]</span> <span class="math display">\[E_A = 70\,GPa\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 2
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Solving for each cylinder’s deflection:</p>
-<p><span class="math display">\[\delta_B = F_B*L_B/(A_B*E_B)\]</span> <span class="math display">\[\delta_B = (F_2-F_1)*L_1/(1.257*10^{-5} m^2*100*10^9 Pa)\]</span> <span class="math display">\[\delta_B = (F_2-F_1)*L_1/(1.257*10^6 N)\]</span> <span class="math display">\[\delta_A = F_2*L_2/(2.827*10^{-5} m^2*70*10^9 Pa)\]</span> <span class="math display">\[\delta_A = F_2*L_2/(1.979*10^6 N)\]</span></p>
+<p><span class="math display">\[\delta_B = \frac{F_B*L_B}{A_B*E_B}\]</span> <span class="math display">\[\delta_B = \frac{1000\,N*0.01\,m}{1.257*10^{-5}\,m^2*100*10^9\, Pa}\]</span> <span class="math display">\[\delta_B = 7.955*10^{-6}\,m\]</span> <span class="math display">\[\delta_A = \frac{2000\,N*0.014\,m}{2.827*10^{-5}\,m^2*70*10^9\,Pa}\]</span> <span class="math display">\[\delta_A = 17.490*10^{-6}\,m\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 3
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Solving for total deflection of the system:</p>
-<p><span class="math display">\[\delta_T = \delta_B+\delta_A\]</span> <span class="math display">\[solution = (F_2-F_1)*L_1/(1.257*10^6 N)+F_2*L_2/(1.979*10^6 N)\]</span></p>
+<p><span class="math display">\[\delta_T = \delta_B+\delta_A\]</span> <span class="math display">\[solution = 7.955*10^{-6}\,m+17.490*10^{-6}\,m\]</span> <span class="math display">\[solution = 25.445*10^{-6}\,m\]</span></p>
+</div>
+</div>
+<p>[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0]</p>
 </section>
 
 </main>

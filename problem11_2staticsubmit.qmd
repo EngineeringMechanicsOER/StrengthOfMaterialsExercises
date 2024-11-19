@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-A cantilever beam of length L = 1.5 m is subjected to a linear distributed load where w<sub>0</sub> = 1 kN/m. Determine the rotation of the beam at the free end. Assume EI = 10 kN-m<sup>2</sup>.
+A cantilever beam of length L = 1.5 m is subjected to a linear distributed load where w<sub>0</sub> = 1 kN/m. Determine the magnitude of the slope of the beam at the free end. Assume EI = 10 kN-m<sup>2</sup>.
 
 ![Figure 1: A cantilever beam is subjected to the loading shown.](images/392.png){fig-alt="A cantilever beam of length L is subjected to a linear distributed load w0."}
 

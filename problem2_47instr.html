@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,17 +77,51 @@ window.Quarto = {
 
 <section id="solution---problem-2.47" class="level2">
 <h2 class="anchored" data-anchor-id="solution---problem-2.47">Solution - Problem 2.47</h2>
-<p><img src="images/153.png" class="img-fluid"> Recall the definition of shear stress:</p>
-<p><span class="math display">\[\tau = V/A\]</span></p>
+<p align="center">
+<img src="images/153.png" class="img-fluid" width="500">
+</p>
+<p>Problem Statement:</p>
+<p>Two slanted brackets are glued together as shown. If F = 500 lb, L = 4 in., and Θ = 20°, determine the shear stress parallel to the inclined plane. Assume loads are inline and there is no rotation.</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Recall the definition of shear stress:</p>
+<p><span class="math display">\[\tau = \frac{V}{A}\]</span></p>
 <p>As the force is applied at an angle:</p>
+<p align="center">
+<img src="images/153%20solution.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[V = F*sin(90^\circ-\theta)\]</span> Recalling conventions of geometry:</p>
 <p><span class="math display">\[sin(90^\circ-\theta) = cos(\theta)\]</span></p>
 <p>Thus:</p>
-<p><span class="math display">\[V = F*cos(\theta)\]</span></p>
+<p><span class="math display">\[V = F*cos(\theta)\]</span> <span class="math display">\[V = 500\,lb*cos(20^\circ)\]</span> <span class="math display">\[V = 469.85\,lb\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 2
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>To solve for the area of the plane:</p>
-<p><span class="math display">\[A = L*w\]</span> <span class="math display">\[A_p = L*2in\]</span></p>
+<p><span class="math display">\[A = L*w\]</span> <span class="math display">\[A_p = 4\,in*2\,in\]</span> <span class="math display">\[A_p = 8\,in^2\]</span></p>
 <p>Solving for shear stress:</p>
-<p><span class="math display">\[solution = F*cos(\theta)/(2*L)\]</span></p>
+<p><span class="math display">\[solution = \frac{469.85\,lb}{8\,in^2}\]</span> <span class="math display">\[solution = 58.73\,psi\]</span></p>
+</div>
+</div>
+<p>[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0]</p>
 </section>
 
 </main>

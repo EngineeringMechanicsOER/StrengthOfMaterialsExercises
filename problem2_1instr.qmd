@@ -1,6 +1,12 @@
 ## Solution - Problem 2.1
 
-![](images/138.png){width="500"} Problem Statement:
+<p align="center">
+
+![](images/138.png){width="500"}
+
+</p>
+
+Problem Statement:
 
 A series of solid circular bars are loaded with three loads as shown, F<sub>1</sub> = 60 N, F<sub>2</sub> = 20 N, and F<sub>3</sub> = 40 N. What is the largest absolute normal stress in any bar?
 
@@ -15,16 +21,23 @@ Reactions at the wall need to be found:
 
 $$R = F_1-F_2-F_3= 60\,N-20\,N-40\,N=0\,N$$ The force in each bar must be found:
 
-![](images/138_solution_2.png){width="400"} $F_{AB} = R=0\,N$
+![](images/138_solution_2.png){width="500"} $$F_{AB} = R=0\,N$$
 
-![](images/138_solution_3.png){width="400"} $F_{BC} = F_1=60\,N$
+![](images/138_solution_3.png){width="500"} $$F_{BC} = F_1=60\,N$$
 
-![](images/138_solution_4.png){width="400"} $$F_{CD} = F_1-F_2=60\,N-20\,N=40\,N$$
+![](images/138_solution_4.png){width="500"} $$F_{CD} = F_1-F_2=60\,N-20\,N=40\,N$$
 :::
+
+::: callout-note
+## Step 2
 
 Bar radii need to be calculated:
 
 $$r = \frac{d}{2}$$ $$r_{AB} = \frac{8\,mm}{2} = 4\,mm = 0.004\,m$$ $$r_{BC} = \frac{6\,mm}{2} = 3\,mm = 0.003\,m$$ $$r_{CD} = \frac{10\,mm}{2} = 5\,mm = 0.005\,m$$
+:::
+
+::: callout-note
+## Step 3
 
 Then stress can be calculated for each bar:
 
@@ -32,4 +45,7 @@ $$\sigma = \frac{F}{\pi*r^2}$$ $$\sigma_{AB} = \frac{0\,N}{\pi*(0.004\,m)^2}=0\,
 
 The maximum absolute stress is the variable of interest:
 
-$$solution = max(|\sigma_{AB}|,|\sigma_{BC}|,|\sigma_{CD}|)$$ $$solution = max(0\,MPa,2.12\,MPa,5.09\,MPa)$$ $$solution = 5.09\,MPa$$ \[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
+$$solution = max(|\sigma_{AB}|,|\sigma_{BC}|,|\sigma_{CD}|)$$ $$solution = max(0\,MPa,2.12\,MPa,5.09\,MPa)$$ $$solution = 5.09\,MPa$$
+:::
+
+\[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

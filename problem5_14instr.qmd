@@ -1,0 +1,16 @@
+## Solution - Problem 5.14
+
+<p align="center">
+![](images/186.png){width="500"}
+</p>
+
+Problem Statement:
+
+A series of solid circular steel bars are loaded as shown, where F1 = 60 N, F2 = 20 N, and F3 = 40 N. If lengths L1 = 30 cm, L2 = 30 cm, and L3 = 40 cm, determine the total change in length of the system. Assume Esteel = 210 GPa.
+
+---
+::: callout-note
+## Step 1
+TEXT HERE
+:::
+\[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

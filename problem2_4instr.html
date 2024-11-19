@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,20 +77,68 @@ window.Quarto = {
 
 <section id="solution---problem-2.4" class="level2">
 <h2 class="anchored" data-anchor-id="solution---problem-2.4">Solution - Problem 2.4</h2>
-<p><img src="images/146.png" class="img-fluid"> Three possible cables could carry the maximum load. Let us define them as <span class="math inline">\(R_1\)</span> for the cable at <span class="math inline">\(45^\circ\)</span> above the horizon at A, <span class="math inline">\(R_3\)</span> for the cable <span class="math inline">\(30^\circ\)</span> below the horizon at B, and <span class="math inline">\(R_2\)</span> for the cable <span class="math inline">\(75^\circ\)</span> above the horizon at B.</p>
-<p>Note that we are told to ignore the cable at A holding the crate, and the horizontal cable at B can be ignored since …</p>
-<p>Now we need to begin solving for the cables. From method of joints, beginning with joint A in the X direction:</p>
-<p><span class="math display">\[\Sigma F_x = 0\]</span> <span class="math display">\[0 = -R_3*cos(30^\circ)+R_1*cos(45^\circ)\]</span> <span class="math display">\[R_3*cos(30^\circ) = R_1*cos(45^\circ)\]</span> <span class="math display">\[R_3 = 0.707*R_1/0.866\]</span> <span class="math display">\[R_3 = 0.817*R_1\]</span></p>
+<p align="center">
+<img src="images/146.png" class="img-fluid" width="500">
+</p>
+<p>Problem Statement:</p>
+<p>A crate weighing 45 kN is suspended by a set of cables. The diameter of each cable is 5 mm. What is the maximum stress in any cable, excluding the cable attached to the crate.</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+Begin by solving for reaction forces in the cables. From the method of joints, beginning with joint A in the X direction:
+<p align="center">
+<img src="images/146_solution_1.png" class="img-fluid" width="500">
+</p>
+<p><span class="math display">\[\Sigma F_x = 0\]</span> <span class="math display">\[0 = -R_3*cos(30^\circ)+R_1*cos(45^\circ)\]</span> <span class="math display">\[R_3*cos(30^\circ) = R_1*cos(45^\circ)\]</span> <span class="math display">\[R_3 = 0.707*\frac{R_1}{0.866}\]</span> <span class="math display">\[R_3 = 0.817*R_1\]</span></p>
 <p>For forces in the Y direction at joint A:</p>
 <p><span class="math display">\[\Sigma F_Y = 0\]</span> <span class="math display">\[0 = -W+R_3*sin(30^\circ)+R_1*sin(45^\circ)\]</span> Plugging in the value for <span class="math inline">\(R_3\)</span> and moving W:</p>
 <p><span class="math display">\[W = 0.817*R_1sin(30^\circ)+R_1*sin(45^\circ)\]</span> <span class="math display">\[W = 0.4085*R_1+0.707*R_1\]</span> <span class="math display">\[W = 1.116*R_1\]</span> Solving for <span class="math inline">\(R_1\)</span>:</p>
-<p><span class="math display">\[R_1 = 0.8961*W\]</span> Plugging in to solve for <span class="math inline">\(R_3\)</span>:</p>
-<p><span class="math display">\[R_3 = 0.817*0.8961*W\]</span> <span class="math display">\[R_3 = 0.7321*W\]</span> Now applying the method of joints at B in the Y direction:</p>
+<p><span class="math display">\[R_1 = 0.8961*W=0.8961*45\,kN=40.32\,kN\]</span> Plugging in to solve for <span class="math inline">\(R_3\)</span>:</p>
+<p><span class="math display">\[R_3 = 0.817*40.32\,kN=32.94\,kN\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+Now applying the method of joints at B in the Y direction:
+<p align="center">
+<img src="images/146_solution_2.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[\Sigma F_y = 0\]</span> <span class="math display">\[R_2*sin(75^\circ)-R_3*sin(30^\circ)=0\]</span> Solving for R2:</p>
-<p><span class="math display">\[0.966*R_2 = 0.7321*W*0.5\]</span> <span class="math display">\[R_2 = 0.3789*W\]</span> Now comparing forces to find the max:</p>
-<p><span class="math display">\[Max F = max(|R_1|,|R_2|,|R_3|)\]</span> Determine the area of the cables:</p>
-<p><span class="math display">\[A = \pi*r^2\]</span> <span class="math display">\[A = \pi*(\frac{d}{2})^2\]</span> And finally solve for maximum stress in a cable:</p>
-<p><span class="math display">\[\sigma = \frac{F}{A}\]</span> <span class="math display">\[solution = \frac{MaxF}{\pi*(\frac{d}{2})^2)}\]</span></p>
+<p><span class="math display">\[0.966*R_2 = 0.7321*W*0.5\]</span> <span class="math display">\[R_2 = 0.3789*W=0.3789*45\,kN=17.05\,kN\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Now comparing forces to find the max:</p>
+<p><span class="math display">\[Max F = max(|R_1|,|R_2|,|R_3|)=max(40.32\,kN,32.94\,kN,17.05\,kN)=40.32\,kN\]</span> Determine the area of the cables:</p>
+<p><span class="math display">\[A = \pi*r^2\]</span> <span class="math display">\[A = \pi*(\frac{0.005\,m}{2})^2=1.96*10^{-5}\,m^2\]</span> And finally solve for maximum stress in a cable:</p>
+<p><span class="math display">\[\sigma = \frac{F}{A}\]</span> <span class="math display">\[solution = \frac{40.32\,kN}{1.96*10^{-5}\,m^2}=2,057,142,875 \,Pa = 2.06\,GPa\]</span></p>
+</div>
+</div>
 </section>
 
 </main>

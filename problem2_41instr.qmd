@@ -1,14 +1,28 @@
 ## Solution - Problem 2.41
 
-![](images/169.png)
+<p align="center">
+![](images/169.png){width="500"}
+</p>
 
+Problem Statement:
+
+A steel connector plate is hung from a brass rod of diameter d = 1 in. The plate has dimensions t = 0.5 in. and w = 2 in. Considering only bearing stress, find the minimum load that will cause the connector or rod to fail. Assume the failure bearing stress for brass is 70 ksi and for steel is 75 ksi.
+
+---
+::: callout-note
+## Step 1
 Recall the formula for bearing stress:
 
 $$\sigma_b = \frac{P_b}{A_b}$$
 
 Two objects will have bearing stress, the steel connector and the brass rod. Starting with the steel connector, the area is:
+<p align="center">
+![](images/169_solution_2.png){width="500"}
+</p>
 
 $$A_{c-b} = t*d$$
+$$A_{c-b} = 0.5\,in*1\,in$$
+$$A_{c-b} = 0.5\,in^2$$
 
 Solving for the bearing load:
 
@@ -16,11 +30,20 @@ $$P_{c-b} = \sigma_{r-b}*A_{c-b}$$
 
 Plugging what we know in:
 
-$$P_{c-b} = 75\,ksi*t*d$$
+$$P_{c-b} = 75\,ksi*0.5\,in^2$$
+$$P_{c-b} = 37.5\,kip$$
+:::
+::: callout-note
+## Step 2
 
 Now for the brass rod. First to find the area:
+<p align="center">
+![](images/169_solution_4.png){width="500"}
+</p>
 
 $$A_{r-b} = d*t$$
+$$A_{r-b} = 1\,in*0.5\,in$$
+$$A_{r-b} = 0.5\,in^2$$
 
 Now solving for the bearing load:
 
@@ -28,8 +51,11 @@ $$P_{r-b} = \sigma_{r-b}*A_{r-b}$$
 
 Plugging what we know in:
 
-$$P_{r-b} = 70\,ksi*d*t$$
+$$P_{r-b} = 70\,ksi*0.5\,in^2$$
+$$P_{r-b} = 35\,kip$$
 
 The brass rod will fail before the steel connector, thus:
 
-$$solution = 70\,ksi*d*t$$
+$$solution = 35\,kip$$
+:::
+\[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

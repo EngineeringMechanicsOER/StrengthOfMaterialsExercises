@@ -1,21 +1,43 @@
 ## Solution - Problem 2.22
 
-![](images/165.png)
+<p align="center">
+![](images/165.png){width="500"}
+</p>
+
+Problem Statement:
+
+A bracket is attached to a wall with two circular rivets of diameter d = 20 mm. A load F = 50 kN is applied in the center of the bracket. Assuming the load is split evenly between the two rivits, determine the shear stress in each rivet. 
+
+---
+::: callout-note
+## Step 1
 Recall the definition for shear stress:
 
 $$\tau = \frac{V}{A}$$
 
 Solving first for area:
 
+<p align="center">
+![](images/165 solution.png){width="500"}
+</p>
+
 $$A = \pi*r^2$$
 $$A = \pi*(\frac{d}{2})^2$$
+
+$$A = \pi*(\frac{20\,mm}{2})^2$$
+$$A = 314.16\,mm^2$$
 
 As there are two rivets, the load wil be halved. Thus:
 
 $$V = \frac{F}{2}$$
+$$V = \frac{50\,kN}{2}$$
+$$V = 25\,kN$$
 
 Plugging everything back in:
 
-$$solution = \frac{\frac{F}{2}}{\pi*(\frac{d}{2})^2}$$
+$$solution = \frac{25\,kN}{314.16\,mm^2}$$
 
-$$solution = \frac{F}{2*\pi*(\frac{d}{2})^2}$$
+$$solution = \frac{25000\,N}{3.1416*10^{-4}\,m^2}$$
+$$solution = 79,557,285 Pa = 79.58 MPa$$
+:::
+\[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

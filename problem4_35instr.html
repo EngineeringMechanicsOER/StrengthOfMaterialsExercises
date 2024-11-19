@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,32 +77,82 @@ window.Quarto = {
 
 <section id="solution---problem-4.35" class="level2">
 <h2 class="anchored" data-anchor-id="solution---problem-4.35">Solution - Problem 4.35</h2>
-<p><img src="images/157.png" class="img-fluid"> First, all the member loads need to be determined. From inspection:</p>
-<p><span class="math display">\[F_{BD} = F\]</span></p>
-<p>Next, by applying method of joints at D in the X direciton:</p>
+<p align="center">
+<img src="images/157.png" class="img-fluid" width="500">
+</p>
+<p>Problem Statement:</p>
+<p>A small truss is constructed with solid square wood members and subjected to a load of F = 30 kN. Determine the minimum dimension, a, of the member so that the truss will have a factor of safety of 2. All members have the same cross-section. The wood has a failure stress of σfail = 50 MPa.</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>First, all the member loads need to be determined. From inspection:</p>
+<p><span class="math display">\[F_{BD} = F = 30\,kN\]</span></p>
+Next, by applying method of joints at D in the X direction:
+<p align="center">
+<img src="images/157_solution_1.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[\Sigma F_x = 0\]</span> <span class="math display">\[0 = -F_{AD}*cos(tan^{-1}(\frac{1\,m}{2\,m}))+F_{DC}*cos(tan^{-1}(\frac{1\,m}{1\,m}))\]</span></p>
-<p>Solving for <span class="math inline">\(F_{DC}\)</span>:</p>
+<p>Solving for <span class="math inline">\(F_{DC}\)</span></p>
 <p><span class="math display">\[F_{DC}*cos(45^\circ) = F_{AD}*cos(26.75^\circ)\]</span> <span class="math display">\[F_{DC} = 1.263*F_{AD}\]</span></p>
 <p>Now applying method of joints at D in the Y direction:</p>
 <p><span class="math display">\[\Sigma F_y = 0\]</span> <span class="math display">\[ 0 = -F+F_{AD}*sin(26.75^\circ)+F_{DC}*sin(45^\circ)\]</span></p>
 <p>Substituting <span class="math inline">\(F_{DC}\)</span> and moving F:</p>
 <p><span class="math display">\[F = 0.45*F_{AD}+1.263*F_{AD}*0.707\]</span></p>
-<p>Solving for <span class="math inline">\(F_{AD}\)</span>:</p>
-<p><span class="math display">\[F = 1.343*F_{AD}\]</span> <span class="math display">\[F_{AD} = 0.745*F\]</span></p>
-<p>Now solving for <span class="math inline">\(F_{DC}\)</span>:</p>
-<p><span class="math display">\[F_{DC} = 1.263*0.745*F\]</span> <span class="math display">\[F_{DC} = 0.941*F\]</span></p>
-<p>Now applying the method of joints at C in the X direction:</p>
+<p>Solving for <span class="math inline">\(F_{AD}\)</span></p>
+<p><span class="math display">\[F = 1.343*F_{AD}\]</span> <span class="math display">\[F_{AD} = 0.745*F\]</span> <span class="math display">\[F_{AD} = 0.745*30\,kN\]</span> <span class="math display">\[F_{AD} = 22.35\,kN\]</span> Now solving for <span class="math inline">\(F_{DC}\)</span></p>
+<p><span class="math display">\[F_{DC} = 1.263*22.35\,kN\]</span> <span class="math display">\[F_{DC} = 27.62\,kN\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+Now applying the method of joints at C in the X direction:
+<p align="center">
+<img src="images/157_solution_2.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[\Sigma F_x = 0\]</span> <span class="math display">\[0 = -F_{BC}-F_{DC}*cos(45^\circ)\]</span></p>
-<p>Solving for <span class="math inline">\(F_{BC}\)</span>:</p>
-<p><span class="math display">\[F_{BC} = -0.941*F*0.707\]</span> <span class="math display">\[F_{BC} = -0.665*F\]</span> The largest load occurs in <span class="math inline">\(F_{BC}\)</span>, thus we will design for it. Assuming a Factor of Safety of F.S.:</p>
-<p><span class="math display">\[Design Load = F.S.*F_{BD}\]</span> Recall the formula for normal stress:</p>
+<p>Solving for <span class="math inline">\(F_{BC}\)</span> <span class="math display">\[F_{BC} = -27.62\,kN*cos(45^\circ)\]</span> <span class="math display">\[F_{BC} = -19.53\,kN\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The largest load occurs in <span class="math inline">\(F_{BC}\)</span>, thus we will design for it. Assuming a Factor of Safety of F.S.:</p>
+<p><span class="math display">\[Design\,Load = F.S.*F_{BD}\]</span> <span class="math display">\[Design\,Load = 2*30\,kN\]</span> <span class="math display">\[Design\,Load = 60\,kN\]</span> Recall the formula for normal stress:</p>
 <p><span class="math display">\[\sigma = \frac{F}{A}\]</span></p>
 <p>Solving for A:</p>
 <p><span class="math display">\[A = \frac{F}{\sigma}\]</span></p>
 <p>Plugging in our variables:</p>
-<p><span class="math display">\[A = \frac{Design Load}{\sigma_{fail}}\]</span> <span class="math display">\[A = \frac{F.S.*F_{BD}}{\sigma_{fail}}\]</span> Recall the area formula:</p>
+<span class="math display">\[A = \frac{Design Load}{\sigma_{fail}}\]</span> <span class="math display">\[A = \frac{60\,kN}{50\,MPa}=\frac{60\,kN}{50000\,kPa}\]</span> <span class="math display">\[A = 0.0012\,m^2\]</span> Recall the area formula:
+<p align="center">
+<img src="images/157_solution_3.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[A = a*a\]</span> Thus solving for a:</p>
-<p><span class="math display">\[a^2 = \frac{F.S.*F_{BD}}{\sigma_{fail}}\]</span> <span class="math display">\[solution = \sqrt\frac{F.S.*F_{BD}}{\sigma_{fail}}\]</span></p>
+<p><span class="math display">\[a^2 = 0.0012\,m^2\]</span> <span class="math display">\[solution = \sqrt{0.0012\,m^2}\]</span> <span class="math display">\[solution = 0.0346\,m = 3.46\,cm\]</span></p>
+</div>
+</div>
 </section>
 
 </main>

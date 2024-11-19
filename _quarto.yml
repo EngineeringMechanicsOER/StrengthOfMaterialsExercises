@@ -221,11 +221,23 @@ book:
         - problem9_3dynamicsubmit.qmd
         - problem9_4dynamicsubmit.qmd
         - problem9_5dynamicsubmit.qmd
+        #- problem9_6dynamicsubmit.qmd
+        #- problem9_7dynamicsubmit.qmd
+        #- problem9_8dynamicsubmit.qmd
+        #- problem9_9dynamicsubmit.qmd
+        #- problem9_10dynamicsubmit.qmd
+        #- problem9_11dynamicsubmit.qmd
+        #- problem9_12dynamicsubmit.qmd
+        #- problem9_13dynamicsubmit.qmd
+        #- problem9_14dynamicsubmit.qmd
+        #- problem9_15dynamicsubmit.qmd
+        #- problem9_16dynamicsubmit.qmd
         - problem9_21dynamicsubmit.qmd
         - problem9_22dynamicsubmit.qmd
         - problem9_23dynamicsubmit.qmd
         - problem9_24dynamicsubmit.qmd
         - problem9_25dynamicsubmit.qmd
+        #- problem9_26dynamicsubmit.qmd
         - problem9_31dynamicsubmit.qmd
         - problem9_32dynamicsubmit.qmd
         - problem9_33dynamicsubmit.qmd

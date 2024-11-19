@@ -2437,7 +2437,9 @@ def server(input, output, session):
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        instr= 8*146*sigma()/(L()*12)**2*12
+        ansM= 8*146*sigma()/(L()*12)**2*12
+        ansDef = 384*29000*1330/(240*5*(L()*12)**3)*12
+        instr = min(ansM,ansDef)
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

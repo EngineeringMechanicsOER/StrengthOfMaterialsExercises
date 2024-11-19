@@ -1,23 +1,46 @@
 ## Solution - Problem 2.39
 
-![](images/180.png) Recall the formula for bearing stress:
+<p align="center">
+![](images/180.png){width="500"} 
+</p>
 
-$$\sigma_b = \frac{F}{A_b}$$
+Problem Statement:
 
+A link mechanism is connected with pins of diameter d = 0.5 in. A force F = 500 lb is applied to the mechanism as shown. The mechanism has width w = 1 in. and thickness t = 0.25 in. What is the bearing stress in member BC at joint B due to the pin at B?
+
+---
+::: callout-note
+## Step 1
+Recall the formula for bearing stress:
+
+$$\sigma_b = \frac{F}{A_B}$$
 Solving first for the reaction at B with the sum of moments:
+
+<p align="center">
+![](images/180_solution.png){width="500"} 
+</p>
 
 $$\Sigma M_A = 0$$
 
-$$18in*R-(18in+8in)*F = 0$$
+$$18\,in*R_B-(18\,in+8\,in)*500\,lb = 0$$
 
-$$18in*R = 26in*F$$
+$$18\,in*R_B = 13000\,in\,lb$$
 
-$$R = 1.444*F$$
-
+$$R_B = 722.22\,lb$$
+:::
+::: callout-note
+## Step 2
 Solving next for area:
 
-$$A_b = d*t$$
+$$A_B = d*t$$
+
+$$A_B = 0.5\,in*0.25\,in$$
+
+$$A_B = 0.125\,in^2$$
 
 Plugging everything back in:
 
-$$Solution = \frac{1.444*F}{d*t}$$
+$$Solution = \frac{722.22\,lb}{0.125\,in^2}$$
+$$Solution = 5777.76\,psi = 5.78\,ksi$$
+:::
+\[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

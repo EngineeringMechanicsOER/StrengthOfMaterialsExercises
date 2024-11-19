@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,17 +77,52 @@ window.Quarto = {
 
 <section id="solution---problem-2.39" class="level2">
 <h2 class="anchored" data-anchor-id="solution---problem-2.39">Solution - Problem 2.39</h2>
-<p><img src="images/180.png" class="img-fluid"> Recall the formula for bearing stress:</p>
-<p><span class="math display">\[\sigma_b = F/A_b\]</span></p>
-<p>Solving first for the reaction at B with the sum of moments:</p>
+<p align="center">
+<img src="images/180.png" class="img-fluid" width="500">
+</p>
+<p>Problem Statement:</p>
+<p>A link mechanism is connected with pins of diameter d = 0.5 in. A force F = 500 lb is applied to the mechanism as shown. The mechanism has width w = 1 in. and thickness t = 0.25 in. What is the bearing stress in member BC at joint B due to the pin at B?</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Recall the formula for bearing stress:</p>
+<p><span class="math display">\[\sigma_b = \frac{F}{A_B}\]</span> Solving first for the reaction at B with the sum of moments:</p>
+<p align="center">
+<img src="images/180_solution.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[\Sigma M_A = 0\]</span></p>
-<p><span class="math display">\[18in*R-(18in+8in)*F = 0\]</span></p>
-<p><span class="math display">\[18in*R = 26in*F\]</span></p>
-<p><span class="math display">\[R = 1.444*F\]</span></p>
+<p><span class="math display">\[18\,in*R_B-(18\,in+8\,in)*500\,lb = 0\]</span></p>
+<p><span class="math display">\[18\,in*R_B = 13000\,in\,lb\]</span></p>
+<p><span class="math display">\[R_B = 722.22\,lb\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 2
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Solving next for area:</p>
-<p><span class="math display">\[A_b = d*t\]</span></p>
+<p><span class="math display">\[A_B = d*t\]</span></p>
+<p><span class="math display">\[A_B = 0.5\,in*0.25\,in\]</span></p>
+<p><span class="math display">\[A_B = 0.125\,in^2\]</span></p>
 <p>Plugging everything back in:</p>
-<p><span class="math display">\[Solution = 1.444*F/(d*t)\]</span></p>
+<p><span class="math display">\[Solution = \frac{722.22\,lb}{0.125\,in^2}\]</span> <span class="math display">\[Solution = 5777.76\,psi = 5.78\,ksi\]</span></p>
+</div>
+</div>
+<p>[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0]</p>
 </section>
 
 </main>

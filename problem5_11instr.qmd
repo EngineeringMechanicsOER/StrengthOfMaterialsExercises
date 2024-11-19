@@ -1,11 +1,25 @@
 ## Solution - Problem 5.11
 
-![](images/183.png)
+<p align="center">
+![](images/183.png){width="500"}
+</p>
+
+Problem Statement:
+
+A series of solid, steel, circular bars are loaded with forces as shown, where F<sub>1</sub> = 3 kN, F<sub>2</sub> = 2 kN, F<sub>3</sub> = 3 kN, and F<sub>4</sub> = 4 kN. What is the total change in length of the system? Assume E = 210 GPa for steel.
+
+---
+::: callout-note
+## Step 1
 Recall the definition of deflection:
 
 $$\delta = \frac{P*L}{E*A}$$
 
-Total deflection is made of the deflection for each of the bars shown. Starting with bar 1 (the first three centimeters):
+Total deflection is made of the deflection for each of the bars shown. Starting with bar 1:
+
+<p align="center">
+![](images/183_solution_1.png){width="500"}
+</p>
 
 $$A_1 = \pi*r_1^2$$
 $$A_1 = \pi*(0.005\,m)^2$$
@@ -17,10 +31,16 @@ $$L_1 = 3\,cm = 0.03\,m$$
 $$E_1 = 200\,GPa$$
 And solving for deflection 1:
 
-$$\delta_1 = \frac{F_1*0.03\,m}{ 200*10^9\,Pa*7.854*10^{-5}\,m^2}$$
-$$\delta_1 = F_1*1.912*10^{-9}\,\frac{m}{N}$$
-
+$$\delta_1 = \frac{3000\,N*0.03\,m}{ 200*10^9\,Pa*7.854*10^{-5}\,m^2}$$
+$$\delta_1 = 0.005736\,mm$$
+:::
+::: callout-note
+## Step 2
 Now solving for deflection 2 in bar 2. First finding the area:
+
+<p align="center">
+![](images/183_solution_2.png){width="500"}
+</p>
 
 $$A_2 = \pi*(0.01\,m)^2$$
 $$A_2 = 3.142*10^{-4}\,m^2$$
@@ -32,9 +52,16 @@ $$E = 200\,GPa$$
 
 And solving for deflection 2:
 
-$$\delta_2 = \frac{(F_1+F_2)*0.03\,m}{200*10^9\,Pa*3.142*10^{-4} \,m^2}$$
-$$\delta_2 = (F_1+F_2)*4.774*10^{-10}\,\frac{m}{N}$$
+$$\delta_2 = \frac{(3000\,N+2000\,N)*0.03\,m}{200*10^9\,Pa*3.142*10^{-4} \,m^2}$$
+$$\delta_2 = 0.002387\,mm$$
+:::
+::: callout-note
+## Step 3
 Solving next for deflection in the third bar, first by finding the area:
+
+<p align="center">
+![](images/183_solution_3.png){width="500"}
+</p>
 
 $$A_3 = \pi*(.0025\,m)^2$$
 $$A_3 = 1.963*10^{-5}\,m^2$$
@@ -44,9 +71,16 @@ $$L_3 = 0.04\,m$$
 $$E_3 = 200\,GPa$$
 Solving for deflection 3:
 
-$$\delta_3 = \frac{(F_1+F_2+F_3)*0.04\,m}{200*10^9\,Pa*1.963*10^{-5} \,m^2}$$
-$$\delta_3 = (F_1+F_2+F_3)*1.019*10^{-8}\,\frac{m}{N}$$
+$$\delta_3 = \frac{(3000\,N+2000\,N+3000\,N)*0.04\,m}{200*10^9\,Pa*1.963*10^{-5} \,m^2}$$
+$$\delta_3 = 0.08152\,mm$$
+:::
+::: callout-note
+## Step 4
 Solving next for deflection 4 beginning with finding the area:
+
+<p align="center">
+![](images/183_solution_4.png){width="500"}
+</p>
 
 $$A_4 = \pi*(0.005\,m)^2$$
 $$A_4 = 7.854*10^{-5}\,m^2$$
@@ -58,13 +92,18 @@ $$E_4 = 200\,GPa$$
 
 Solving for deflection 4:
 
-$$\delta_4 = \frac{(F_1+F_2+F_3+F_4)*0.02\,m}{200*10^9\, Pa*7.854*10^{-5}\,m^2}$$
-$$\delta_4 = (F_1+F_2+F_3+F_4)*1.273*10^{-9}\,\frac{m}{N}$$
-
+$$\delta_4 = \frac{(3000\,N+2000\,N+3000\,N+4000\,N)*0.02\,m}{200*10^9\, Pa*7.854*10^{-5}\,m^2}$$
+$$\delta_4 = 0.015276\,mm$$
+:::
+::: callout-note
+## Step 5
 To find total deflection, we combine the deflection for each section, that is:
 
 $$\delta_t = \delta_1+\delta_2+\delta_3+\delta_4$$
 
 Therefore:
 
-$$Solution = F_1*1.912*10^{-9}\,\frac{m}{N}+(F_1+F_2)*4.774*10^{-10}\,\frac{m}{N}+(F_1+F_2+F_3)*1.019*10^{-8}\,\frac{m}{N}+(F_1+F_2+F_3+F_4)*1.273*10^{-9}\,\frac{m}{N}$$
+$$Solution = 0.005736\,mm+0.002387\,mm+0.08152\,mm+0.015276\,mm$$
+$$Solution = 0.1049\,mm$$
+:::
+\[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,15 +77,36 @@ window.Quarto = {
 
 <section id="solution---problem-2.21" class="level2">
 <h2 class="anchored" data-anchor-id="solution---problem-2.21">Solution - Problem 2.21</h2>
-<p><img src="images/164.png" class="img-fluid"> Recall the formula for shear stress:</p>
+<p align="center">
+<img src="images/164.png" class="img-fluid" width="500">
+</p>
+<p>Problem Statement:</p>
+<p>A double lap joint is glued together using glue with a shear stress failure strength of 8,000 psi. If dimensions L = 6 in. and t = 8 in., what is the maximum load P that the joint can withstand? Assume the load is evenly distributed across the joint on both sides.</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Step 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Recall the formula for shear stress:</p>
+<p align="center">
+<img src="images/164%20solution.png" class="img-fluid" width="500">
+</p>
 <p><span class="math display">\[\tau_{fail} = \frac{P}{A}\]</span></p>
 <p>Solving first for area:</p>
-<p><span class="math display">\[A = L*t\]</span></p>
-<p>Remember there are two joints, thus area will be multiplied by <span class="math inline">\(2\)</span>.</p>
+<p><span class="math display">\[A = L*t\]</span> <span class="math display">\[A = 6\,in*8\,in\]</span> <span class="math display">\[A = 48\,in^2\]</span> Remember there are two joints, thus area will be multiplied by <span class="math inline">\(2\)</span>.</p>
 <p>Plugging A back in:</p>
-<p><span class="math display">\[\tau_{fail} = \frac{P}{2*L*t}\]</span></p>
+<p><span class="math display">\[\tau_{fail} = \frac{P}{2*48\,in^2}\]</span> <span class="math display">\[\tau_{fail} = \frac{P}{96\,in^2}\]</span></p>
 <p>And solving for P:</p>
-<p><span class="math display">\[solution = \tau_{fail}*2*L*t\]</span></p>
+<p><span class="math display">\[solution = \tau_{fail}*96\,in^2\]</span> <span class="math display">\[solution = 8000\,psi*96\,in^2\]</span> <span class="math display">\[solution = 768,000\,lb = 768.0\,kip\]</span></p>
+</div>
+</div>
+<p>[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0]</p>
 </section>
 
 </main>
