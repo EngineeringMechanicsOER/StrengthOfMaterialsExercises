@@ -1,6 +1,6 @@
-# Problem 11.45 - Statically Indeterminate Problems {.unnumbered}
+# Problem 11.46 - Statically Indeterminate Problems {.unnumbered}
 
-![Figure 1: A propped cantilever beam is subjected to a point force.](images/447.png){fig-alt="Picture with a propped cantilever beam subjected to a point force. The beam is of length 3L, mounted to the wall at the left end and supported by a roller a distance of 2L from the left end. A point force, F, is applied downward a distance of 3L from the left wall."}
+![Figure 1: A propped cantilever beam is subjected to a point force.](images/448.png){fig-alt="Picture with a propped cantilever beam subjected to a point force. The beam is of length 3L, mounted to the wall at the left end and supported by a roller a distance of 2L from the left end. A point force, F, is applied downward a distance of 3L from the left wall."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
@@ -20,8 +20,8 @@ def generate_random_letters(length):
     # Generate a random string of letters of specified length
     return ''.join(random.choice(string.ascii_lowercase) for _ in range(length))  
 
-problem_ID="447"
-F=reactive.Value("__")
+problem_ID="448"
+w0=reactive.Value("__")
 L=reactive.Value("__")
 EI=reactive.Value("__")
   
@@ -45,23 +45,22 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A beam is loaded as shown, where F = {F()} kips. If length L = {L()} ft, determine the reaction force at support B. Assume EI = {EI()} kip-ft<sup>2</sup>.")]
+        return[ui.markdown(f"A beam is attached to two fixed supports and loaded as shown, where w<sub>0</sub> = {w0()} kN/m. If length L = {L()} m, determine the vertical reaction force at the right support. Assume EI = {EI()} kN-m<sup>2</sup>.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
     def randomize_vars():
         random.seed(input.ID())
-        F.set(random.randrange(25,250,1))
-        L.set(random.randrange(20,60,1)/10)
-        EI.set(random.randrange(10000,30000,1000))
+        w0.set(random.randrange(10,75,1))
+        L.set(random.randrange(40,100,1)/10)
+        EI.set(random.randrange(20000,40000,1000))
         
     @reactive.Effect
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        v1 = -F()*(2*L())**2*(3*3*L()-2*L())/6
-        v2 = -(2*L())**2*(3*2*L()-2*L())/6
-        instr = v1/v2
+       
+        instr = 7*w0()*L()/20
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"
