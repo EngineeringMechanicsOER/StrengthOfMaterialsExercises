@@ -1337,7 +1337,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./problem3_7staticsubmit.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Problem 3.7 - Normal Strain</span></a>
+ <span class="menu-text">Problem 3.7 - Shear Strain</span></a>
   </div>
 </li>
       </ul>
@@ -2408,7 +2408,7 @@ app_ui = ui.page_fluid(
     ui.input_action_button("generate_problem", "Generate Problem", class_="btn-primary"),
     ui.markdown("**Problem Statement**"),
     ui.output_ui("ui_problem_statement"),
-    ui.input_text("answer","Your Answer in units of GPa", placeholder="Please enter your answer"),
+    ui.input_text("answer","Your Answer in units of MPa", placeholder="Please enter your answer"),
     ui.input_action_button("submit", "Submit Answer", class_="btn-primary"),
     ui.download_button("download", "Download File to Submit", class_="btn-success"),
 )
@@ -2428,7 +2428,7 @@ def server(input, output, session):
     def randomize_vars():
         random.seed(input.ID())
         W.set(random.randrange(30, 90, 1))
-        d.set(random.randrange(20, 90, 1)/10)
+        d.set(random.randrange(20, 60, 1))
         
 
     @reactive.Effect
@@ -2437,7 +2437,7 @@ def server(input, output, session):
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
     
         R1 = W()/(((math.cos(angle1)/math.cos(angle2))*math.sin(angle2))+math.sin(angle1))
-        instr= (R1*10**3/(math.pi*((d()/(1000*2))**2)))/10**9
+        instr = (R1*10**3/(math.pi*((d()/(1000*2))**2)))/10**6
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

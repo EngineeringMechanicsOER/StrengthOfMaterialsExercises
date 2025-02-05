@@ -639,12 +639,9 @@ format:
   html:
     fontsize: "10pt"
     theme: 
-      light: 
-      - flatly
-      - include/light.scss
-      dark: 
-      - darkly
-      - include/dark.scss
+      light: flatly
+      dark: darkly
+
   pdf:
     documentclass: scrreprt
   epub: 
