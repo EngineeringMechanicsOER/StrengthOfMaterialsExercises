@@ -1,6 +1,6 @@
-# Problem 3.7 - Normal Strain {.unnumbered}
+# Problem 3.7 - Shear Strain {.unnumbered}
 
-![Figure 1: A square plate is deformed from shear.](images/652.png){fig-alt="A square plate of length L is deformed a distance of x due to shear." width="1003"} \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]
+![Figure 1: A square plate is deformed from shear.](images/652.png){fig-alt="A square plate of length L is deformed a distance of x due to shear." width="300"} \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
 #| standalone: true

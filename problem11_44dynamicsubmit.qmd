@@ -1,4 +1,4 @@
-# Problem 11.44 - Statically Indeterminate Problems {.unnumbered}
+# Problem 11.44 - Statically Indeterminate Beam Deflection {.unnumbered}
 
 ![Figure 1: A propped cantilever beam is subjected to a point force and a uniform distributed load.](images/444.png){fig-alt="Picture with a propped cantilever beam subjected to a point force and a uniform distributed load. The beam is of length 3L, mounted to the wall at the left end and supported by a roller at the right end. A point force, F, is applied downward a distance of L from the left wall. A uniform distributed load, w, is applied downward over the length 2L to 3L from the left wall."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

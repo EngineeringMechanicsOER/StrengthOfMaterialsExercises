@@ -1,4 +1,4 @@
-# Problem 3.7 - Normal Strain {.unnumbered}
+# Problem 3.7 - Shear Strain {.unnumbered}
 
 ## Problem Statement
 

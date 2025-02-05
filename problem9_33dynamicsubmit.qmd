@@ -1,6 +1,6 @@
 # Problem 9.33 - Unsymmetric Bending {.unnumbered}
 
-![Figure 1: An I beam is subjected to a load.](images/484.png){fig-alt="A A W14 x 34 steel beam is subjected to a single load. The beam is of length 2L and the load F is applied a distance of L from the left end. The beam has a height of 10 in and a width of 4.944 in. The beam is at an angle of theta."}
+![Figure 1: An I beam is subjected to a load.](images/484.png){fig-alt="A A W14 x 34 steel beam is subjected to a single load. The beam is of length 2L and the load F is applied a distance of L from the left end. The beam has a height of 10 in and a width of 4.944 in. The beam is at an angle of theta."} {width="300".}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true

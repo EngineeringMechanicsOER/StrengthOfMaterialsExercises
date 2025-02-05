@@ -46,7 +46,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A strain gauge is placed on a polymer test sample with an elastic modulus E =  {E()} x 10<sup>6</sup> psi and a Poisson's ratio of v = {v()}. When a P<sub>1</sub> = {P1()} kip vertical load is applied to the test sample, the strain gauge reads a strain of SG = {SG()} x 10<sup>-6</sup> in the x-direction. What is the relative error of the strain gauge compared to the theoretical strain of the test sample? Note: relative error is defined to be the difference between the measured value and the theoretical value divided by the theoretical value ")]
+        return[ui.markdown(f"A strain gauge is placed on a polymer test sample with an elastic modulus E =  {E()} x 10<sup>6</sup> psi and a Poisson's ratio of v = {v()}. When a P<sub>1</sub> = {P1()} kip vertical load is applied to the test sample, the strain gauge reads a strain of ε = {SG()} x 10<sup>-6</sup> in the x-direction. What is the relative error of the strain gauge compared to the theoretical strain of the test sample? Note: relative error is defined to be the difference between the measured value and the theoretical value divided by the theoretical value.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

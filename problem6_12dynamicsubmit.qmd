@@ -48,7 +48,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A bar with a shear modulus G = {G()} x 10<sup>6</sup> psi is subjected to torques T<sub>1</sub> = {T1()} lb-ft at its center and T<sub>2</sub> at its free end. The inner diamter is 1 in and the outer diameter is 2 in and the total length of the bar is 10 in. If the rotation of the rod at its free end is Φ =  {angle()}° clockwise, what is the magnitude of torque T<sub>2</sub>?")]
+        return[ui.markdown(f"A bar with a shear modulus G = {G()} x 10<sup>6</sup> psi is subjected to torques T<sub>1</sub> = {T1()} lb-ft at its center and T<sub>2</sub> at its free end. The inner diamter is 1 in and the outer diameter is 2 in and the total length of the bar is 10 in. If the rotation of the rod at its free end is θ =  {angle()}° clockwise, what is the magnitude of torque T<sub>2</sub>?")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

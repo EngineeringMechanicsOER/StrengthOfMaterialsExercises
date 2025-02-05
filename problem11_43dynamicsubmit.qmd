@@ -1,4 +1,4 @@
-# Problem 11.43 - Statically Indeterminant Problems {.unnumbered}
+# Problem 11.43 - Statically Indeterminate Beam Deflection {.unnumbered}
 
 ![Figure 1: A cantilever beam supported by a roller is subjected to an external moment.](images/443.png){fig-alt="Picture with a cantilever beam supported by a roller being subjected to an external moment. The beam is of length L, connected to the wall at the left end, and supported by a roller a distance of L from the wall. An external moment, M, is applied clockwise a distance of L from the wall."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -46,7 +46,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A steel connector plate is hung from a brass rod of diameter d = {d()} in. The plate has dimensions t = {t()} in. and w = {w()} in. Considering only bearing stress, find the minimum load that will cause the connector or rod to fail. Assume the failure bearing stress for brass is 70 ksi and for steel is 75 ksi.")]
+        return[ui.markdown(f"A steel connector plate is hung from a brass rod of diameter d = {d()} in. The plate has dimensions t = {t()} in. and w = {w()} in. Considering only bearing stress, find the minimum load (P) that will cause the connector or rod to fail. Assume the failure bearing stress for brass is 70 ksi and for steel is 75 ksi.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

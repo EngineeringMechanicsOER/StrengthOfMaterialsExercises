@@ -1,6 +1,6 @@
 # Problem 6.23 - Power Transmission & Gear Assemblies {.unnumbered}
 
-![Figure 1: A lawnmower engine powers a winch supporting a load.](images/670.png){fig-alt="A lawnmower engine with a horsepower of hp has a radius of 0.5 in. This engine is being used to power a homemade winch of radius 3 in supporting a load of w."}
+![Figure 1: A lawnmower engine powers a winch supporting a load.](images/670.png){fig-alt="A lawnmower engine with a horsepower of hp has a radius of 0.5 in. This engine is being used to power a homemade winch of radius 3 in supporting a load of w." width="300"}
 \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
@@ -33,7 +33,7 @@ app_ui = ui.page_fluid(
     ui.input_action_button("generate_problem", "Generate Problem", class_="btn-primary"),
     ui.markdown("**Problem Statement**"),
     ui.output_ui("ui_problem_statement"),
-    ui.input_text("answer","Your Answer in units of lb", placeholder="Please enter your answer"),
+    ui.input_text("answer","Your Answer in units of lbf", placeholder="Please enter your answer"),
     ui.input_action_button("submit", "Submit Answer", class_="btn-primary"),
     ui.download_button("download", "Download File to Submit", class_="btn-success"),
 )

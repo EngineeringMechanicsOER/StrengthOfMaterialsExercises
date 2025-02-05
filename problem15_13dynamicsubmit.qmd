@@ -1,6 +1,6 @@
 # Problem 15.13 - Effect of Supports {.unnumbered}
 
-![Figure 1: A W8x15 is used as a column and subjected to a force.](images/623.png){fig-alt="A wide flange W8x15 of length L is subjected to force F. The column is fixed at the lower end and pinned on the top end in the x and y directions."}
+![Figure 1: A W8x15 is used as a column and subjected to a force.](images/623.png){width=350 fig-alt="A wide flange W8x15 of length L is subjected to force F. The column is fixed at the lower end and pinned on the top end in the x and y directions."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

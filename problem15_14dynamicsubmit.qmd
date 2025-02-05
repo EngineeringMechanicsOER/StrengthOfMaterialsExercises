@@ -1,6 +1,6 @@
 # Problem 15.14 - Effect of Supports {.unnumbered}
 
-![Figure 1: A column fixed at both ends is subjected to a force.](images/624.png){fig-alt="A column of length L is fixed at both ends and is subjected to a force F."}
+![Figure 1: A column fixed at both ends is subjected to a force.](images/624.png){width=150 fig-alt="A column of length L is fixed at both ends and is subjected to a force F."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
@@ -50,7 +50,7 @@ def server(input, output, session):
     def ui_problem_statement():
         return [
             ui.markdown(
-                f"A wide-flange column that is fixed at both ends is required to carry a load F = {F()} kips. If length L = {L()} ft and the elastic modulus E = 29,000 ksi, determine the lightest structural member in Appendix A that can be used. Use a factor of safety of {FS()} against buckling."
+                f"A wide-flange column that is fixed at both ends is required to carry a load F = {F()} kips. If length L = {L()} ft and the elastic modulus E = 29,000 ksi, identify the lightest structural member in Appendix A, that is the beam number, that can be used. Use a factor of safety of {FS()} against buckling."
             )
         ]
 

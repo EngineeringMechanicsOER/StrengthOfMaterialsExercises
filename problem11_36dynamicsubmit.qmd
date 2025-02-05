@@ -1,4 +1,4 @@
-# Problem 11.36 - Statically Indeterminate Problems {.unnumbered}
+# Problem 11.36 - Statically Indeterminate Beam Deflection {.unnumbered}
 
 ![Figure 1: A beam with three supports is subjected to the loading as shown.](images/436.png){fig-alt="A simply supported beam of length L1+L2 is subjected to a distributed load w. The distributed load occurs over L2."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

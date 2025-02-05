@@ -1,6 +1,6 @@
 # Problem 6.1 - Torsional Stress {.unnumbered}
 
-![Figure 1: A bar is fixed to a wall at one end.](images/265.png){fig-alt="A bar is fixed to a wall at one end. The bar has diameter d."}
+![Figure 1: A bar is fixed to a wall at one end.](images/265.png){fig-alt="A bar is fixed to a wall at one end. The bar has diameter d." width="250"}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

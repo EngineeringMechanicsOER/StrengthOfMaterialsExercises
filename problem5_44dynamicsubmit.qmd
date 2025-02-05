@@ -1,4 +1,4 @@
-# Problem 5.44 - Statically Indeterminate Problems {.unnumbered}
+# Problem 5.44 - Statically Indeterminate Axial Loads {.unnumbered}
 
 ![Figure 1: A steel tube filled with concrete has a gap and is subjected to a force.](images/262.png){fig-alt="Picture with a steel tube filled with concrete with a gap subjected to force F. The steel tube has an outer radius of ro and an inner radius of ri. The concrete tube has a radius of ri. The steel tube is L tall with a concrete gap of delta."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

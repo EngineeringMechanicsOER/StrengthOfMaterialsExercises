@@ -1,4 +1,4 @@
-# Problem 5.45 - Statically Indeterminate Problems {.unnumbered}
+# Problem 5.45 - Statically Indeterminate Axial Loads {.unnumbered}
 
 ![Figure 1: Two members are placed between two fixed walls and heated.](images/264.png){fig-alt="Picture with member placed between two fixed walls and heated. The left member is made of steel and is of length L. The right member is made of aluminum and is of length L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -1,6 +1,6 @@
 # Problem 15.15 - Effect of Supports {.unnumbered}
 
-![Figure 1: A car is mounted on a spare I beam.](images/625.png){fig-alt="A car is placed on top of a W8x15 beam of length L."}
+![Figure 1: A car is mounted on a spare I beam.](images/625.png){width=150 fig-alt="A car is placed on top of a W8x15 beam of length L."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

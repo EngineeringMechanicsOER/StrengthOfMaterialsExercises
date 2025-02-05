@@ -1,4 +1,4 @@
-# Problem 6.29 - Statically Indeterminate Problems {.unnumbered}
+# Problem 6.29 - Statically Indeterminate Torsion {.unnumbered}
 
 ![Figure 1: A composite circular rod is made from aluminum and steel.](images/289.png){fig-alt="A composite circular rod of length L is made from aluminum and steel. The steel rod has a diameter of ri and the aluminum rod has a diameter of ro."}
 

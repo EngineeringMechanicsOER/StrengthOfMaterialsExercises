@@ -47,7 +47,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A cantilever beam of length L = {L()} ft is subjected to a distributed load w = {w()} lb/in. and a concentrated load F = {F()} kips as shown. Determine the magnitude of the deflection of the beam at point B. Assume EI = {EI()} kip-in.<sup>2</sup>.")]
+        return[ui.markdown(f"A cantilever beam of length L = {L()} ft is subjected to a distributed load w = {w()} lb/in. and a concentrated load P = {F()} kips as shown. Determine the magnitude of the deflection of the beam at point B. Assume EI = {EI()} kip-in.<sup>2</sup>.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

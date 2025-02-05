@@ -1,6 +1,6 @@
 # Problem 7.3 - Internal Shear Force & Bending Moment by Equilibrium {.unnumbered}
 
-![Figure 1: Three loads are applied to the structure as shown.](images/309.png){fig-alt="unsure how to describe."}
+![Figure 1: Three loads are applied to the structure as shown.](images/309.png){fig-alt="A hook structure is subjected to three loads. The structure has a length of 6 in, a height of 2 in, and a hook length of 2 in. Force F1 is applied vertically on the hook a distance of 4 in from the wall. Force F2 is applied on the hook horizontally a distance of 2 in above the horizon. Force F3 is applied downward diagonally at an angle of theta below the horizontal a distance of 6 in from the wall."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

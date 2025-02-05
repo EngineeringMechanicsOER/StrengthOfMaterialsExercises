@@ -1,0 +1,28 @@
+## Solution - Problem 6.11
+
+<p align="center">
+![](images/266.png){width="500"}
+</p>
+
+Problem Statement:
+
+A hollow copper rod (E = 110 GPa, v = 0.33) is subjected to torque T as shown. If length L = 0.8 m, outer diameter d$_o$ = 80 mm, and inner diameter d$_i$ = 40 mm, determine torque T if the rod twists 2°.
+
+---
+::: callout-note
+## Step 1
+Recall the definition of the angle of twist:
+$$\theta=\frac{T*L}{G*J}$$
+Additionally, recall the definition of shear modulus:
+$$G=\frac{E}{2*(1+\nu)}$$
+Begin by converting the twist angle from degrees to radians:
+$$2^0*\frac{\pi\,rad}{180^0}=0.0349\,rad$$
+Next finding the shear modulus:
+$$G=\frac{110\,GPa}{2*(1+0.333)}$$
+$$G=41.26\,GPa$$
+Finding the polar moment of inertia next:
+$$J=\frac{\pi*(r_o^4-r_i^4)}{2}$$
+$$J=\frac{\pi*((0.04\,m)^4-(0.02\,m)^4)}{2}$$
+$$J=3.77*10^{-6}\,m^4$$
+:::
+\[Solution adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

@@ -1,6 +1,6 @@
 # Problem 15.11 - Effect of Supports {.unnumbered}
 
-![Figure 1: A column with a square cross section supports a load.](images/612.png){fig-alt="A column of length L has a square cross section hxh and is subjected to force F."}
+![Figure 1: A column with a square cross section supports a load.](images/612.png){width=300 fig-alt="A column of length L has a square cross section hxh and is subjected to force F."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

@@ -1,0 +1,121 @@
+# Problem 11.52 - Intermediate Beam Design {.unnumbered}
+
+\[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]
+```{shinylive-python}
+#| standalone: true
+#| viewerHeight: 600
+#| components: [viewer]
+
+from shiny import App, render, ui, reactive
+import random
+import asyncio
+import io
+import math
+import string
+import pandas as pd
+from datetime import datetime
+from pathlib import Path
+
+def generate_random_letters(length):
+    # Generate a random string of letters of specified length
+    return "".join(random.choice(string.ascii_lowercase) for _ in range(length))
+
+problem_ID = "683"
+L = reactive.Value("__")
+w = reactive.Value("__")
+attempts = ["Timestamp,Attempt,Answer1,Answer2,Feedback\n"]
+
+app_ui = ui.page_fluid(
+    ui.markdown("**Please enter your ID number from your instructor and click to generate your problem**"),
+    ui.input_text("ID", "", placeholder="Enter ID Number Here"),
+    ui.input_action_button("generate_problem", "Generate Problem", class_="btn-primary"),
+    ui.markdown("**Problem Statement**"),
+    ui.output_ui("ui_problem_statement"),
+    ui.input_text("answer1", "First Beam Number", placeholder="Please enter your answer 1"),
+    ui.input_text("answer2", "Second Beam Number", placeholder="Please enter your answer 2"),
+    ui.input_action_button("submit", "Submit Answers", class_="btn-primary"),
+    ui.download_button("download", "Download File to Submit", class_="btn-success"),
+)
+
+def server(input, output, session):
+    # Initialize a counter for attempts
+    attempt_counter = reactive.Value(0)
+
+    @output
+    @render.ui
+    def ui_problem_statement():
+        return [
+            ui.markdown(
+                f"A beam is to be made using off-the-shelf lumber sizes. It will be used to span an opening of length L = {L()} ft and subject to a distributed load ω = {w()} lb/ft. Determine the lightest beam that may be used, assuming E = 1200 ksi, σ<sub>allow</sub> = 2000 psi, τ<sub>allow</sub> = 1000 psi, and maximum deflection = span/360."
+            )
+        ]
+
+    @reactive.Effect
+    @reactive.event(input.generate_problem)
+    def randomize_vars():
+        random.seed(input.ID())
+        L.set(random.randrange(50,100,1)/10)
+        w.set(random.randrange(100,160,1))
+        
+    @reactive.Effect
+    @reactive.event(input.submit)
+    def _():
+        attempt_counter.set(
+            attempt_counter() + 1
+        )  # Increment the attempt counter on each submission.
+
+        # Calculate the instructor's answer and determine if the user's answer is correct.
+        smin=w()/12*(L()*12)**2/(8*2000)
+        Amin=3*w()/12*L()*12/(4*1000)
+        Imin=5*w()/12*(L()*12)**4/(384*1200000*L()*12/360)
+        df=pd.DataFrame()
+        df["Atab"]=[5.25,8.25,11.25,13.88,16.88,10.5,16.5,22.5,27.75,33.75,15.75,24.75,33.75,41.63,50.63]
+        df["Itab"]=[5.36,20.8,52.73,98.93,177.98,10.72,41.59,105.47,177.86,355.96,16.08,62.39,158.2,296.79,533.94]
+        df["stab"]=[3.06,7.56,14.06,21.39,31.64,6.13,15.13,28.13,42.78,63.28,9.18,22.69,42.19,64.17,94.92]
+        df["secondnum"]=[4,6,8,10,12,4,6,8,10,12,4,6,8,10,12]
+
+        # Filter rows meeting all conditions
+        filtered = df[(df["Atab"] >= Amin) & (df["Itab"] >= Imin) & (df["stab"] >= smin)]
+
+        # Find rows with the minimum area
+        if not filtered.empty:
+            Areamin = filtered["Atab"].min()
+            result = filtered[filtered["Atab"] == Areamin]
+
+        correct1 = float(input.answer1()) == 2  # 'First Num' is fixed to 2 in this example
+        correct2 = float(input.answer2()) == result.iloc[0]["secondnum"]
+        
+        if correct1 and correct2:
+            check = f"{'both correct.'}"
+        elif correct1:
+            check = f" {'correct for answer 1 and incorrect for answer 2.'}"
+        elif correct2:
+            check = f"{'incorrect for answer 1 and correct for answer 2.'}"
+        else:
+            check = f"{'both incorrect.'}"
+        
+        correct_indicator = "JL" if correct1 and correct2 else "JG"
+
+        random_start = generate_random_letters(4)
+        random_middle = generate_random_letters(4)
+        random_end = generate_random_letters(4)
+        encoded_attempt = f"{random_start}{problem_ID}-{random_middle}{attempt_counter()}{correct_indicator}-{random_end}{input.ID()}"
+
+        session.encoded_attempt = reactive.Value(encoded_attempt)
+        attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer1()}, {input.answer2()}, {check}\n")
+
+        feedback = ui.markdown(f"Your answers of {input.answer1()} and {input.answer2()} are {check} For reference in debugging this, the calculated instructor answers are 2 and {result.iloc[0]["secondnum"]}")
+        m = ui.modal(feedback, title="Feedback", easy_close=True)
+        ui.modal_show(m)
+
+    @session.download(filename=lambda: f"Problem_Log-{problem_ID}-{input.ID()}.csv")
+    async def download():
+        final_encoded = session.encoded_attempt() if session.encoded_attempt is not None else "No attempts"
+        yield f"{final_encoded}\n\n"
+        yield "Timestamp,Attempt,Answer1,Answer2,Feedback\n"
+        for attempt in attempts[1:]:
+            await asyncio.sleep(0.25)
+            yield attempt
+
+app = App(app_ui, server)
+```

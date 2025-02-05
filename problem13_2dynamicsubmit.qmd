@@ -46,7 +46,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A cylindrical pressure vessel of outer diameter d = {d()} mm experiences an internal pressure P = {P()} kPa. Determine the maximum shear stress in the vessel wall if the wall thickness is t = {t()} mm.")]
+        return[ui.markdown(f"A cylindrical pressure vessel of outer diameter d = {d()} mm experiences an internal pressure P = {P()} kPa. Determine the maximum in-plane shear stress in the vessel wall if the wall thickness is t = {t()} mm.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

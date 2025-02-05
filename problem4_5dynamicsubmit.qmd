@@ -52,7 +52,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A single force F = {F()} kips pulls on three cylindrical rods, each of length L = {L()} in., Diameter d<sub>1</sub> = {d1()} in., and d<sub>2</sub> = {d2()} in. What is the strain in the steel cylinder? Assume E<sub>steel</sub> = 29,000 ksi and E<sub>aluminum</sub> = 10,000 ksi.")]
+        return[ui.markdown(f"A single force F = {F()} kips pulls on three cylindrical rods, each of length L = {L()} in. The aluminum rods have a diameter d<sub>1</sub> = {d1()} in., and the steel rods have a diameter d<sub>2</sub> = {d2()} in. What is the strain in the steel cylinder? Assume E<sub>steel</sub> = 29,000 ksi and E<sub>aluminum</sub> = 10,000 ksi.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

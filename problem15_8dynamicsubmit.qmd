@@ -1,0 +1,120 @@
+# Problem 15.8 - Buckling & yield – Euler's formula {.unnumbered}
+
+![Figure 1: A simple truss constructed from a steel pipe.](images/617.png){fig-alt="Picture with a simple truss constructed from a steel pipe. The reuss has a base of a+b and a height of c. The load, P, is applied downwards a distance of a from the left end of the truss. The pipe has a cross section of a hollow cylinder made of an inner radius ri and an outer radius ro."}
+\[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
+```{shinylive-python}
+#| standalone: true
+#| viewerHeight: 600
+#| components: [viewer]
+
+from shiny import App, render, ui, reactive
+import random
+import asyncio
+import io
+import math
+import string
+from datetime import datetime
+from pathlib import Path
+
+def generate_random_letters(length):
+    # Generate a random string of letters of specified length
+    return ''.join(random.choice(string.ascii_lowercase) for _ in range(length))  
+
+problem_ID="617"
+ri=reactive.Value("__")
+ro=reactive.Value("__")
+a=reactive.Value("__")
+b=reactive.Value("__")
+c=reactive.Value("__")
+  
+attempts=["Timestamp,Attempt,Answer,Feedback\n"]
+
+app_ui = ui.page_fluid(
+    ui.markdown("**Please enter your ID number from your instructor and click to generate your problem**"),
+    ui.input_text("ID","", placeholder="Enter ID Number Here"),
+    ui.input_action_button("generate_problem", "Generate Problem", class_="btn-primary"),
+    ui.markdown("**Problem Statement**"),
+    ui.output_ui("ui_problem_statement"),
+    ui.input_text("answer","Your Answer in units of kip", placeholder="Please enter your answer"),
+    ui.input_action_button("submit", "Submit Answer", class_="btn-primary"),
+    ui.download_button("download", "Download File to Submit", class_="btn-success"),
+)
+
+def server(input, output, session):
+    # Initialize a counter for attempts
+    attempt_counter = reactive.Value(0)
+
+    @output
+    @render.ui
+    def ui_problem_statement():
+        return[ui.markdown(f"A simple truss is constructed from steel pipe with inner radius r<sub>i</sub> = {ri()} in. and outer radius r<sub>o</sub> = {ro()} in. If lengths a = {a()} ft, b = {b()} ft, and c = {c()} ft, determine the largest load F that may be applied before either member AB or BC buckles? Assume all joints are pin connected and E = 29,000 ksi.")]
+    
+    @reactive.Effect
+    @reactive.event(input.generate_problem)
+    def randomize_vars():
+        random.seed(input.ID())
+        ri.set(random.randrange(30,150,5)/100)
+        ro.set(ri()+random.randrange(10,30,5)/100)
+        a.set(random.randrange(10,30,1)/10)
+        b.set(a()*2.5)
+        c.set(a()*2)
+        
+    @reactive.Effect
+    @reactive.event(input.submit)
+    def _():
+        attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
+        I = math.pi*ro()**4/4-math.pi*ri()**4/4
+        LAB = (c()**2+a()**2)**0.5
+        LBC = (c()**2+b()**2)**0.5
+        alpha = math.atan(a()/c())
+        theta = math.atan(b()/c())
+        Pcr1 = math.pi**2*29000000*I/((LBC*12)**2)
+        Pcr2 = math.pi**2*29000000*I/((LAB*12)**2)
+        PBC = (math.sin(theta)*math.cos(alpha)/math.sin(alpha)+math.cos(theta))*Pcr1
+        PAB = (math.sin(theta)*math.cos(alpha)/math.sin(alpha)+math.cos(theta))*math.sin(alpha)/math.sin(theta)*Pcr2
+        instr = min(PBC,PAB)/1000
+        if math.isclose(float(input.answer()), instr, rel_tol=0.01):
+            check = "*Correct*"
+            correct_indicator = "JL"
+        else:
+            check = "*Not Correct.*"
+            correct_indicator = "JG"
+
+        # Generate random parts for the encoded attempt.
+        random_start = generate_random_letters(4)
+        random_middle = generate_random_letters(4)
+        random_end = generate_random_letters(4)
+        encoded_attempt = f"{random_start}{problem_ID}-{random_middle}{attempt_counter()}{correct_indicator}-{random_end}{input.ID()}"
+
+        # Store the most recent encoded attempt in a reactive value so it persists across submissions
+        session.encoded_attempt = reactive.Value(encoded_attempt)
+
+        # Append the attempt data to the attempts list without the encoded attempt
+        attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer()}, {check}\n")
+
+        # Show feedback to the user.
+        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}. For reference in debugging this, the calculated instructor answer is {instr}")
+        m = ui.modal(
+            feedback,
+            title="Feedback",
+            easy_close=True
+        )
+        ui.modal_show(m)
+
+    @session.download(filename=lambda: f"Problem_Log-{problem_ID}-{input.ID()}.csv")
+    async def download():
+        # Start the CSV with the encoded attempt (without label)
+        final_encoded = session.encoded_attempt() if session.encoded_attempt is not None else "No attempts"
+        yield f"{final_encoded}\n\n"
+        
+        # Write the header for the remaining CSV data once
+        yield "Timestamp,Attempt,Answer,Feedback\n"
+        
+        # Write the attempts data, ensure that the header from the attempts list is not written again
+        for attempt in attempts[1:]:  # Skip the first element which is the header
+            await asyncio.sleep(0.25)  # This delay may not be necessary; adjust as needed
+            yield attempt
+
+# App installation
+app = App(app_ui, server)
+```

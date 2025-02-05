@@ -1,6 +1,6 @@
-# Problem 11.46 - Statically Indeterminate Problems {.unnumbered}
+# Problem 11.46 - Statically Indeterminate Beam Deflection {.unnumbered}
 
-![Figure 1: A propped cantilever beam is subjected to a point force.](images/448.png){fig-alt="Picture with a propped cantilever beam subjected to a point force. The beam is of length 3L, mounted to the wall at the left end and supported by a roller a distance of 2L from the left end. A point force, F, is applied downward a distance of 3L from the left wall."}
+![Figure 1: A beam supported by two walls is subjected to a triangular distributed load.](images/448.png){fig-alt="Picture with a beam supported by two wallls being subjected to a triangular distributed load. The beam is of length L. The triangular distributed load has a peak of w0 at the right end and is applied downward over the entire length of the beam."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true

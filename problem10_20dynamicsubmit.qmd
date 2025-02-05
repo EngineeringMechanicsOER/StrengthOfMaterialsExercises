@@ -1,6 +1,6 @@
 # Problem 10.20 - Shear Flow {.unnumbered}
 
-![Figure 1: A T-beam is constructed of two plywood sheets nailed together.](images/384.png){fig-alt="A T beam is made of two pieces nailed together. The base of the T is height h1 and width b1. The top of the T is height h2 and base b2."}
+![Figure 1: A T-beam is constructed of two plywood sheets nailed together.](images/384.png){width=300 fig-alt="A T beam is made of two pieces nailed together. The base of the T is height h1 and width b1. The top of the T is height h2 and base b2."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}

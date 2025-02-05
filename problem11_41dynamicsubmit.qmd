@@ -1,4 +1,4 @@
-# Problem 11.41 - Statically Indeterminant Problems {.unnumbered}
+# Problem 11.41 - Statically Indeterminate Beam Deflection {.unnumbered}
 
 ![Figure 1: A cantilever beam is subjected to a triangular distribured load.](images/441.png){fig-alt="Picture with a cantilever beam subjected to a triangular distributed load. The beam is of length 3L and is mounted to the wall at the left end and a roller at the right end. A triangular distributed load with a peak of w0 is applied over the first 2L of the beam with the peak at the right end of the distance."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]

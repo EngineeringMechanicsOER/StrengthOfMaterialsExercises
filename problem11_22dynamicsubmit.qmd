@@ -47,7 +47,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A cantilever beam is loaded as shown where L = {L()} m, M = {M()} kN-m, and F = {F()} kN. Determine the magnitude of the deflection at the free end of the beam. Assume EI = {EI()} kN-m<sup>2</sup>.")]
+        return[ui.markdown(f"A cantilever beam is loaded as shown where L = {L()} m, M = {M()} kN-m, and P = {F()} kN. Determine the magnitude of the deflection at the free end of the beam. Assume EI = {EI()} kN-m<sup>2</sup>.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
