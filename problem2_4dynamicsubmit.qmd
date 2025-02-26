@@ -49,7 +49,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A crate weighing {W()} kN is suspended by a set of cables. The diameter of each cable is {d()}  mm. What is the maximum stress in any cable, that is the highest average normal stress, exluding the cable attached to the crate.")]
+        return[ui.markdown(f"A crate weighing {W()} kN is suspended by a set of cables. The diameter of each cable is {d()}  mm. What is the maximum stress in any cable, that is the highest average normal stress, excluding the cable attached to the crate.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

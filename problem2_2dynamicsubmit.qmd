@@ -47,7 +47,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"Two cylinders are stacked on top of one another and two forces are applied at the top surface and at the joint between the cylinders as shown. If L<sub>1</sub> = {L1()} in., L<sub>2</sub> = {L2()} in., F<sub>A</sub> = {FA()} lb, and F<sub>B</sub> = {FB()} lb, determine the average normal stress in cylinder B. Enter a positive answer for tensile stress or a negative answer for comressive stress. ")]
+        return[ui.markdown(f"Two cylinders are stacked on top of one another and two forces are applied at the top surface and at the joint between the cylinders as shown. If L<sub>1</sub> = {L1()} in., L<sub>2</sub> = {L2()} in., F<sub>A</sub> = {FA()} lb, and F<sub>B</sub> = {FB()} lb, determine the average normal stress in cylinder B. Enter a positive answer for tensile stress or a negative answer for compressive stress. ")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

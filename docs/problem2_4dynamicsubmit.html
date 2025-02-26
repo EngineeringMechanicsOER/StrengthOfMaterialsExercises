@@ -523,6 +523,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./problem6_23dynamicsubmit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Problem 6.23 - Power Transmission &amp; Gear Assemblies</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./problem6_27dynamicsubmit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Problem 6.27 - Statically Indeterminate Torsion</span></a>
   </div>
@@ -2421,7 +2427,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A crate weighing {W()} kN is suspended by a set of cables. The diameter of each cable is {d()}  mm. What is the maximum stress in any cable, that is the highest average normal stress, exluding the cable attached to the crate.")]
+        return[ui.markdown(f"A crate weighing {W()} kN is suspended by a set of cables. The diameter of each cable is {d()}  mm. What is the maximum stress in any cable, that is the highest average normal stress, excluding the cable attached to the crate.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
