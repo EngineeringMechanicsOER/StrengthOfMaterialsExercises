@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,8 +37,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-c520a05a98151f4cdddb9caabf07e0e6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -2422,8 +2422,17 @@ app_ui = ui.page_fluid(
     ui.input_action_button("generate_problem", "Generate Problem", class_="btn-primary"),
     ui.markdown("**Problem Statement**"),
     ui.output_ui("ui_problem_statement"),
-    ui.input_text("answer1", "Your Answer for the first beam number", placeholder="Please enter your answer 1"),
-    ui.input_text("answer2", "Your Answer for the second beam number", placeholder="Please enter your answer 2"),
+ui.row(
+        ui.column(12, ui.div(
+            ui.row(
+                ui.column(1, ui.tags.label("W", class_="form-label", style="line-height: 38px;")),
+                ui.column(3, ui.input_text("answer1", "", placeholder="Enter your answer 1")),
+                ui.column(1, ui.tags.label("x", class_="form-label", style="line-height: 38px; margin-left: 10px;")),
+                ui.column(3, ui.input_text("answer2", "", placeholder="Enter your answer 2")),
+            ),
+            class_="d-flex justify-content-center align-items-center"
+        ))
+    ),  
     ui.input_action_button("submit", "Submit Answers", class_="btn-primary"),
     ui.download_button("download", "Download File to Submit", class_="btn-success"),
 )
@@ -2435,7 +2444,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return [ui.markdown(f"A wide flange I-beam is subjected to both a distributed load w = {w()} kN/m and a point load F = {F()} kN. If length L&lt;sub&gt;1&lt;/sub&gt; = {L1()} m, L&lt;sub&gt;2&lt;/sub&gt; = {L2()} m, and the failure stress is {sigma()} MPa, what is the lightest W-beam from Appendix A that could be used for the beam?")]
+        return [ui.markdown(f"A wide flange I-beam is subjected to both a distributed load w = {w()} kN/m and a point load F = {F()} kN. If length L&lt;sub&gt;1&lt;/sub&gt; = {L1()} m, L&lt;sub&gt;2&lt;/sub&gt; = {L2()} m, and the failure stress is {sigma()} MPa, what is the lightest W-beam from Appendix A that could be used for the beam?\n\n Enter two numbers below such that the answer is in the form W 24 x 16.")]
 
     @reactive.Effect
     @reactive.event(input.generate_problem)
