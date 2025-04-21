@@ -48,7 +48,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A beam of length L = {L()} ft is constructed by nailing together two boards with dimensions b = {b()} in. and h = {h()} in. The beam is subjected to a concentrated load F = {F()} lb as shown. Each nail can withstand a shear load of 100 lb. What is the minimum permissable spacing between nails?")]
+        return[ui.markdown(f"A beam of length L = {L()} ft is constructed by nailing together two boards with dimensions b = {b()} in. and h = {h()} in. The beam is subjected to a concentrated load F = {F()} lb as shown. Each nail can withstand a shear load of 300 lb. What is the maximum permissable spacing between nails?")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
@@ -67,7 +67,7 @@ def server(input, output, session):
         t = b()
         Q = h()**2*b()/2
         q = F()*Q/I
-        instr= 100/q
+        instr= 300/q
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

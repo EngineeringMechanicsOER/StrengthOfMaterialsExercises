@@ -2410,7 +2410,7 @@ app_ui = ui.page_fluid(
     ui.input_action_button("generate_problem", "Generate Problem", class_="btn-primary"),
     ui.markdown("**Problem Statement**"),
     ui.output_ui("ui_problem_statement"),
-    ui.input_text("answer1", "Your maximum shear stress in units of MPa", placeholder="Please enter your max shear stress"),
+    ui.input_text("answer1", "Your maximum principal stress in units of MPa", placeholder="Please enter your max principal stress"),
     ui.input_text("answer2", "Your angle in units of degrees", placeholder="Please enter your angle"),
     ui.input_action_button("submit", "Submit Answers", class_="btn-primary"),
     ui.download_button("download", "Download File to Submit", class_="btn-success"),
@@ -2437,7 +2437,7 @@ def server(input, output, session):
     def _():
         attempt_counter.set(attempt_counter() + 1)
         instr1 = (sigma_x()+sigma_y())/2+math.sqrt(((sigma_x()-sigma_y())/2)**2+tau_xy()**2)
-        instr2 = (math.atan((-sigma_x()+sigma_y())/(2*tau_xy())))/2*180/math.pi+45
+        instr2 = (math.atan((2*tau_xy())/(sigma_x()-sigma_y())))/2*180/math.pi
         correct1 = math.isclose(float(input.answer1()), instr1, rel_tol=0.01)
         correct2 = math.isclose(float(input.answer2()), instr2, rel_tol=0.01)
     

@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-A window manufacturer is considering maximum sizes possible for a hollow aluminum tube section (E = 67 GPa). The tube will be simply-supported with a uniform distributed load, ω = 6.2 kN/m. If the aluminum tube has an allowable bending stress σ = 250 MPa, allowable shear stress τ = 150 MPa, and deflection limit of span/480, determine the longest span allowed. Assume dimensions b = 102 mm and h = 154 mm.
+A window manufacturer is considering maximum sizes possible for a hollow aluminum tube section (E = 67 GPa). The tube will be simply-supported with a uniform distributed load, w = 6.2 kN/m. If the aluminum tube has an allowable bending stress σ = 250 MPa, allowable shear stress τ = 150 MPa, and deflection limit of span/480, determine the longest span allowed. Assume dimensions b = 102 mm and h = 154 mm.
 
 ![Figure 1: A window is constructed as shown.](images/682.png){fig-alt="A window has a height of h and a base of b. The window has a uniform thickness of 3.7 mm."}
 \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]

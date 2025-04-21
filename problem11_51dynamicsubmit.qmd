@@ -46,7 +46,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A window manufacturer is considering maximum sizes possible for a hollow aluminum tube section (E = 67 GPa). The tube will be simply-supported with a uniform distributed load, ω = {w()} kN/m. If the aluminum tube has an allowable bending stress σ = 250 MPa, allowable shear stress τ = 150 MPa, and deflection limit of span/480, determine the longest span allowed. Assume dimensions b = {b()} mm and h = {h()} mm.")]
+        return[ui.markdown(f"A window manufacturer is considering maximum sizes possible for a hollow aluminum tube section (E = 67 GPa). The tube will be simply-supported with a uniform distributed load, w = {w()} kN/m. If the aluminum tube has an allowable bending stress σ = 250 MPa, allowable shear stress τ = 150 MPa, and deflection limit of span/480, determine the longest span allowed. Assume dimensions b = {b()} mm and h = {h()} mm.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

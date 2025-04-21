@@ -2425,7 +2425,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A beam is constructed from two boards nailed together as shown, with dimensions b = {b()} in., h&lt;sub&gt;1&lt;/sub&gt; = {h1()} in., and h&lt;sub&gt;2&lt;/sub&gt; = {h2()} in.  The nails can withstand a shear load of {VN()} lb and the beam is subjected to a maximum shear force V = {V()} kips. Determine the minimum permissable spacing between the nails.")]
+        return[ui.markdown(f"A beam is constructed from two boards nailed together as shown, with dimensions b = {b()} in., h&lt;sub&gt;1&lt;/sub&gt; = {h1()} in., and h&lt;sub&gt;2&lt;/sub&gt; = {h2()} in.  The nails can withstand a shear load of {VN()} lb and the beam is subjected to a maximum shear force V = {V()} kips. Determine the maximum permissable spacing between the nails.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

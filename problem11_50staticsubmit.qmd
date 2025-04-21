@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-A W18 x 76 shape (E = 29,000 ksi) is to be simply-supported and carry a uniform distributed load, ω. If the beam has an allowable bending stress σ = 34 ksi, allowable shear stress τ = 14 ksi, and allowable deflection of span/240, determine the maximum load, ω, for a span L = 30 ft. Ignore self-weight.
+A W18 x 76 shape (E = 29,000 ksi) is to be simply-supported and carry a uniform distributed load, w. If the beam has an allowable bending stress σ = 34 ksi, allowable shear stress τ = 14 ksi, and allowable deflection of span/240, determine the maximum load, w, for a span L = 30 ft. Ignore self-weight.
 
 \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]
 

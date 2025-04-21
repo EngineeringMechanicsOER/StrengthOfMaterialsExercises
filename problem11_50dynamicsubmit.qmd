@@ -45,7 +45,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A W18 x 76 shape (E = 29,000 ksi) is to be simply-supported and carry a uniform distributed load, ω. If the beam has an allowable bending stress σ = {sigma()} ksi, allowable shear stress τ = {tau()} ksi, and allowable deflection of span/240, determine the maximum load, ω, for a span L = {L()} ft. Ignore self-weight.")]
+        return[ui.markdown(f"A W18 x 76 shape (E = 29,000 ksi) is to be simply-supported and carry a uniform distributed load, w. If the beam has an allowable bending stress σ = {sigma()} ksi, allowable shear stress τ = {tau()} ksi, and allowable deflection of span/240, determine the maximum load, w, for a span L = {L()} ft. Ignore self-weight.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
