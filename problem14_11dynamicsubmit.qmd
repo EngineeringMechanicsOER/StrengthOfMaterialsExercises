@@ -47,7 +47,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A solid circular rod of length L = {L()} m and radius r = {r()} mm is subjected to load F = {F()} kN and torsional moment T = {T()} kN-m. Determine the absolute maximum normal stress at point A.")]
+        return[ui.markdown(f"A solid circular rod of length L = {L()} m and radius r = {r()} mm is subjected to load F = {F()} kN and torsional moment T = {T()} kN-m. Determine the magnitude of the absolute maximum normal stress at point A.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
@@ -64,7 +64,9 @@ def server(input, output, session):
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
         tau_xy = 2*T()*1000/(math.pi*(r()/1000)**3)/10**6
         sigma_x = 4000*F()*L()/(math.pi*(r()/1000)**3)/10**6
-        instr= -sigma_x/2+math.sqrt((sigma_x/2)**2+tau_xy**2)
+        sigma1= -sigma_x/2+math.sqrt((sigma_x/2)**2+tau_xy**2)
+        sigma2= -sigma_x/2-math.sqrt((sigma_x/2)**2+tau_xy**2)
+        instr = max(abs(sigma1),abs(sigma2))
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

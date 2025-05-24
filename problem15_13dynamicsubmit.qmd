@@ -60,7 +60,7 @@ def server(input, output, session):
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        Pcr = math.pi**2*E()*57.7/(0.7*L()*12)**2
+        Pcr = math.pi**2*E()*3.41/(0.7*L()*12)**2
         instr= Pcr/FS()
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"

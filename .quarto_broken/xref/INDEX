@@ -1,0 +1,962 @@
+{
+  "index.qmd": {
+    "index.html": "ccff68cf"
+  },
+  "problem2_1dynamicsubmit.qmd": {
+    "problem2_1dynamicsubmit.html": "cce3acf6"
+  },
+  "problem2_2dynamicsubmit.qmd": {
+    "problem2_2dynamicsubmit.html": "db8e4440"
+  },
+  "problem2_3dynamicsubmit.qmd": {
+    "problem2_3dynamicsubmit.html": "c9e08a20"
+  },
+  "problem2_4dynamicsubmit.qmd": {
+    "problem2_4dynamicsubmit.html": "50013bbd"
+  },
+  "problem2_21dynamicsubmit.qmd": {
+    "problem2_21dynamicsubmit.html": "a290cfd6"
+  },
+  "problem2_22dynamicsubmit.qmd": {
+    "problem2_22dynamicsubmit.html": "4f65ad9e"
+  },
+  "problem2_23dynamicsubmit.qmd": {
+    "problem2_23dynamicsubmit.html": "210cdf89"
+  },
+  "problem2_38dynamicsubmit.qmd": {
+    "problem2_38dynamicsubmit.html": "ca1c8132"
+  },
+  "problem2_39dynamicsubmit.qmd": {
+    "problem2_39dynamicsubmit.html": "e81cf797"
+  },
+  "problem2_41dynamicsubmit.qmd": {
+    "problem2_41dynamicsubmit.html": "dff54183"
+  },
+  "problem2_47dynamicsubmit.qmd": {
+    "problem2_47dynamicsubmit.html": "f780d7dc"
+  },
+  "problem2_48dynamicsubmit.qmd": {
+    "problem2_48dynamicsubmit.html": "d68a7d43"
+  },
+  "problem3_2dynamicsubmit.qmd": {
+    "problem3_2dynamicsubmit.html": "859692d1"
+  },
+  "problem3_7dynamicsubmit.qmd": {
+    "problem3_7dynamicsubmit.html": "5b0b08b4"
+  },
+  "problem4_5dynamicsubmit.qmd": {
+    "problem4_5dynamicsubmit.html": "d04babec"
+  },
+  "problem4_6dynamicsubmit.qmd": {
+    "problem4_6dynamicsubmit.html": "90ad237d"
+  },
+  "problem4_10dynamicsubmit.qmd": {
+    "problem4_10dynamicsubmit.html": "112c69e7"
+  },
+  "problem4_11dynamicsubmit.qmd": {
+    "problem4_11dynamicsubmit.html": "bcb427f4"
+  },
+  "problem4_12dynamicsubmit.qmd": {
+    "problem4_12dynamicsubmit.html": "8449dd6b"
+  },
+  "problem4_23dynamicsubmit.qmd": {
+    "problem4_23dynamicsubmit.html": "21d7bc1a"
+  },
+  "problem4_24dynamicsubmit.qmd": {
+    "problem4_24dynamicsubmit.html": "34f26645"
+  },
+  "problem4_25dynamicsubmit.qmd": {
+    "problem4_25dynamicsubmit.html": "e54682af"
+  },
+  "problem4_35dynamicsubmit.qmd": {
+    "problem4_35dynamicsubmit.html": "a7ca2fe8"
+  },
+  "problem5_11dynamicsubmit.qmd": {
+    "problem5_11dynamicsubmit.html": "5fbd110c"
+  },
+  "problem5_12dynamicsubmit.qmd": {
+    "problem5_12dynamicsubmit.html": "e0577a23"
+  },
+  "problem5_13dynamicsubmit.qmd": {
+    "problem5_13dynamicsubmit.html": "42bf8828"
+  },
+  "problem5_14dynamicsubmit.qmd": {
+    "problem5_14dynamicsubmit.html": "324eda59"
+  },
+  "problem5_15dynamicsubmit.qmd": {
+    "problem5_15dynamicsubmit.html": "ac407f89"
+  },
+  "problem5_27dynamicsubmit.qmd": {
+    "problem5_27dynamicsubmit.html": "ced1a3fa"
+  },
+  "problem5_34dynamicsubmit.qmd": {
+    "problem5_34dynamicsubmit.html": "72fa7c8e"
+  },
+  "problem5_35dynamicsubmit.qmd": {
+    "problem5_35dynamicsubmit.html": "6a14718d"
+  },
+  "problem5_36dynamicsubmit.qmd": {
+    "problem5_36dynamicsubmit.html": "9f2f239a"
+  },
+  "problem5_37dynamicsubmit.qmd": {
+    "problem5_37dynamicsubmit.html": "f4f2aaea"
+  },
+  "problem5_38dynamicsubmit.qmd": {
+    "problem5_38dynamicsubmit.html": "01254fb6"
+  },
+  "problem5_39dynamicsubmit.qmd": {
+    "problem5_39dynamicsubmit.html": "716ba158"
+  },
+  "problem5_50dynamicsubmit.qmd": {
+    "problem5_50dynamicsubmit.html": "eea2583c"
+  },
+  "problem5_51dynamicsubmit.qmd": {
+    "problem5_51dynamicsubmit.html": "68600358"
+  },
+  "problem5_52dynamicsubmit.qmd": {
+    "problem5_52dynamicsubmit.html": "6fa71b98"
+  },
+  "problem5_53dynamicsubmit.qmd": {
+    "problem5_53dynamicsubmit.html": "dbddecb3"
+  },
+  "problem5_54dynamicsubmit.qmd": {
+    "problem5_54dynamicsubmit.html": "2fafcdf4"
+  },
+  "problem5_55dynamicsubmit.qmd": {
+    "problem5_55dynamicsubmit.html": "1ff2458d"
+  },
+  "problem6_1dynamicsubmit.qmd": {
+    "problem6_1dynamicsubmit.html": "5ee9ed32"
+  },
+  "problem6_2dynamicsubmit.qmd": {
+    "problem6_2dynamicsubmit.html": "05dc76cb"
+  },
+  "problem6_3dynamicsubmit.qmd": {
+    "problem6_3dynamicsubmit.html": "1094e801"
+  },
+  "problem6_4dynamicsubmit.qmd": {
+    "problem6_4dynamicsubmit.html": "049d4c41"
+  },
+  "problem6_5dynamicsubmit.qmd": {
+    "problem6_5dynamicsubmit.html": "bfa59f97"
+  },
+  "problem6_11dynamicsubmit.qmd": {
+    "problem6_11dynamicsubmit.html": "d3bced5f"
+  },
+  "problem6_12dynamicsubmit.qmd": {
+    "problem6_12dynamicsubmit.html": "563b5839"
+  },
+  "problem6_13dynamicsubmit.qmd": {
+    "problem6_13dynamicsubmit.html": "9f43b12b"
+  },
+  "problem6_14dynamicsubmit.qmd": {
+    "problem6_14dynamicsubmit.html": "aed580de"
+  },
+  "problem6_15dynamicsubmit.qmd": {
+    "problem6_15dynamicsubmit.html": "7c1d6959"
+  },
+  "problem6_27dynamicsubmit.qmd": {
+    "problem6_27dynamicsubmit.html": "7b559d8b"
+  },
+  "problem11_1dynamicsubmit.qmd": {
+    "problem11_1dynamicsubmit.html": "853767bd"
+  },
+  "problem11_4dynamicsubmit.qmd": {
+    "problem11_4dynamicsubmit.html": "7eceb9d6"
+  },
+  "problem11_22dynamicsubmit.qmd": {
+    "problem11_22dynamicsubmit.html": "a9bbd30f"
+  },
+  "problem11_25dynamicsubmit.qmd": {
+    "problem11_25dynamicsubmit.html": "40457a10"
+  },
+  "problem2_1staticsubmit.qmd": {
+    "problem2_1staticsubmit.html": "b762bf32"
+  },
+  "problem2_2staticsubmit.qmd": {
+    "problem2_2staticsubmit.html": "a3128dd6"
+  },
+  "problem2_3staticsubmit.qmd": {
+    "problem2_3staticsubmit.html": "c146ca52"
+  },
+  "problem2_4staticsubmit.qmd": {
+    "problem2_4staticsubmit.html": "9b13bfee"
+  },
+  "problem2_21staticsubmit.qmd": {
+    "problem2_21staticsubmit.html": "7a816dcb"
+  },
+  "problem2_22staticsubmit.qmd": {
+    "problem2_22staticsubmit.html": "789ea664"
+  },
+  "problem2_23staticsubmit.qmd": {
+    "problem2_23staticsubmit.html": "a4f75ce6"
+  },
+  "problem2_38staticsubmit.qmd": {
+    "problem2_38staticsubmit.html": "7389c9d6"
+  },
+  "problem2_39staticsubmit.qmd": {
+    "problem2_39staticsubmit.html": "d2e915e4"
+  },
+  "problem2_41staticsubmit.qmd": {
+    "problem2_41staticsubmit.html": "3cc62fc3"
+  },
+  "problem2_47staticsubmit.qmd": {
+    "problem2_47staticsubmit.html": "69feceba"
+  },
+  "problem2_48staticsubmit.qmd": {
+    "problem2_48staticsubmit.html": "fa434cc2"
+  },
+  "problem3_2staticsubmit.qmd": {
+    "problem3_2staticsubmit.html": "5bd28297"
+  },
+  "problem3_7staticsubmit.qmd": {
+    "problem3_7staticsubmit.html": "473d6d8f"
+  },
+  "problem4_5staticsubmit.qmd": {
+    "problem4_5staticsubmit.html": "76a4a963"
+  },
+  "problem4_6staticsubmit.qmd": {
+    "problem4_6staticsubmit.html": "f229db77"
+  },
+  "problem4_10staticsubmit.qmd": {
+    "problem4_10staticsubmit.html": "51c6b6a1"
+  },
+  "problem4_11staticsubmit.qmd": {
+    "problem4_11staticsubmit.html": "cb342c2e"
+  },
+  "problem4_12staticsubmit.qmd": {
+    "problem4_12staticsubmit.html": "0d0df3ad"
+  },
+  "problem4_18staticsubmit.qmd": {
+    "problem4_18staticsubmit.html": "39c6ba49"
+  },
+  "problem4_19staticsubmit.qmd": {
+    "problem4_19staticsubmit.html": "79a5310f"
+  },
+  "problem4_23staticsubmit.qmd": {
+    "problem4_23staticsubmit.html": "24641161"
+  },
+  "problem4_24staticsubmit.qmd": {
+    "problem4_24staticsubmit.html": "b22301fa"
+  },
+  "problem4_25staticsubmit.qmd": {
+    "problem4_25staticsubmit.html": "ffff293e"
+  },
+  "problem4_35staticsubmit.qmd": {
+    "problem4_35staticsubmit.html": "722f6f2a"
+  },
+  "problem5_6staticsubmit.qmd": {
+    "problem5_6staticsubmit.html": "c2e4642b"
+  },
+  "problem5_8staticsubmit.qmd": {
+    "problem5_8staticsubmit.html": "d078a2fe"
+  },
+  "problem5_10staticsubmit.qmd": {
+    "problem5_10staticsubmit.html": "3d96b402"
+  },
+  "problem5_11staticsubmit.qmd": {
+    "problem5_11staticsubmit.html": "59e24989"
+  },
+  "problem5_12staticsubmit.qmd": {
+    "problem5_12staticsubmit.html": "32f2bb38"
+  },
+  "problem5_13staticsubmit.qmd": {
+    "problem5_13staticsubmit.html": "75c42504"
+  },
+  "problem5_14staticsubmit.qmd": {
+    "problem5_14staticsubmit.html": "2888b655"
+  },
+  "problem5_15staticsubmit.qmd": {
+    "problem5_15staticsubmit.html": "1f3d4dc4"
+  },
+  "problem5_27staticsubmit.qmd": {
+    "problem5_27staticsubmit.html": "b201cf26"
+  },
+  "problem5_34staticsubmit.qmd": {
+    "problem5_34staticsubmit.html": "fb6172c4"
+  },
+  "problem5_35staticsubmit.qmd": {
+    "problem5_35staticsubmit.html": "2b17599e"
+  },
+  "problem5_36staticsubmit.qmd": {
+    "problem5_36staticsubmit.html": "3dec733c"
+  },
+  "problem5_37staticsubmit.qmd": {
+    "problem5_37staticsubmit.html": "34d6ac28"
+  },
+  "problem5_38staticsubmit.qmd": {
+    "problem5_38staticsubmit.html": "0adbe311"
+  },
+  "problem5_39staticsubmit.qmd": {
+    "problem5_39staticsubmit.html": "7ad2a099"
+  },
+  "problem5_50staticsubmit.qmd": {
+    "problem5_50staticsubmit.html": "4001d0f8"
+  },
+  "problem5_51staticsubmit.qmd": {
+    "problem5_51staticsubmit.html": "1c5301e1"
+  },
+  "problem5_52staticsubmit.qmd": {
+    "problem5_52staticsubmit.html": "b125e874"
+  },
+  "problem5_53staticsubmit.qmd": {
+    "problem5_53staticsubmit.html": "14ba5490"
+  },
+  "problem5_54staticsubmit.qmd": {
+    "problem5_54staticsubmit.html": "d8fcd7c9"
+  },
+  "problem5_55staticsubmit.qmd": {
+    "problem5_55staticsubmit.html": "2690a7c0"
+  },
+  "problem6_1staticsubmit.qmd": {
+    "problem6_1staticsubmit.html": "227d4eec"
+  },
+  "problem6_2staticsubmit.qmd": {
+    "problem6_2staticsubmit.html": "415cab00"
+  },
+  "problem6_3staticsubmit.qmd": {
+    "problem6_3staticsubmit.html": "8dc86d42"
+  },
+  "problem6_4staticsubmit.qmd": {
+    "problem6_4staticsubmit.html": "0dec073b"
+  },
+  "problem6_5staticsubmit.qmd": {
+    "problem6_5staticsubmit.html": "bdb72ce0"
+  },
+  "problem6_11staticsubmit.qmd": {
+    "problem6_11staticsubmit.html": "b69b46a1"
+  },
+  "problem6_12staticsubmit.qmd": {
+    "problem6_12staticsubmit.html": "79b74b52"
+  },
+  "problem6_13staticsubmit.qmd": {
+    "problem6_13staticsubmit.html": "4133c859"
+  },
+  "problem6_14staticsubmit.qmd": {
+    "problem6_14staticsubmit.html": "8e2c9d70"
+  },
+  "problem6_15staticsubmit.qmd": {
+    "problem6_15staticsubmit.html": "29490ef8"
+  },
+  "problem6_22staticsubmit.qmd": {
+    "problem6_22staticsubmit.html": "7d389168"
+  },
+  "problem6_23staticsubmit.qmd": {
+    "problem6_23staticsubmit.html": "bd632b3f"
+  },
+  "problem6_27staticsubmit.qmd": {
+    "problem6_27staticsubmit.html": "49d1684a"
+  },
+  "problem6_28staticsubmit.qmd": {
+    "problem6_28staticsubmit.html": "3a87dcb8"
+  },
+  "problem6_29staticsubmit.qmd": {
+    "problem6_29staticsubmit.html": "6e66a649"
+  },
+  "problem6_30staticsubmit.qmd": {
+    "problem6_30staticsubmit.html": "2b826022"
+  },
+  "problem6_31staticsubmit.qmd": {
+    "problem6_31staticsubmit.html": "981c08a2"
+  },
+  "problem7_1staticsubmit.qmd": {
+    "problem7_1staticsubmit.html": "b31791d7"
+  },
+  "problem7_2staticsubmit.qmd": {
+    "problem7_2staticsubmit.html": "6d2a933c"
+  },
+  "problem7_3staticsubmit.qmd": {
+    "problem7_3staticsubmit.html": "a02e1f8b"
+  },
+  "problem7_14staticsubmit.qmd": {
+    "problem7_14staticsubmit.html": "cbefb549"
+  },
+  "problem7_15staticsubmit.qmd": {
+    "problem7_15staticsubmit.html": "62cb83df"
+  },
+  "problem7_16staticsubmit.qmd": {
+    "problem7_16staticsubmit.html": "09ec972c"
+  },
+  "problem7_25staticsubmit.qmd": {
+    "problem7_25staticsubmit.html": "b53f44a0"
+  },
+  "problem7_26staticsubmit.qmd": {
+    "problem7_26staticsubmit.html": "5c73dbb5"
+  },
+  "problem7_27staticsubmit.qmd": {
+    "problem7_27staticsubmit.html": "633b4091"
+  },
+  "problem7_28staticsubmit.qmd": {
+    "problem7_28staticsubmit.html": "96865dae"
+  },
+  "problem7_29staticsubmit.qmd": {
+    "problem7_29staticsubmit.html": "afba3790"
+  },
+  "problem8_1staticsubmit.qmd": {
+    "problem8_1staticsubmit.html": "8451e228"
+  },
+  "problem8_2staticsubmit.qmd": {
+    "problem8_2staticsubmit.html": "e5c090cb"
+  },
+  "problem8_7staticsubmit.qmd": {
+    "problem8_7staticsubmit.html": "e838b01e"
+  },
+  "problem9_1staticsubmit.qmd": {
+    "problem9_1staticsubmit.html": "c4ff29f4"
+  },
+  "problem9_2staticsubmit.qmd": {
+    "problem9_2staticsubmit.html": "1dd1cc7e"
+  },
+  "problem9_3staticsubmit.qmd": {
+    "problem9_3staticsubmit.html": "7bdb79f9"
+  },
+  "problem9_4staticsubmit.qmd": {
+    "problem9_4staticsubmit.html": "3f8061c2"
+  },
+  "problem9_5staticsubmit.qmd": {
+    "problem9_5staticsubmit.html": "7a9fcfc3"
+  },
+  "problem9_21staticsubmit.qmd": {
+    "problem9_21staticsubmit.html": "87dc9681"
+  },
+  "problem9_22staticsubmit.qmd": {
+    "problem9_22staticsubmit.html": "98f4aba2"
+  },
+  "problem9_23staticsubmit.qmd": {
+    "problem9_23staticsubmit.html": "a033e561"
+  },
+  "problem9_24staticsubmit.qmd": {
+    "problem9_24staticsubmit.html": "4892cd8a"
+  },
+  "problem9_25staticsubmit.qmd": {
+    "problem9_25staticsubmit.html": "b749d4a5"
+  },
+  "problem10_1staticsubmit.qmd": {
+    "problem10_1staticsubmit.html": "2b359e39"
+  },
+  "problem10_4staticsubmit.qmd": {
+    "problem10_4staticsubmit.html": "7ff14181"
+  },
+  "problem10_5staticsubmit.qmd": {
+    "problem10_5staticsubmit.html": "244ee6eb"
+  },
+  "problem10_6staticsubmit.qmd": {
+    "problem10_6staticsubmit.html": "765133d3"
+  },
+  "problem10_7staticsubmit.qmd": {
+    "problem10_7staticsubmit.html": "071b1b60"
+  },
+  "problem10_8staticsubmit.qmd": {
+    "problem10_8staticsubmit.html": "567707fc"
+  },
+  "problem10_17staticsubmit.qmd": {
+    "problem10_17staticsubmit.html": "d776bff4"
+  },
+  "problem10_18staticsubmit.qmd": {
+    "problem10_18staticsubmit.html": "eb67b5f3"
+  },
+  "problem10_19staticsubmit.qmd": {
+    "problem10_19staticsubmit.html": "c02c31d8"
+  },
+  "problem10_20staticsubmit.qmd": {
+    "problem10_20staticsubmit.html": "f124a147"
+  },
+  "problem10_21staticsubmit.qmd": {
+    "problem10_21staticsubmit.html": "3c267499"
+  },
+  "problem11_1staticsubmit.qmd": {
+    "problem11_1staticsubmit.html": "0ab9bae3"
+  },
+  "problem11_2staticsubmit.qmd": {
+    "problem11_2staticsubmit.html": "65bc0248"
+  },
+  "problem11_3staticsubmit.qmd": {
+    "problem11_3staticsubmit.html": "7e7954db"
+  },
+  "problem11_4staticsubmit.qmd": {
+    "problem11_4staticsubmit.html": "810f92d4"
+  },
+  "problem11_5staticsubmit.qmd": {
+    "problem11_5staticsubmit.html": "51f52ef3"
+  },
+  "problem11_17staticsubmit.qmd": {
+    "problem11_17staticsubmit.html": "d347a1fb"
+  },
+  "problem11_18staticsubmit.qmd": {
+    "problem11_18staticsubmit.html": "0fce79cd"
+  },
+  "problem11_19staticsubmit.qmd": {
+    "problem11_19staticsubmit.html": "d542a8f8"
+  },
+  "problem11_50staticsubmit.qmd": {
+    "problem11_50staticsubmit.html": "4f38d7ae"
+  },
+  "problem11_51staticsubmit.qmd": {
+    "problem11_51staticsubmit.html": "8d9c92ba"
+  },
+  "problem11_53staticsubmit.qmd": {
+    "problem11_53staticsubmit.html": "0a8cc758"
+  },
+  "problem12_39staticsubmit.qmd": {
+    "problem12_39staticsubmit.html": "384f41d5"
+  },
+  "problem12_40staticsubmit.qmd": {
+    "problem12_40staticsubmit.html": "8c553a5c"
+  },
+  "interfacedemo.qmd": {
+    "interfacedemo.html": "8a592ffa"
+  },
+  "problem5_10dynamicsubmit.qmd": {
+    "problem5_10dynamicsubmit.html": "86fb5860"
+  },
+  "problem6_28dynamicsubmit.qmd": {
+    "problem6_28dynamicsubmit.html": "5dfed5b9"
+  },
+  "problem6_30dynamicsubmit.qmd": {
+    "problem6_30dynamicsubmit.html": "2a17e4b6"
+  },
+  "problem6_31dynamicsubmit.qmd": {
+    "problem6_31dynamicsubmit.html": "9bbde7bb"
+  },
+  "problem7_1dynamicsubmit.qmd": {
+    "problem7_1dynamicsubmit.html": "7d601d3a"
+  },
+  "problem7_2dynamicsubmit.qmd": {
+    "problem7_2dynamicsubmit.html": "05922b99"
+  },
+  "problem7_3dynamicsubmit.qmd": {
+    "problem7_3dynamicsubmit.html": "6f070f05"
+  },
+  "problem7_14dynamicsubmit.qmd": {
+    "problem7_14dynamicsubmit.html": "e244e554"
+  },
+  "problem7_15dynamicsubmit.qmd": {
+    "problem7_15dynamicsubmit.html": "0d6aff2a"
+  },
+  "problem7_16dynamicsubmit.qmd": {
+    "problem7_16dynamicsubmit.html": "547f3589"
+  },
+  "problem7_26dynamicsubmit.qmd": {
+    "problem7_26dynamicsubmit.html": "9135032a"
+  },
+  "problem7_28dynamicsubmit.qmd": {
+    "problem7_28dynamicsubmit.html": "f9a5d446"
+  },
+  "problem7_29dynamicsubmit.qmd": {
+    "problem7_29dynamicsubmit.html": "58b60444"
+  },
+  "problem8_1dynamicsubmit.qmd": {
+    "problem8_1dynamicsubmit.html": "3ce222de"
+  },
+  "problem8_2dynamicsubmit.qmd": {
+    "problem8_2dynamicsubmit.html": "bb8fc5f8"
+  },
+  "problem9_1dynamicsubmit.qmd": {
+    "problem9_1dynamicsubmit.html": "bd36cbda"
+  },
+  "problem9_2dynamicsubmit.qmd": {
+    "problem9_2dynamicsubmit.html": "9aab2162"
+  },
+  "problem9_3dynamicsubmit.qmd": {
+    "problem9_3dynamicsubmit.html": "c648b9e8"
+  },
+  "problem9_4dynamicsubmit.qmd": {
+    "problem9_4dynamicsubmit.html": "0a64be7d"
+  },
+  "problem9_5dynamicsubmit.qmd": {
+    "problem9_5dynamicsubmit.html": "a6ae7274"
+  },
+  "problem9_21dynamicsubmit.qmd": {
+    "problem9_21dynamicsubmit.html": "e88cbc65"
+  },
+  "problem9_22dynamicsubmit.qmd": {
+    "problem9_22dynamicsubmit.html": "178607c8"
+  },
+  "problem9_23dynamicsubmit.qmd": {
+    "problem9_23dynamicsubmit.html": "89d035e9"
+  },
+  "problem9_24dynamicsubmit.qmd": {
+    "problem9_24dynamicsubmit.html": "67b3eca9"
+  },
+  "problem9_25dynamicsubmit.qmd": {
+    "problem9_25dynamicsubmit.html": "d3b2ec4b"
+  },
+  "problem9_31dynamicsubmit.qmd": {
+    "problem9_31dynamicsubmit.html": "76541525"
+  },
+  "problem9_32dynamicsubmit.qmd": {
+    "problem9_32dynamicsubmit.html": "59f9d2e9"
+  },
+  "problem9_33dynamicsubmit.qmd": {
+    "problem9_33dynamicsubmit.html": "95d41a7e"
+  },
+  "problem9_34dynamicsubmit.qmd": {
+    "problem9_34dynamicsubmit.html": "bdef5f6c"
+  },
+  "problem10_1dynamicsubmit.qmd": {
+    "problem10_1dynamicsubmit.html": "27e7b505"
+  },
+  "problem10_4dynamicsubmit.qmd": {
+    "problem10_4dynamicsubmit.html": "38967781"
+  },
+  "problem10_5dynamicsubmit.qmd": {
+    "problem10_5dynamicsubmit.html": "718e4f93"
+  },
+  "problem10_6dynamicsubmit.qmd": {
+    "problem10_6dynamicsubmit.html": "bd2f8266"
+  },
+  "problem10_7dynamicsubmit.qmd": {
+    "problem10_7dynamicsubmit.html": "2e76629c"
+  },
+  "problem10_8dynamicsubmit.qmd": {
+    "problem10_8dynamicsubmit.html": "681eae13"
+  },
+  "problem10_17dynamicsubmit.qmd": {
+    "problem10_17dynamicsubmit.html": "09929be2"
+  },
+  "problem10_18dynamicsubmit.qmd": {
+    "problem10_18dynamicsubmit.html": "2a0c4d4f"
+  },
+  "problem10_19dynamicsubmit.qmd": {
+    "problem10_19dynamicsubmit.html": "d72b0ef8"
+  },
+  "problem10_20dynamicsubmit.qmd": {
+    "problem10_20dynamicsubmit.html": "7dd79827"
+  },
+  "problem10_21dynamicsubmit.qmd": {
+    "problem10_21dynamicsubmit.html": "3c278db9"
+  },
+  "problem11_2dynamicsubmit.qmd": {
+    "problem11_2dynamicsubmit.html": "003a9587"
+  },
+  "problem11_3dynamicsubmit.qmd": {
+    "problem11_3dynamicsubmit.html": "e849fd29"
+  },
+  "problem11_5dynamicsubmit.qmd": {
+    "problem11_5dynamicsubmit.html": "648087b5"
+  },
+  "problem11_17dynamicsubmit.qmd": {
+    "problem11_17dynamicsubmit.html": "acaa5063"
+  },
+  "problem11_18dynamicsubmit.qmd": {
+    "problem11_18dynamicsubmit.html": "f35f7a75"
+  },
+  "problem11_19dynamicsubmit.qmd": {
+    "problem11_19dynamicsubmit.html": "13fb49e0"
+  },
+  "problem11_23dynamicsubmit.qmd": {
+    "problem11_23dynamicsubmit.html": "5203bc21"
+  },
+  "problem11_24dynamicsubmit.qmd": {
+    "problem11_24dynamicsubmit.html": "dc064e8a"
+  },
+  "problem11_26dynamicsubmit.qmd": {
+    "problem11_26dynamicsubmit.html": "da32bd52"
+  },
+  "problem11_36dynamicsubmit.qmd": {
+    "problem11_36dynamicsubmit.html": "12f922ea"
+  },
+  "problem11_37dynamicsubmit.qmd": {
+    "problem11_37dynamicsubmit.html": "9a55bc98"
+  },
+  "problem11_38dynamicsubmit.qmd": {
+    "problem11_38dynamicsubmit.html": "f9ce0bac"
+  },
+  "problem11_39dynamicsubmit.qmd": {
+    "problem11_39dynamicsubmit.html": "22c58ba4"
+  },
+  "problem11_40dynamicsubmit.qmd": {
+    "problem11_40dynamicsubmit.html": "b6929ac7"
+  },
+  "problem11_50dynamicsubmit.qmd": {
+    "problem11_50dynamicsubmit.html": "f04c00bd"
+  },
+  "problem11_51dynamicsubmit.qmd": {
+    "problem11_51dynamicsubmit.html": "42def874"
+  },
+  "problem11_53dynamicsubmit.qmd": {
+    "problem11_53dynamicsubmit.html": "54c812c4"
+  },
+  "problem12_1dynamicsubmit.qmd": {
+    "problem12_1dynamicsubmit.html": "216e78f4"
+  },
+  "problem12_2dynamicsubmit.qmd": {
+    "problem12_2dynamicsubmit.html": "51479443"
+  },
+  "problem12_3dynamicsubmit.qmd": {
+    "problem12_3dynamicsubmit.html": "49ae469f"
+  },
+  "problem12_4dynamicsubmit.qmd": {
+    "problem12_4dynamicsubmit.html": "9e52fabc"
+  },
+  "problem12_5dynamicsubmit.qmd": {
+    "problem12_5dynamicsubmit.html": "eb3b3fb9"
+  },
+  "problem12_9dynamicsubmit.qmd": {
+    "problem12_9dynamicsubmit.html": "86c2c9c2"
+  },
+  "problem12_10dynamicsubmit.qmd": {
+    "problem12_10dynamicsubmit.html": "646a49c1"
+  },
+  "problem12_11dynamicsubmit.qmd": {
+    "problem12_11dynamicsubmit.html": "fd546e86"
+  },
+  "problem12_12dynamicsubmit.qmd": {
+    "problem12_12dynamicsubmit.html": "8ef7ddf6"
+  },
+  "problem12_13dynamicsubmit.qmd": {
+    "problem12_13dynamicsubmit.html": "baa566b9"
+  },
+  "problem12_25dynamicsubmit.qmd": {
+    "problem12_25dynamicsubmit.html": "67b1d1d1"
+  },
+  "problem12_26dynamicsubmit.qmd": {
+    "problem12_26dynamicsubmit.html": "90b64ea5"
+  },
+  "problem12_27dynamicsubmit.qmd": {
+    "problem12_27dynamicsubmit.html": "f9b754f0"
+  },
+  "problem12_28dynamicsubmit.qmd": {
+    "problem12_28dynamicsubmit.html": "b6b19b07"
+  },
+  "problem12_29dynamicsubmit.qmd": {
+    "problem12_29dynamicsubmit.html": "2d21a434"
+  },
+  "problem12_39dynamicsubmit.qmd": {
+    "problem12_39dynamicsubmit.html": "b0f50959"
+  },
+  "problem12_40dynamicsubmit.qmd": {
+    "problem12_40dynamicsubmit.html": "77b564cc"
+  },
+  "problem13_1dynamicsubmit.qmd": {
+    "problem13_1dynamicsubmit.html": "7652254f"
+  },
+  "problem13_2dynamicsubmit.qmd": {
+    "problem13_2dynamicsubmit.html": "a6db1b0b"
+  },
+  "problem13_3dynamicsubmit.qmd": {
+    "problem13_3dynamicsubmit.html": "15d28387"
+  },
+  "problem13_4dynamicsubmit.qmd": {
+    "problem13_4dynamicsubmit.html": "8b9abab5"
+  },
+  "problem13_15dynamicsubmit.qmd": {
+    "problem13_15dynamicsubmit.html": "234b92b5"
+  },
+  "problem13_16dynamicsubmit.qmd": {
+    "problem13_16dynamicsubmit.html": "ebfdcc51"
+  },
+  "problem14_1dynamicsubmit.qmd": {
+    "problem14_1dynamicsubmit.html": "ddf5637e"
+  },
+  "problem14_2dynamicsubmit.qmd": {
+    "problem14_2dynamicsubmit.html": "def84e1f"
+  },
+  "problem14_9dynamicsubmit.qmd": {
+    "problem14_9dynamicsubmit.html": "d00985a1"
+  },
+  "problem14_10dynamicsubmit.qmd": {
+    "problem14_10dynamicsubmit.html": "c65881c7"
+  },
+  "problem14_11dynamicsubmit.qmd": {
+    "problem14_11dynamicsubmit.html": "ae201553"
+  },
+  "problem15_1dynamicsubmit.qmd": {
+    "problem15_1dynamicsubmit.html": "46383a6a"
+  },
+  "problem15_2dynamicsubmit.qmd": {
+    "problem15_2dynamicsubmit.html": "99bd799c"
+  },
+  "problem15_3dynamicsubmit.qmd": {
+    "problem15_3dynamicsubmit.html": "6020ed35"
+  },
+  "problem15_11dynamicsubmit.qmd": {
+    "problem15_11dynamicsubmit.html": "0a9bf3b5"
+  },
+  "problem15_12dynamicsubmit.qmd": {
+    "problem15_12dynamicsubmit.html": "583b1d67"
+  },
+  "problem15_13dynamicsubmit.qmd": {
+    "problem15_13dynamicsubmit.html": "f14b5635"
+  },
+  "problem15_14dynamicsubmit.qmd": {
+    "problem15_14dynamicsubmit.html": "33b6b497"
+  },
+  "problem15_15dynamicsubmit.qmd": {
+    "problem15_15dynamicsubmit.html": "a1018401"
+  },
+  "problem6_29dynamicsubmit.qmd": {
+    "problem6_29dynamicsubmit.html": "1f4dfe34"
+  },
+  "problem7_25dynamicsubmit.qmd": {
+    "problem7_25dynamicsubmit.html": "ec6c663a"
+  },
+  "problem7_27dynamicsubmit.qmd": {
+    "problem7_27dynamicsubmit.html": "e50ccea2"
+  },
+  "problem11_22staticsubmit.qmd": {
+    "problem11_22staticsubmit.html": "d2c1ae2a"
+  },
+  "problem4_18dynamicsubmit.qmd": {
+    "problem4_18dynamicsubmit.html": "a5994030"
+  },
+  "problem4_19dynamicsubmit.qmd": {
+    "problem4_19dynamicsubmit.html": "dd1732cd"
+  },
+  "problem5_6dynamicsubmit.qmd": {
+    "problem5_6dynamicsubmit.html": "9a544fe7"
+  },
+  "problem5_8dynamicsubmit.qmd": {
+    "problem5_8dynamicsubmit.html": "d6204183"
+  },
+  "problem6_22dynamicsubmit.qmd": {
+    "problem6_22dynamicsubmit.html": "ee1cfdf1"
+  },
+  "problem6_23dynamicsubmit.qmd": {
+    "problem6_23dynamicsubmit.html": "b11a0b3e"
+  },
+  "problem8_7dynamicsubmit.qmd": {
+    "problem8_7dynamicsubmit.html": "810ad102"
+  },
+  "problem11_23staticsubmit.qmd": {
+    "problem11_23staticsubmit.html": "0f40a48a"
+  },
+  "problem11_24staticsubmit.qmd": {
+    "problem11_24staticsubmit.html": "6655da33"
+  },
+  "problem11_25staticsubmit.qmd": {
+    "problem11_25staticsubmit.html": "99953f44"
+  },
+  "problem11_26staticsubmit.qmd": {
+    "problem11_26staticsubmit.html": "b165b170"
+  },
+  "problem11_36staticsubmit.qmd": {
+    "problem11_36staticsubmit.html": "9a6ade4e"
+  },
+  "problem11_37staticsubmit.qmd": {
+    "problem11_37staticsubmit.html": "8eb13127"
+  },
+  "problem11_38staticsubmit.qmd": {
+    "problem11_38staticsubmit.html": "4e437ad7"
+  },
+  "problem11_39staticsubmit.qmd": {
+    "problem11_39staticsubmit.html": "83316112"
+  },
+  "problem11_40staticsubmit.qmd": {
+    "problem11_40staticsubmit.html": "97ea8241"
+  },
+  "problem9_31staticsubmit.qmd": {
+    "problem9_31staticsubmit.html": "5010d918"
+  },
+  "problem9_32staticsubmit.qmd": {
+    "problem9_32staticsubmit.html": "776f7571"
+  },
+  "problem9_33staticsubmit.qmd": {
+    "problem9_33staticsubmit.html": "99aefcdb"
+  },
+  "problem9_34staticsubmit.qmd": {
+    "problem9_34staticsubmit.html": "15ddb8ea"
+  },
+  "problem12_1staticsubmit.qmd": {
+    "problem12_1staticsubmit.html": "1973774c"
+  },
+  "problem12_2staticsubmit.qmd": {
+    "problem12_2staticsubmit.html": "1ac9ee04"
+  },
+  "problem12_3staticsubmit.qmd": {
+    "problem12_3staticsubmit.html": "c965d047"
+  },
+  "problem12_4staticsubmit.qmd": {
+    "problem12_4staticsubmit.html": "e1c2731f"
+  },
+  "problem12_5staticsubmit.qmd": {
+    "problem12_5staticsubmit.html": "df598bb3"
+  },
+  "problem12_9staticsubmit.qmd": {
+    "problem12_9staticsubmit.html": "3f62d816"
+  },
+  "problem12_10staticsubmit.qmd": {
+    "problem12_10staticsubmit.html": "7fb85495"
+  },
+  "problem12_11staticsubmit.qmd": {
+    "problem12_11staticsubmit.html": "0b20fd66"
+  },
+  "problem12_12staticsubmit.qmd": {
+    "problem12_12staticsubmit.html": "427e9fdf"
+  },
+  "problem12_13staticsubmit.qmd": {
+    "problem12_13staticsubmit.html": "aa3d0ec2"
+  },
+  "problem12_25staticsubmit.qmd": {
+    "problem12_25staticsubmit.html": "6a514903"
+  },
+  "problem12_26staticsubmit.qmd": {
+    "problem12_26staticsubmit.html": "7c292cd7"
+  },
+  "problem12_27staticsubmit.qmd": {
+    "problem12_27staticsubmit.html": "5e1a3c41"
+  },
+  "problem12_28staticsubmit.qmd": {
+    "problem12_28staticsubmit.html": "19aa51c2"
+  },
+  "problem12_29staticsubmit.qmd": {
+    "problem12_29staticsubmit.html": "3d1d3f7c"
+  },
+  "problem13_15staticsubmit.qmd": {
+    "problem13_15staticsubmit.html": "8dcdac67"
+  },
+  "problem14_1staticsubmit.qmd": {
+    "problem14_1staticsubmit.html": "6f194e5e"
+  },
+  "problem14_2staticsubmit.qmd": {
+    "problem14_2staticsubmit.html": "da5a8e5e"
+  },
+  "problem14_9staticsubmit.qmd": {
+    "problem14_9staticsubmit.html": "e1c1627b"
+  },
+  "problem14_10staticsubmit.qmd": {
+    "problem14_10staticsubmit.html": "940968c4"
+  },
+  "problem14_11staticsubmit.qmd": {
+    "problem14_11staticsubmit.html": "4d0cb501"
+  },
+  "problem13_1staticsubmit.qmd": {
+    "problem13_1staticsubmit.html": "dfd62341"
+  },
+  "problem13_2staticsubmit.qmd": {
+    "problem13_2staticsubmit.html": "026fa69b"
+  },
+  "problem13_3staticsubmit.qmd": {
+    "problem13_3staticsubmit.html": "c588c480"
+  },
+  "problem13_4staticsubmit.qmd": {
+    "problem13_4staticsubmit.html": "fbb5ca66"
+  },
+  "problem13_16staticsubmit.qmd": {
+    "problem13_16staticsubmit.html": "c3a671a9"
+  },
+  "problem15_1staticsubmit.qmd": {
+    "problem15_1staticsubmit.html": "276c1e84"
+  },
+  "problem15_2staticsubmit.qmd": {
+    "problem15_2staticsubmit.html": "8779b634"
+  },
+  "problem15_3staticsubmit.qmd": {
+    "problem15_3staticsubmit.html": "7896f018"
+  },
+  "problem15_11staticsubmit.qmd": {
+    "problem15_11staticsubmit.html": "d1eb51ba"
+  },
+  "problem15_12staticsubmit.qmd": {
+    "problem15_12staticsubmit.html": "c77ae1e3"
+  },
+  "problem15_13staticsubmit.qmd": {
+    "problem15_13staticsubmit.html": "4f049e34"
+  },
+  "problem15_14staticsubmit.qmd": {
+    "problem15_14staticsubmit.html": "c135f544"
+  },
+  "problem15_15staticsubmit.qmd": {
+    "problem15_15staticsubmit.html": "8187d6b0"
+  }
+}
