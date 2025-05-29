@@ -5,6 +5,7 @@
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
+#| standalone: true
 #| viewerHeight: 600
 #| components: [viewer]
 
