@@ -636,13 +636,14 @@ book:
     #- part: "List of Working Problems (Not yet for use)"
     #  chapters:
 
-format:
-  html:
+format: 
+  html: 
     fontsize: "10pt"
-    theme: 
+    theme:
       light: flatly
       dark: darkly
-
+    css: styles/custom.css
+  
   pdf:
     documentclass: scrreprt
   epub: 
