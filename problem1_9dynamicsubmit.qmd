@@ -1,4 +1,4 @@
-# Problem 1.9 {.unnumbered}
+# Problem 1.9 - Equilibrium & Reactions in 3D {.unnumbered}
 
 ![Figure 1: The hood of a car is propped open.](images/649.png){fig-alt="Picture with a car hood propped open. The hood is L long an W wide. The rod to prop the hood up is sectured at point B, 3 in back from the front, 12 in. from the left side, and 51 in from the back. The bottom of the rod is located at point A which is 6 in from the left side and 2 in back. The hood is at a 42 degree angle from the horizontal."}
 \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]

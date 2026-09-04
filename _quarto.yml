@@ -32,8 +32,8 @@ book:
         - problem1_5dynamicsubmit.qmd
         - problem1_6dynamicsubmit.qmd
         - problem1_7dynamicsubmit.qmd
-        - problem1_8dynamicsubmit.qmd
-        - problem1_9dynamicsubmit.qmd
+    #    - problem1_8dynamicsubmit.qmd
+    #    - problem1_9dynamicsubmit.qmd
     
     - part: "Chapter 2 Problems"
       chapters:

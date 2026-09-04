@@ -31,8 +31,8 @@ app_ui = ui.page_fluid(
     ui.input_action_button("generate_problem", "Generate Problem", class_="btn-primary"),
     ui.markdown("**Problem Statement**"),
     ui.output_ui("ui_problem_statement"),
-    ui.input_text("answer1", "Your Answer 1 in units of kip", placeholder="Please enter your answer 1"),
-    ui.input_text("answer2", "Your Answer 2 in units of kip", placeholder="Please enter your answer 2"),
+    ui.input_text("answer1", ui.span("Your answer for A", ui.tags.sub("y"), " in units of kip"), placeholder="Please enter Ay"),
+    ui.input_text("answer2", ui.span("Your Answer for B", ui.tags.sub("y"), " in units of kip"), placeholder="Please enter By"),
     ui.input_action_button("submit", "Submit Answers", class_="btn-primary"),
     ui.download_button("download", "Download File to Submit", class_="btn-success"),
 )
@@ -74,9 +74,9 @@ def server(input, output, session):
         if correct1 and correct2:
             check = f"{'both correct.'}"
         elif correct1:
-            check = f" {'correct for answer 1 and incorrect for answer 2.'}"
+            check = f" {'correct for Ay and incorrect for By.'}"
         elif correct2:
-            check = f"{'incorrect for answer 1 and correct for answer 2.'}"
+            check = f"{'incorrect for Ay and correct for By.'}"
         else:
             check = f"{'both incorrect.'}"
         
@@ -90,7 +90,7 @@ def server(input, output, session):
         session.encoded_attempt = reactive.Value(encoded_attempt)
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer1()}, {input.answer2()}, {check}\n")
 
-        feedback = ui.markdown(f"Your answers of {input.answer1()} and {input.answer2()} are {check}. For reference in debugging this, the calculated instructor answers are {instr1} and {instr2}")
+        feedback = ui.markdown(f"Your answers of {input.answer1()} and {input.answer2()} are {check}")
         m = ui.modal(feedback, title="Feedback", easy_close=True)
         ui.modal_show(m)
 
