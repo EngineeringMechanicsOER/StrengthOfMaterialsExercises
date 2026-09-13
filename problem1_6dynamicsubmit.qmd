@@ -67,9 +67,9 @@ def server(input, output, session):
         )  # Increment the attempt counter on each submission.
 
         # Calculate the instructor's answer and determine if the user's answer is correct.
-        instr1 = abs(P()*math.cos((106-theta())*math.pi/180))
-        instr2 = abs(P()*math.sin((106-theta())*math.pi/180))
-        instr3 = abs(P()*math.sin((106-theta())*math.pi/180)*(15+14*math.cos(70*math.pi/180))-P()*math.cos((106-theta())*math.pi/180)*14*math.sin(70*math.pi/180))
+        instr1 = abs(P()*math.cos((70+theta())*math.pi/180))
+        instr2 = abs(P()*math.sin((70+theta())*math.pi/180))
+        instr3 = abs(P()*math.sin((70+theta())*math.pi/180)*(15+14*math.cos(70*math.pi/180))-P()*math.cos((70+theta())*math.pi/180)*14*math.sin(70*math.pi/180))
 
         correct1 = math.isclose(float(input.answer1()), instr1, rel_tol=0.01)
         correct2 = math.isclose(float(input.answer2()), instr2, rel_tol=0.01)

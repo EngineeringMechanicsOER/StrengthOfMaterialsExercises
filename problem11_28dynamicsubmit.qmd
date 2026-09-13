@@ -1,6 +1,6 @@
 # Problem 11.28 - By Superposition {.unnumbered}
 
-![Figure 1: A simply supported beam is subjected to a distributed load and two point forces.](images/423.png){fig-alt="Picture with a simply supported beam subjected to a distributed load and two point forces. The beam is of length 2L and the distributed load, w, is applied over the first L length. A point force, F, is applied a distance of L/2 from the left end and another point force, F, is applied a distance of 3L/2 from the left end."}
+![Figure 1: A simply supported beam is subjected to a distributed load and two point forces.](images/424.png){fig-alt="Picture with a simply supported beam subjected to a distributed load and two point forces. The beam is of length 2L and the distributed load, w, is applied over the first L length. A point force, F, is applied a distance of L/2 from the left end and another point force, F, is applied a distance of 3L/2 from the left end."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
@@ -82,7 +82,7 @@ def server(input, output, session):
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer()}, {check}\n")
 
         # Show feedback to the user.
-        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}. For reference in debugging this, the calculated instructor answer is {instr}")
+        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}")
         m = ui.modal(
             feedback,
             title="Feedback",

@@ -1,6 +1,6 @@
 # Problem 9.8 - Bending Stress {.unnumbered}
 
-![Figure 1: A T-Beam cross section.](images/351.png){fig-alt="Picture with the cross section of a T-Beam. The top of the T beam has a width of 2w+t and a height of t. The stem of the T beam has a height of h and a width of t."}
+![Figure 1: A T-Beam cross section.](images/350.png){fig-alt="Picture with the cross section of a T-Beam. The top of the T beam has a width of 2w+t and a height of t. The stem of the T beam has a height of h and a width of t."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
@@ -88,7 +88,7 @@ def server(input, output, session):
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer()}, {check}\n")
 
         # Show feedback to the user.
-        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}. For reference in debugging this, the calculated instructor answer is {instr}")
+        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}")
         m = ui.modal(
             feedback,
             title="Feedback",

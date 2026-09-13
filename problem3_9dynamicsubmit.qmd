@@ -1,6 +1,6 @@
 # Problem 3.9 - Shear Strain {.unnumbered}
 
-![Figure 1: Two plates are connected by a neoprene pad and shifted.](images/653.png){fig-alt="Picture with two plates connected by a neoprene pad. The top plate shifts a distance of x to the right. The thickness of the neoprene pad is t."}
+![Figure 1: Two plates are connected by a neoprene pad and shifted.](images/654.png){fig-alt="Picture with two plates connected by a neoprene pad. The top plate shifts a distance of x to the right. The thickness of the neoprene pad is t."}
 \[Problem adapted from © Chris Galitz CC BY NC-SA 4.0\]
 ```{shinylive-python}
 #| standalone: true
@@ -87,7 +87,7 @@ def server(input, output, session):
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer()}, {check}\n")
 
         # Show feedback to the user.
-        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}. For reference in debugging this, the calculated instructor answer is {instr}")
+        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}")
         m = ui.modal(
             feedback,
             title="Feedback",

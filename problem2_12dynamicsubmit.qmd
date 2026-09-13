@@ -47,7 +47,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A series of solid circular bars are connected together as shown. If loads F<sub>1</sub> = {F1()} kN, F<sub>2</sub> = {F2()} kN, F<sub>3</sub> = {F3()} kN, and F<sub>4</sub> = {F4()} kN, determine the average normal stress at section a. Recall that, by convention, compressive stresses are negative.")]
+        return[ui.markdown(f"A series of solid circular bars are connected together as shown. Diameters d<sub>1</sub> = 170 mm, d<sub>2</sub> = 240 mm, and d<sub>3</sub> = 140 mm. If loads F<sub>1</sub> = {F1()} kN, F<sub>2</sub> = {F2()} kN, F<sub>3</sub> = {F3()} kN, and F<sub>4</sub> = {F4()} kN, determine the average normal stress at section a. Recall that, by convention, compressive stresses are negative.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
@@ -62,7 +62,7 @@ def server(input, output, session):
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        F = F1()+F2()-F3()+F4()
+        F = -F1()-F2()+F3()-F4()
         instr = F/227*10**4
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"

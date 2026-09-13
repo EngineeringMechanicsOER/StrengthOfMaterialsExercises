@@ -66,7 +66,7 @@ def server(input, output, session):
         else:
            check="*Not Correct.*"
         
-        feedback=ui.markdown(f"Your answer of {input.answer()} is {check}.  For reference in debugging this, the calculated instructor answer is {instr}")
+        feedback=ui.markdown(f"Your answer of {input.answer()} is {check}")
         attempts.append(f"{datetime.now()}, {input.submit()},{input.answer()},{check}\n")
         m=ui.modal(
           feedback,

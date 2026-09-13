@@ -3735,7 +3735,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="images/423.png" class="img-fluid" alt="Picture with a simply supported beam subjected to a distributed load and two point forces. The beam is of length 2L and the distributed load, w, is applied over the first L length. A point force, F, is applied a distance of L/2 from the left end and another point force, F, is applied a distance of 3L/2 from the left end."> [Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0]</p>
+<p><img src="images/424.png" class="img-fluid" alt="Picture with a simply supported beam subjected to a distributed load and two point forces. The beam is of length 2L and the distributed load, w, is applied over the first L length. A point force, F, is applied a distance of L/2 from the left end and another point force, F, is applied a distance of 3L/2 from the left end."> [Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0]</p>
 <pre class="shinylive-python" data-engine="python"><code>#| '!! shinylive warning !!': |
 #|   shinylive does not work in self-contained HTML documents.
 #|   Please set `embed-resources: false` in your metadata.
@@ -3818,7 +3818,7 @@ def server(input, output, session):
         attempts.append(f"{datetime.now()}, {attempt_counter()}, {input.answer()}, {check}\n")
 
         # Show feedback to the user.
-        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}. For reference in debugging this, the calculated instructor answer is {instr}")
+        feedback = ui.markdown(f"Your answer of {input.answer()} is {check}")
         m = ui.modal(
             feedback,
             title="Feedback",

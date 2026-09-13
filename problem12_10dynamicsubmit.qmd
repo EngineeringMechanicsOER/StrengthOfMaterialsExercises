@@ -1,6 +1,6 @@
 # Problem 12.10 - Principal Stresses {.unnumbered}
 
-![Figure 1: A member is subjected to a state of stress. ](images/510.png){fig-alt="A member is subjected to a state of stress caused by sigma_x, sigma_y, and tau_xy."}
+![Figure 1: A member is subjected to a state of stress. ](images/509.png){fig-alt="A member is subjected to a state of stress caused by sigma_x, sigma_y, and tau_xy."}
 \[Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0\]
 
 ```{shinylive-python}
