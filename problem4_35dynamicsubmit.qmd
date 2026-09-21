@@ -46,7 +46,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A small truss is constructed with solid square wood members and subjected to a load of F = {F()} kN. Determine the minimum dimension, a, of the member so that the truss will have a factor of safety of {FS()}. All members have the same cross-section. The wood has a failure stress of σ<sub>fail</sub> = {σfail()} MPa.")]
+        return[ui.markdown(f"A small truss is constructed with solid square wood members and subjected to a load of F = {F()} kN. Determine the minimum dimension, a, of the member so that the truss will have a factor of safety of {FS()}. Assume at the supports A<sub>x</sub> = C<sub>x</sub> = 0. All members have the same cross-section. The wood has a failure stress of σ<sub>fail</sub> = {σfail()} MPa.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
