@@ -54,8 +54,8 @@ def server(input, output, session):
     @reactive.event(input.generate_problem)
     def randomize_vars():
         random.seed(input.ID())
-        F1.set(random.randrange(200,800,10))
-        F2.set(random.randrange(200,800,10))
+        F1.set(random.randrange(600,800,10))
+        F2.set(random.randrange(300,500,10))
         AA.set(random.randrange(5,10,1)/100)
         AB.set(random.randrange(2,5,1)/100)
         EA.set(random.randrange(15,25,1))
