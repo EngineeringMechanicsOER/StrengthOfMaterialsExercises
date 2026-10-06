@@ -20,7 +20,7 @@ If you have any questions or issues while using this system, you are encouraged 
 
 -   Attribute—You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
--   ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the [same license](https://creativecommons.org/licenses/by-nc-sa/4.0/#ref-same-license)as the original.
+-   ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the [same license](https://creativecommons.org/licenses/by-nc-sa/4.0/#ref-same-license) as the original.
 
 **You may not**: 
 
@@ -52,7 +52,7 @@ Richard Kent, Department of Mechanical & Aerospace Engineering, University of Vi
 
 Nina Lord, Department of Engineering, North Virginia Community College
 
-Amy Richardson, Dept of Engineering, North Virginia Community College / Engineering Education, Virginia Tech
+Amy Richardson, Department of Engineering, North Virginia Community College / Engineering Education, Virginia Tech
 
 Joao Soares, Department of Mechanical and Nuclear Engineering, Virginia Commonwealth University
 
@@ -61,6 +61,8 @@ Sevak Tahmasian, Mechanical Engineering, Virginia Tech
 **Figure Design of Problems**
 
 Kindred Grey, Graphic Design and Production Specialist, University Libraries, Virginia Tech
+
+Ben (Doyoon) Lee, Student, Virginia Tech
 
 **Software Editor**
 
@@ -82,11 +84,11 @@ Kindred Grey, Graphic Design and Production Specialist, University Libraries, Vi
 
 Anita Walz, Associate Professor, University Libraries, Virginia Tech
 
-**FUNDING**
+**Funding**
 
 This project was made possible in part through funding from an Open Course Grant from VIVA (The Virtual Library of Virginia) and the Open Education Initiative of the University Libraries at Virginia Tech.
 
-**Suggested citation**:  James Lord and Jacob Grohs, eds. (2024). Problem Set for Strength of Materials. Blacksburg: Virginia Tech Publishing. <https://engineeringmechanicsoer.github.io/StrengthOfMaterialsExercises>. Licensed with CC BY NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0>.
+**Suggested citation**: James Lord and Jacob Grohs, eds. (2024). Problem Set for Strength of Materials. Blacksburg: Virginia Tech Publishing. <https://engineeringmechanicsoer.github.io/StrengthOfMaterialsExercises>. Licensed with CC BY NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0>.
 
 **Publisher**: This work is published by the Department of Mechanical Engineering and Department of Engineering Education at Virginia Tech in association with the Open Education Initiative and Virginia Tech Publishing.
 
@@ -102,7 +104,7 @@ Blacksburg,, VA 24061 USA
 
 345 Goodwin Hall, 635 Prices Fork Rd,
 
- Blacksburg,  VA 24061 USA
+Blacksburg, VA 24061 USA
 
 <https://enge.vt.edu> 
 

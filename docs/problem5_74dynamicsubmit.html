@@ -3735,7 +3735,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="images/260.png" class="img-fluid" alt="Picture with two circular rods placed between two fixed walls. The top rod is made of steel and of length L1 and diameter 1 in. The bottom rod is made of aluminum and of length L2 and diameter 1.5 in."> [Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0]</p>
+<p><img src="images/260.png" class="img-fluid" alt="Picture with two circular rods placed between two fixed walls. The top rod is made of steel and of length L1 and diameter d 1 in. The bottom rod is made of aluminum and of length L2 and diameter d 2 in."> [Problem adapted from © Kurt Gramoll CC BY NC-SA 4.0]</p>
 <pre class="shinylive-python" data-engine="python"><code>#| '!! shinylive warning !!': |
 #|   shinylive does not work in self-contained HTML documents.
 #|   Please set `embed-resources: false` in your metadata.
@@ -3782,7 +3782,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"Two circular rods are placed between two fixed walls as shown. The top rod is steel (E = 29,000 ksi, α = 6.5 x 10&lt;sup&gt;-6&lt;/sup&gt; /°F) and the bottom rod is aluminum (E = 10,000 ksi, α = 13 x 10&lt;sub&gt;-6&lt;/sub&gt; /°F). Determine the stress in the aluminum rod of the temperature increases by  ΔT  = {delT()}°F and a load F = {F()} kips is applied as shown. Assume L&lt;sub&gt;1&lt;/sub&gt; = {L1()} in., r&lt;sub&gt;1&lt;/sub&gt; = 1 in., L&lt;sub&gt;2&lt;/sub&gt; = {L2()} in., and r&lt;sub&gt;2&lt;/sub&gt; = 1.5 in.")]
+        return[ui.markdown(f"Two circular rods are placed between two fixed walls as shown. The top rod is steel (E = 29,000 ksi, α = 6.5 x 10&lt;sup&gt;-6&lt;/sup&gt; /°F) and the bottom rod is aluminum (E = 10,000 ksi, α = 13 x 10&lt;sub&gt;-6&lt;/sub&gt; /°F). Determine the stress in the aluminum rod of the temperature increases by  ΔT  = {delT()}°F and a load F = {F()} kips is applied as shown. Assume L&lt;sub&gt;1&lt;/sub&gt; = {L1()} in., d&lt;sub&gt;1&lt;/sub&gt; = 1 in., L&lt;sub&gt;2&lt;/sub&gt; = {L2()} in., and d&lt;sub&gt;2&lt;/sub&gt; = 1.5 in.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)
@@ -3799,9 +3799,8 @@ def server(input, output, session):
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
         dTs = L1()*6.5*10**-6*delT()
         dTal = L2()*13*10**-6*delT()
-        Fs = (dTs+dTal-(F()*1000*L2()/(10*10**6*0.75**2*math.pi)))/(L1()/(29*10**6*0.5**2*math.pi)-L2()/(10*10**6*0.75**2*math.pi))
-        Fal = Fs+F()*1000
-        instr = Fal/(0.75**2*math.pi)/1000
+        Fal = (dTs+dTal+(F()*L1()/(29000*0.5**2*math.pi)))/(L1()/(29000*0.5**2*math.pi)+L2()/(10000*0.75**2*math.pi))
+        instr = Fal/(0.75**2*math.pi)
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"
