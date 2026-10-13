@@ -1,8 +1,10 @@
 # Welcome to the Problem Set for Strength of Materials {.unnumbered}
 
-## How to Use This Resource
+## About
 
-Note: This version of the problem set is a review copy for in-class piloting. This is not the final, published version of the problem set.
+The problem set for *Strength of Materials* is a 350+ peer and student-reviewed set of interactive problem exercises (CC BY NC-SA 4.0) aligned with *Strength of Materials*. These problems follow the sequence of [chapters in the textbook](https://engineeringmechanicsoer.github.io/StrengthBook/) and can serve as both homework and practice problems for learners. Instructor solutions available upon request from jrgrohs\@vt.edu. We are actively piloting Canvas integration of the problem exercises. If you are interested in receiving an update regarding the Canvas-integrated system, please [report your interest by completing this form](https://bit.ly/interest_strengthofmaterials).
+
+## How to Use This Resource
 
 The navigation bar of this site will allow you to browse to the specific problems you want to view and solve. The Problem Submission App enables you to create your own unique problem used to solve homework problems. Once your problem is generated, you will be able to submit an answer to the problem and receive instantaneous right/wrong feedback before attempting another solution. At the end of your work, you can download a file log of your submissions to share with your instructor. The problem generation process is based on the ID number you use and so if you attempt the problem from a different computer or at a different time, the variables generated for you will be stable across these runs. However, the log downloader is specific to your current session and so attempting the problem across devices does not save attempt across devices
 
@@ -18,15 +20,15 @@ If you have any questions or issues while using this system, you are encouraged 
 
 **You must**: 
 
--   Attribute—You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- Attribute—You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
--   ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the [same license](https://creativecommons.org/licenses/by-nc-sa/4.0/#ref-same-license) as the original.
+- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the [same license](https://creativecommons.org/licenses/by-nc-sa/4.0/#ref-same-license) as the original.
 
 **You may not**: 
 
--   NonCommercial — You may not use the material for [commercial purposes](https://creativecommons.org/licenses/by-nc-sa/4.0/#ref-commercial-purposes).
+- NonCommercial — You may not use the material for [commercial purposes](https://creativecommons.org/licenses/by-nc-sa/4.0/#ref-commercial-purposes).
 
--   Additional restrictions—You may not add any legal terms or technological measures that legally restrict others from doing anything the license permits. 
+- Additional restrictions—You may not add any legal terms or technological measures that legally restrict others from doing anything the license permits. 
 
 ## **ACKNOWLEDGMENTS**
 

@@ -11,6 +11,10 @@ number-depth: 2
 
 book:
   title: "Problem Set for Strength of Materials"
+  google-analytics: "G-9CHP38X8SK"
+  cookie-consent: 
+    type: express
+    policy-url: privacy.html
   author: "Edited by James Lord and Jacob Grohs"
   date: "8/27/2024"
   page-navigation: true
@@ -21,6 +25,7 @@ book:
   
   chapters:
     - index.qmd
+    - privacy.qmd
     - part: "Problem Submission App"
     
     - part: "Chapter 1 Problems"
