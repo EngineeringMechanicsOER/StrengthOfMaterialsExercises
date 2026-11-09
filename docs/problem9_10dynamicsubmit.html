@@ -3839,12 +3839,12 @@ def server(input, output, session):
         y1 = 2*a()/1000+a()/2000
         y2 = a()/1000+a()/2000
         y3 = a()/2000
-        ybar = A1*y1+A2*y2+A3*y3/(A1+A2+A3)
+        ybar = (A1*y1+A2*y2+A3*y3)/(A1+A2+A3)
         I1 = (a()/1000)**3*c()/12000+A1*(y1-ybar)**2
         I2 = (a()/1000)**3*a()/12000+A2*(y2-ybar)**2
         I3 = (a()/1000)**3*b()/12000+A3*(y3-ybar)**2
         I = I1+I2+I3
-        instr= M()*ybar/I
+        instr= M()*(ybar-a()/1000)/I/10**3
         if math.isclose(float(input.answer()), instr, rel_tol=0.01):
             check = "*Correct*"
             correct_indicator = "JL"

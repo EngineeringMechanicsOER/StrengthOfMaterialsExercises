@@ -25,6 +25,7 @@ ri=reactive.Value("__")
 ro=reactive.Value("__")
 w0=reactive.Value("__")
 F=reactive.Value("__")
+L1 = 5
   
 attempts=["Timestamp,Attempt,Answer,Feedback\n"]
 
@@ -46,7 +47,7 @@ def server(input, output, session):
     @output
     @render.ui
     def ui_problem_statement():
-        return[ui.markdown(f"A pipe has the hollow cross-section shown, where r<sub>o</sub> = {ro()} mm and r<sub>i</sub> = {ri()} mm. It is subjected to loads w<sub>0</sub> = {w0()} kN/m and F = {F()} kN. Determine the maximum bending stress in the beam.")]
+        return[ui.markdown(f"A pipe has the hollow cross-section shown, where r<sub>o</sub> = {ro()} mm and r<sub>i</sub> = {ri()} mm, L<sub>1</sub> = 4 m, L<sub>2</sub> = 2 m, and L<sub>3</sub> = 1 m. It is subjected to loads w<sub>0</sub> = {w0()} kN/m and F = {F()} kN. Determine the maximum bending stress in the beam.")]
     
     @reactive.Effect
     @reactive.event(input.generate_problem)

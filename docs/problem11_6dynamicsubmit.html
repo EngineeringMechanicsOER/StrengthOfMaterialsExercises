@@ -3833,10 +3833,10 @@ def server(input, output, session):
     @reactive.event(input.submit)
     def _():
         attempt_counter.set(attempt_counter() + 1)  # Increment the attempt counter on each submission.
-        IE = I()*4.82253086*10**-5*29000/0.00694444
+        IE = I()/12**4*29000*144
         x = a()+b()
         Ay = -F()*b()/a()
-        By = F()+Ay
+        By = F()-Ay
         C3 = -Ay*a()**2/6+By*a()**2/2
         C4 = -By*a()**3/6
         instr= abs(By*x**3/6-By*a()*x**2/2+Ay*x**3/6+C3*x+C4)/IE
